@@ -11,10 +11,24 @@ type MarkdownWithFrontmatter = {
   data: Record<string, unknown> & {
     description?: string;
     preview?: string;
-    headerImage?: string;
     author?: {
       name: string;
       twitter: string;
+    };
+  };
+};
+
+type MarkdownWithFrontmatterInput = MarkdownWithFrontmatter & {
+  data: Record<string, unknown> & {
+    headerImage?: string;
+  };
+};
+
+type MarkdownWithFrontmatterResult = {
+  data: Record<string, unknown> & {
+    images?: {
+      header: string;
+      thumbnail: string;
     };
   };
 };
@@ -28,7 +42,7 @@ async function indexMarkdown(directory: string) {
     files.map(({ path }) =>
       Deno.readTextFile(path).then(
         (d) => {
-          const p = parse(d) as MarkdownWithFrontmatter;
+          const p = parse(d) as MarkdownWithFrontmatterInput;
           const preview = generatePreview(p.content, 150);
 
           return {
@@ -36,7 +50,7 @@ async function indexMarkdown(directory: string) {
             data: {
               ...p.data,
               description: p.data?.description || p.data?.preview || preview,
-              headerImage: resolveHeaderImage(p.data?.headerImage),
+              images: resolveImages(p.data?.headerImage),
               slug: cleanSlug(path),
               preview,
               author: p.data?.author || {
@@ -44,7 +58,7 @@ async function indexMarkdown(directory: string) {
                 twitter: "https://twitter.com/bebraw",
               },
             },
-          };
+          } as MarkdownWithFrontmatterResult;
         },
       )
     ),
@@ -53,7 +67,7 @@ async function indexMarkdown(directory: string) {
   return generateAdjacent(ret);
 }
 
-function resolveHeaderImage(headerImage?: string) {
+function resolveImages(headerImage?: string) {
   if (!headerImage) {
     return "";
   }
@@ -65,7 +79,10 @@ function resolveHeaderImage(headerImage?: string) {
     throw new Error("Failed to find a matching image for " + headerImage);
   }
 
-  return config.imagesEndpoint + image + "/public";
+  return {
+    header: config.imagesEndpoint + image + "/public",
+    thumbnail: config.imagesEndpoint + image + "/thumb",
+  };
 }
 
 function getIndex(str: string) {

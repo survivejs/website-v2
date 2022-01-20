@@ -19,35 +19,44 @@
           "__children": [
             {
               "element": "li",
-              "class": "text-gray-800 rounded bg-gradient-to-b from-teal-100 to-white p-4 flex flex-col gap-2",
+              "class": "rounded bg-cover bg-center bg-blend-hue",
               "children": [
                 {
-                  "element": "Link",
+                  "element": "div",
+                  "class": "rounded flex flex-col gap-2 p-8 bg-gradient-to-b from-transparent to-gray-800",
                   "children": [
                     {
-                      "element": "h2",
-                      "class": "text-3xl",
-                      "__children": "data.title"
+                      "element": "Link",
+                      "children": [
+                        {
+                          "element": "h2",
+                          "class": "text-3xl text-white",
+                          "__children": "data.title"
+                        }
+                      ],
+                      "attributes": {
+                        "==href": "data.slug + '/'"
+                      }
+                    },
+                    {
+                      "element": "time",
+                      "class": "font-thin text-base text-gray-300",
+                      "==children": "new Date(data.date).toLocaleDateString('en-US')",
+                      "attributes": {
+                        "__datetime": "data.date"
+                      }
+                    },
+                    {
+                      "element": "p",
+                      "class": "text-md text-gray-200",
+                      "__children": "data.preview"
                     }
-                  ],
-                  "attributes": {
-                    "==href": "data.slug + '/'"
-                  }
-                },
-                {
-                  "element": "time",
-                  "class": "font-thin text-base text-gray-600",
-                  "==children": "new Date(data.date).toLocaleDateString('en-US')",
-                  "attributes": {
-                    "__datetime": "data.date"
-                  }
-                },
-                {
-                  "element": "p",
-                  "class": "text-md",
-                  "__children": "data.preview"
+                  ]
                 }
-              ]
+              ],
+              "attributes": {
+                "==style": "'background-image:url(' + data.images.thumbnail + ')'"
+              }
             }
           ]
         }

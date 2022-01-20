@@ -19,7 +19,7 @@
         }
       ],
       "attributes": {
-        "==style": "'background-image:url(' + match.data.headerImage + ')'"
+        "==style": "'background-image:url(' + match.data.images.header + ')'"
       }
     },
     {
