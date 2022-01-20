@@ -175,7 +175,7 @@ gc destroy
 
 Things can get a little bit more complex with more resources and the dependencies between them. The **gc graph** command produces a graph displaying the infrastructure:
 
-![graph](img/grucloud.svg)
+![graph](/assets/img/grucloud.svg)
 
 GruCloud takes care of creating and destroying the resources in the right order.
 

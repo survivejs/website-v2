@@ -43,3 +43,7 @@ To generate the build, run:
 ```bash
 vr build
 ```
+
+## Known caveats
+
+* It seems Cloudflare Images doesn't support hosting SVGs yet so they'll have to be served through this repository. They are stored in `assets/img` and then the reference is `/assets/img/<name>.svg`.
