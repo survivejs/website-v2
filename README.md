@@ -1,47 +1,35 @@
-# SurviveJS - Site
+# SurviveJS - Website v2
 
 This is the source of [https://survivejs.com/](https://survivejs.com/).
 
 ## Development
 
-**You need [git-lfs](https://github.com/git-lfs/git-lfs) to clone this repository.**
+Make sure you have [Deno](https://deno.land) and [Velociraptor](https://velociraptor.run/) installed before proceeding.
 
 First, clone this repository:
 
 ```bash
-git clone https://github.com/survivejs/site
+git clone https://github.com/survivejs/website-v2
 ```
 
 Then, bootstrap the project:
 
 ```bash
-npm run bootstrap
+vr bootstrap
 ```
 
 Finally, start the development server:
 
 ```bash
-npm start
+vr start
 ```
 
-Now you can go to [http://localhost:3000](http://localhost:3000).
+Now you can go to [http://localhost:3000](http://localhost:3000) to see the site.
 
 ## Deployment
 
-After you modify `antwar.config.js` to configure your deploy settings, you need to generate a static build:
+To generate the build, run:
 
 ```bash
-npm run build
+vr build
 ```
-
-And after you checked out the build, you can deploy it with:
-
-```bash
-npm run deploy
-```
-
-## License
-
-The site content is available under [CC BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode). So as long as there's a proper attribution you can reuse the content. Ideally you would contribute your improvements back but that's not absolutely necessary.
-
-The site source is available under [MIT license](./LICENSE).
