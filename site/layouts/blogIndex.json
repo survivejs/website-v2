@@ -38,7 +38,7 @@
                             }
                           ],
                           "attributes": {
-                            "==href": "data.slug + '/'"
+                            "==href": "'/blog/' + data.slug + '/'"
                           }
                         },
                         {
