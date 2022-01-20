@@ -14,7 +14,7 @@
       "children": [
         {
           "element": "h1",
-          "class": "flex justify-center items-center text-white h-full text-5xl font-bold bg-gradient-to-b from-transparent to-gray-800",
+          "class": "flex text-center justify-center items-center text-white h-full text-5xl font-bold bg-gradient-to-b from-transparent to-gray-800",
           "__children": "match.data.title"
         }
       ],
