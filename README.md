@@ -12,6 +12,15 @@ First, clone this repository:
 git clone https://github.com/survivejs/website-v2
 ```
 
+Then, setup a `.config.json` file as follows:
+
+```json
+{
+  "getImagesEndpoint": "TODO",
+  "getImagesToken": "TODO"
+}
+```
+
 Then, bootstrap the project:
 
 ```bash
