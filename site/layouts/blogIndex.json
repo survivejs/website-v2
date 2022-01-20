@@ -23,39 +23,49 @@
               "children": [
                 {
                   "element": "div",
-                  "class": "rounded flex flex-col gap-2 p-8 bg-gradient-to-b from-transparent to-gray-800",
                   "children": [
                     {
-                      "element": "Link",
+                      "element": "div",
+                      "class": "rounded flex flex-col gap-2 p-8 bg-gradient-to-b from-transparent to-gray-800",
                       "children": [
                         {
-                          "element": "h2",
-                          "class": "text-3xl text-white",
-                          "__children": "data.title"
+                          "element": "Link",
+                          "children": [
+                            {
+                              "element": "h2",
+                              "class": "text-3xl text-white",
+                              "__children": "data.title"
+                            }
+                          ],
+                          "attributes": {
+                            "==href": "data.slug + '/'"
+                          }
+                        },
+                        {
+                          "element": "time",
+                          "class": "font-thin text-base text-gray-300",
+                          "==children": "new Date(data.date).toLocaleDateString('en-US')",
+                          "attributes": {
+                            "__datetime": "data.date"
+                          }
+                        },
+                        {
+                          "element": "p",
+                          "class": "text-md text-gray-200",
+                          "__children": "data.preview"
                         }
-                      ],
-                      "attributes": {
-                        "==href": "data.slug + '/'"
-                      }
-                    },
-                    {
-                      "element": "time",
-                      "class": "font-thin text-base text-gray-300",
-                      "==children": "new Date(data.date).toLocaleDateString('en-US')",
-                      "attributes": {
-                        "__datetime": "data.date"
-                      }
-                    },
-                    {
-                      "element": "p",
-                      "class": "text-md text-gray-200",
-                      "__children": "data.preview"
+                      ]
                     }
-                  ]
+                  ],
+                  "attributes": {
+                    "==x-intersect": "`{ options: { once: true }, state: { image: 'background-image:url(` + data.images.thumbnail + `)' } }`",
+                    "x-attr": "",
+                    "@style": "state.image"
+                  }
                 }
               ],
               "attributes": {
-                "==style": "'background-image:url(' + data.images.thumbnail + ')'"
+                "x-state": "{ image: '' }"
               }
             }
           ]
