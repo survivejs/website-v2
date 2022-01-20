@@ -1,7 +1,7 @@
 ---
 title: 'Front-end Singularity and How to Deal with It'
 date: 2015-09-06
-headerImage: 'assets/img/bigbang.jpg'
+headerImage: 'img/bigbang.jpg'
 keywords: ['opinion']
 ---
 

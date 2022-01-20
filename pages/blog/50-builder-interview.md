@@ -1,7 +1,7 @@
 ---
 title: 'Builder - A npm-based task runner - Interview with Ryan Roemer'
 date: 2016-05-16
-headerImage: 'assets/img/builder.jpg'
+headerImage: 'img/builder.jpg'
 keywords: ['interview', 'react', 'boilerplate']
 ---
 

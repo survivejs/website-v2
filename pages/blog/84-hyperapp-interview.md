@@ -1,7 +1,7 @@
 ---
 title: 'Hyperapp - Tiny Library for Frontend Applications - Interview with Jorge Bucaran'
 date: 2017-03-13
-headerImage: 'assets/img/fractal.jpg'
+headerImage: 'img/fractal.jpg'
 keywords: ['interview']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Rollup - Next-generation ES6 module bundler - Interview with Rich Harris'
 date: 2017-07-10
-headerImage: 'assets/img/cardboard.jpg'
+headerImage: 'img/cardboard.jpg'
 keywords: ['interview', 'bundling', 'javascript']
 editors: ['bebraw', 'karlhorky']
 ---

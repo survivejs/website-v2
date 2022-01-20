@@ -1,7 +1,7 @@
 ---
 title: 'Dredd - Language-agnostic HTTP API Testing Tool - Interview with Honza Javorek'
 date: 2019-03-22
-headerImage: 'assets/img/city-02.jpg'
+headerImage: 'img/city-02.jpg'
 keywords: ['api', 'interview', 'testing']
 ---
 

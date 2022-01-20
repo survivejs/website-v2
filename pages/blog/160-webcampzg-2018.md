@@ -1,7 +1,7 @@
 ---
 title: 'Experiences on WebCamp Zagreb 2018'
 date: 2018-10-10
-headerImage: 'assets/img/webcampzg2018/selfie.jpg'
+headerImage: 'img/webcampzg2018/selfie.jpg'
 keywords: ['conference']
 ---
 
@@ -11,7 +11,7 @@ It was my first time in Zagreb, and I was pleasantly surprised by the city. Zagr
 
 ## Overview of WebCamp Zagreb 2018
 
-![Oh, well](assets/img/webcampzg2018/well.jpg)
+![Oh, well](img/webcampzg2018/well.jpg)
 
 There were close to a thousand people at WebCamp Zagreb. The event was sold out. One unique aspect of WebCamp Zagreb is that the community organizes it. There isn't an equivalent event in Vienna for example. The conference has been running for many years, and during this time they have honed the process and the conference.
 
@@ -23,13 +23,13 @@ The topics were varied. There were technical, design, and business talks of diff
 
 ## Day 1
 
-![Selfie by proxy](assets/img/webcampzg2018/selfie.jpg)
+![Selfie by proxy](img/webcampzg2018/selfie.jpg)
 
 I traveled to Zagreb a day before my workshop on Thursday. Next time I might reserve a day or two more to enjoy the city more. The accommodation arranged by the organizers was in an apartment hotel right next to the venue. The apartments were close to new, and there was plenty of space. Compared to what conferences usually offer to their speakers, this was luxury.
 
 ### Taking CI and automated testing seriously - Alen Ladavac
 
-![Alen Ladavac](assets/img/webcampzg2018/alen.jpg)
+![Alen Ladavac](img/webcampzg2018/alen.jpg)
 
 The first conference day started with a keynote by Alen Ladavac, the CTO of Croteam. Croteam is famous for developing the Serious Sam franchise and The Talos Principle in addition to many other titles.
 
@@ -45,7 +45,7 @@ The lesson for web developers is two-fold here: 1. It likely makes sense to run 
 
 ### Property-based testing is a mindset - Andrea Leopardi
 
-![Andrea Leopardi](assets/img/webcampzg2018/andrea.jpg)
+![Andrea Leopardi](img/webcampzg2018/andrea.jpg)
 
 Andrea's talk was about property-based testing. It's a testing technique that can be used to generate test cases, and I've used the approach in the past and written a solution of my own even. Although I knew the basic idea, it was good to get a recap.
 
@@ -63,7 +63,7 @@ To solve the discovery problem, sometimes it's possible to use another implement
 
 ### Designing with Accessibility in Mind - Bermon Painter
 
-![Bermon Painter](assets/img/webcampzg2018/bermon.jpg)
+![Bermon Painter](img/webcampzg2018/bermon.jpg)
 
 Bermon discussed accessibility and its impact on design. If accessibility is considered in the design, it can open your software to new groups of people. Accessibility isn't a zero-sum game as even so-called regular users can benefit from the improvements. Sometimes you may also be required to implement specific measures by law.
 
@@ -71,7 +71,7 @@ Considering accessibility in the design phase may add to the initial cost of dev
 
 ### A Token Walks Into a SPA... - Ado Kukic
 
-![Ado Kukic](assets/img/webcampzg2018/ado.jpg)
+![Ado Kukic](img/webcampzg2018/ado.jpg)
 
 Ado's talk discussed the authentication flow of JSON Web Tokens. I gained a couple of insights:
 
@@ -83,7 +83,7 @@ I would have loved to see a live demo, but apart from that, the talk was excelle
 
 ### Where are the women? - Dora Militaru
 
-![Dora Militaru](assets/img/webcampzg2018/dora.jpg)
+![Dora Militaru](img/webcampzg2018/dora.jpg)
 
 Dora's talk was about the absence of women in the industry. Perhaps the key point for me was that it's not only about fixing some percentages. Instead, it's at least as important, if not more, to be inclusive instead of only diverse.
 
@@ -93,7 +93,7 @@ Dora mention [Project Implicit](https://implicit.harvard.edu/implicit/). It's a 
 
 ### How did we open source our knowledge and practices - Robert Šorn
 
-![Robert Šorn](assets/img/webcampzg2018/robert.jpg)
+![Robert Šorn](img/webcampzg2018/robert.jpg)
 
 Robert discussed how he changed the knowledge processes of his company by starting an effort to document. It started small, but once people realized the value, his Git wiki-based approach started bearing fruits. Eventually, people developed it into a website and added features such as search to it.
 
@@ -101,7 +101,7 @@ Sometimes a lot of these things are implicit. Even though a process hasn't been 
 
 ### Headless architecture and the future of websites - Heidi Olsen
 
-![Heidi Olsen](assets/img/webcampzg2018/heidi.jpg)
+![Heidi Olsen](img/webcampzg2018/heidi.jpg)
 
 Heidi's talk discussed how her company approaches technical problems by allowing multiple different technologies used. The critical point here was to maintain a headless API in between to separate the frontend from the backend. The approach is similar to what I use to develop my sites these days.
 
@@ -109,25 +109,25 @@ She also mentioned [the strangler pattern](https://www.martinfowler.com/bliki/St
 
 ## Day 2
 
-![Random statue](assets/img/webcampzg2018/statue.jpg)
+![Random statue](img/webcampzg2018/statue.jpg)
 
 Day two of the conference continued in the same format.
 
 ### Nitpicking terminology: are we using the right terms - Miro Svrtan
 
-![Miro Svrtan](assets/img/webcampzg2018/miro.jpg)
+![Miro Svrtan](img/webcampzg2018/miro.jpg)
 
 Miro's keynote was about the terminology we use and how we interpret them. What agile means to someone, isn't the same to someone else. The critical point was that it's good to consider what terms we use and how we use them.
 
 ### Writing Superpowers for Geeks - Ivan Brezak Brkan
 
-![Ivan Brezak Brkan](assets/img/webcampzg2018/ivan.jpg)
+![Ivan Brezak Brkan](img/webcampzg2018/ivan.jpg)
 
 Ivan discussed why writing is an essential skill for programmers to acquire. By being able to write and articulate yourself well, it's easier to get complex messages through, and most importantly to respond appropriately to trolls.
 
 ### Pricing shouldn't be hard - Vladimir Bogdanić
 
-![Vladimir Bogdanić](assets/img/webcampzg2018/vladimir-bogdanic.jpg)
+![Vladimir Bogdanić](img/webcampzg2018/vladimir-bogdanic.jpg)
 
 Vladimir's talk was one of the highlights of the conference for me. He discussed how he approaches business and pricing in particular. One of the key points was how to approach proposals. You should be clear on the value to the client and make it easy to understand the exact offering. By articulating well, you can charge more since there's more value on the table.
 
@@ -135,7 +135,7 @@ Pricing-wise he mentioned that you should charge a fixed price for known quantit
 
 ### The Power of Persuasive Design - Alex Kuhn
 
-![Alex Kuhn](assets/img/webcampzg2018/alex.jpg)
+![Alex Kuhn](img/webcampzg2018/alex.jpg)
 
 The critical point of Alex's talk was that design could be used to persuade or dissuade people to perform specific actions. That's how calls to actions work since they shape attention. Discouraging is another pattern as they try to convince the user not to do something. Sometimes these are so-called dark UX patterns as they play against the user.
 
@@ -143,25 +143,25 @@ Alex's talk helped me to understand that design is also about motivating people.
 
 ### Designing for impact - Vladimir Koncar
 
-![Vladimir Koncar](assets/img/webcampzg2018/vladimir-koncar.jpg)
+![Vladimir Koncar](img/webcampzg2018/vladimir-koncar.jpg)
 
 Vladimir discussed how he grew his web business over the years and there was a lot to digest. One of the key points was that even the best design wouldn't help you if there's no business case. Sometimes design can turn business into something great as they did with a language learning platform. By addressing the problems in design, they pushed the existing platform into new heights.
 
 ### Delivering Fast and Beautiful Images and Video - Doug Sillars
 
-![Doug Sillars](assets/img/webcampzg2018/doug.jpg)
+![Doug Sillars](img/webcampzg2018/doug.jpg)
 
 Doug's talk focused on how to get more performance out of images and videos on the web. It's a domain where there are a lot of low hanging fruits ready to be picked since people tend to miss these optimizations. At the simplest level, you should compress your assets well. You should also consider asset dimensions and load them only if needed.
 
 ### Fluid typography - Sebastijan Dumančić
 
-![Sebastijan Dumančić](assets/img/webcampzg2018/sebastijan.jpg)
+![Sebastijan Dumančić](img/webcampzg2018/sebastijan.jpg)
 
 Sebastijan's talk showed how to achieve fluid typography without ugly breakpoints. It's one of those techniques I'll try out in my work as then I'll have more control over what a site looks like in different resolutions.
 
 ## Conclusion
 
-![Resting at WebCamp Zagreb](assets/img/webcampzg2018/rest.jpg)
+![Resting at WebCamp Zagreb](img/webcampzg2018/rest.jpg)
 
 WebCamp Zagreb was a new acquaintance to me, and if there's time, I'll try to go back next year. I liked the variety of topics present, and the venue was great as well. The conference is quite inexpensive compared to others with a similar caliber, and I have no doubt they'll be sold out next time too. In short, WebCamp Zagreb is a quality conference, and the city is excellent also.
 

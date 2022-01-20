@@ -1,7 +1,7 @@
 ---
 title: "react-lite - Implementation of React optimized for small size - Interview with Jade"
 date: 2017-11-06
-headerImage: "assets/img/light.jpg"
+headerImage: "img/light.jpg"
 keywords: ["interview", "react", "react-lite"]
 ---
 
@@ -14,7 +14,7 @@ T> To learn about a related solution, [read the Inferno interview](/blog/inferno
 ## Can you tell a bit about yourself?
 
 <p>
-  ![Jade|100|100|author](assets/img/interviews/jade.jpg)
+  ![Jade|100|100|author](img/interviews/jade.jpg)
 
 My Chinese name is GuYingjie (古映杰), and people call me Jade in English. I live in Shanghai and work for Ctrip as a front-end architect. I am the author of _react-lite_.
 

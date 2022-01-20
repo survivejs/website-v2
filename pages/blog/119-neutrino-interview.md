@@ -1,7 +1,7 @@
 ---
 title: 'Neutrino - Create modern JavaScript applications with minimal configuration - Interview with Eli Perelman'
 date: 2017-08-28
-headerImage: 'assets/img/stars.jpg'
+headerImage: 'img/stars.jpg'
 keywords: ['interview', 'webpack']
 ---
 

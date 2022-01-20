@@ -1,7 +1,7 @@
 ---
 title: 'webpack-merge - Taming Webpack Configuration - Interview with Juho Vepsäläinen'
 date: 2016-11-29
-headerImage: 'assets/img/galaxies.jpg'
+headerImage: 'img/galaxies.jpg'
 keywords: ['interview', 'webpack']
 ---
 
@@ -126,7 +126,7 @@ While developing the content of my first book, it quickly became apparent how pa
 
 It didn't get noticed early on, but as you can see from the graph captured from [npm-stat](https://npm-stat.com/charts.html?package=webpack-merge) below, it has become popular this year. It gets downloaded almost 20k times per day now so someone is definitely using it.
 
-![webpack-merge popularity](assets/img/webpack-merge/popularity.png)
+![webpack-merge popularity](img/webpack-merge/popularity.png)
 
 ## What next?
 

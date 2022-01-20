@@ -1,7 +1,7 @@
 ---
 title: '"SurviveJS - Webpack" book updated to webpack 4'
 date: 2018-03-19
-headerImage: "assets/img/strange.jpg"
+headerImage: "img/strange.jpg"
 keywords: ["release-notes", "webpack"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "How to tame the devDependencies of your project?"
 date: 2022-01-13
-headerImage: "assets/img/web.jpg"
+headerImage: "img/web.jpg"
 keywords: ["javascript", "dependencies", "npm"]
 ---
 

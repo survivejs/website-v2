@@ -1,7 +1,7 @@
 ---
 title: "ExtendsClass - Online Tools for Developers - Interview with Cyril Bois"
 date: 2020-09-03
-headerImage: "assets/img/toolkit.jpg"
+headerImage: "img/toolkit.jpg"
 keywords: ["interview", "tools"]
 ---
 

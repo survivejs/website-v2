@@ -1,7 +1,7 @@
 ---
 title: "Minima - To-do lists done right - Interview with Alex Fedoseev"
 date: 2019-06-17
-headerImage: "assets/img/minima.png"
+headerImage: "img/minima.png"
 keywords: ["interview"]
 ---
 
@@ -31,7 +31,7 @@ App follows GTD principles, so if you are familiar with it, you should feel like
 
 Here is the screenshot of the Project screen to give you a better idea:
 
-![Minima project screen](assets/img/minima.png)
+![Minima project screen](img/minima.png)
 
 ## How does Minima differ from other solutions?
 

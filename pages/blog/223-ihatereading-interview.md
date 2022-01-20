@@ -1,7 +1,7 @@
 ---
 title: "iHateReading - Where knowledge is shared - Interview with Shrey Vijayvargiya"
 date: 2021-06-16
-headerImage: "assets/img/ihr-header.png"
+headerImage: "img/ihr-header.png"
 keywords: ["interview"]
 ---
 
@@ -11,7 +11,7 @@ To learn more about one approach, I am interviewing [Shrey Vijayvargiya](https:/
 
 ## Can you tell a bit about yourself?
 
-![Shrey Vijayvargiya|100|100|author](assets/img/shrey.jpg)
+![Shrey Vijayvargiya|100|100|author](img/shrey.jpg)
 
 Hello, My name is Shrey Vijayvargiya. Thanks a lot for showing a bit of interest in me 🙃; I define myself in three steps in both professional and personal life:
 
@@ -31,7 +31,7 @@ Every design concept we teach encompasses videos and practical applications of t
 
 At last, we provide a single interface for developers to come and access the world-class professional boilerplates, which makes development and learning easier.
 
-![iHateReading homepage](assets/img/ihr-home.png)
+![iHateReading homepage](img/ihr-home.png)
 
 ## How does _iHateReading_ work?
 
@@ -59,7 +59,7 @@ We have quite a bigger picture for iHateReading. Let me explain in a bit simpler
 - We are about to create videos and podcasts for designers on our platform to learn designing while watching. This makes learning very simple in the future, and with one click away, you will learn design and its concepts.
 - We have a panel called [Repos](www.ihatereading.in/repos); this single section is loved by users a lot. We provide world-class professional boilerplates for developers to download and use and learn from it. I highly recommend you check it out to help you understand how large-scale applications are being developed.
 
-![Boilerplates](assets/img/ihr-boilerplates.png)
+![Boilerplates](img/ihr-boilerplates.png)
 
 ## What does the future look like for _iHateReading_ and web development in general? Can you see any particular trends?
 

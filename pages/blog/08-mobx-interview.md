@@ -1,7 +1,7 @@
 ---
 title: 'MobX - Reactive React - Interview with Michel Weststrate'
 date: 2015-08-19
-headerImage: 'assets/img/city.jpg'
+headerImage: 'img/city.jpg'
 keywords: ['interview', 'react', 'state-management']
 ---
 

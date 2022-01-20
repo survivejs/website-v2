@@ -1,7 +1,7 @@
 ---
 title: 'Snabbdom - a Virtual DOM Focusing on Simplicity - Interview with Simon Friis Vindum'
 date: 2016-07-11
-headerImage: 'assets/img/mandelbulb.jpg'
+headerImage: 'img/mandelbulb.jpg'
 keywords: ['interview']
 ---
 

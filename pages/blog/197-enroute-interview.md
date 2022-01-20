@@ -1,7 +1,7 @@
 ---
 title: "Enroute - Envoy Route Controller - Interview with Chintan Thakker"
 date: 2020-08-12
-headerImage: "assets/img/gateway.jpg"
+headerImage: "img/gateway.jpg"
 keywords: ["interview", "api", "kubernetes"]
 ---
 
@@ -11,7 +11,7 @@ To understand one such in better detail, I am interviewing [Chintan Takker](http
 
 ## Can you tell a bit about yourself?
 
-![Chintan Thakker|100|100|author](assets/img/chintan.jpg)
+![Chintan Thakker|100|100|author](img/chintan.jpg)
 
 Hi There, My name is Chintan Thakker, and I am the founder at Saaras Inc. Our primary product is the [Enroute Universal Gateway](https://getenroute.io), an automation-first API Gateway built on [Envoy Proxy](https://www.envoyproxy.io/). Both are open source solutions.
 

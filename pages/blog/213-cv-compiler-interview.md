@@ -1,7 +1,7 @@
 ---
 title: "CV Compiler - The Fastest Way to Improve Your CV - Interview with Andrew Stetsenko"
 date: 2020-12-01
-headerImage: "assets/img/reactor.jpg"
+headerImage: "img/reactor.jpg"
 keywords: ["interview"]
 ---
 

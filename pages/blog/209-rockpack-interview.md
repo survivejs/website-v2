@@ -1,7 +1,7 @@
 ---
 title: "Rockpack - Skip config, code React - Interview with Sergey Aleksandrov"
 date: 2020-11-02
-headerImage: "assets/img/rocks.jpg"
+headerImage: "img/rocks.jpg"
 keywords: ["interview", "webpack"]
 ---
 
@@ -13,7 +13,7 @@ In this interview, we'll learn about a new solution called [Rockpack](https://ww
 
 ## Can you tell a bit about yourself?
 
-![Sergey Aleksandrov|100|100|author](assets/img/sergey.jpg)
+![Sergey Aleksandrov|100|100|author](img/sergey.jpg)
 
 Hi, my name is [Sergey Aleksandrov](https://www.gooddev.org/), and I live in Kharkiv, Ukraine. Since 2010 I've become interested in web development. I started my journey with PHP and HTML markup, and after a year, switched to JavaScript. I am currently working as a full-stack developer.
 
@@ -29,7 +29,7 @@ You get a project with server-side rendering support, CSS (SCSS, LESS) Modules, 
 
 ## How does _Rockpack_ work?
 
-![Rockpack](assets/img/rockpack.png)
+![Rockpack](img/rockpack.png)
 
 There are several cases where Rockpack is useful:
 

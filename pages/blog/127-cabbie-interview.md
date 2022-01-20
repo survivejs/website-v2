@@ -1,7 +1,7 @@
 ---
 title: 'Cabbie - WebDriver for the masses - Interview with Forbes Lindesay'
 date: 2017-11-13
-headerImage: 'assets/img/cab.jpg'
+headerImage: 'img/cab.jpg'
 keywords: ['interview', 'testing']
 ---
 

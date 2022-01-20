@@ -1,7 +1,7 @@
 ---
 title: "Renderlesskit React - Collection of composable headless hooks - Interview with Anurag Hazra"
 date: 2021-01-29
-headerImage: "assets/img/toolkit.jpg"
+headerImage: "img/toolkit.jpg"
 keywords: ["interview", "react"]
 ---
 

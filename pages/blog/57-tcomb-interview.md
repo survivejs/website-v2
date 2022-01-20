@@ -1,7 +1,7 @@
 ---
 title: 'tcomb - Type checking and DDD for JavaScript - Interview with Giulio Canti'
 date: 2016-07-25
-headerImage: 'assets/img/types.jpg'
+headerImage: 'img/types.jpg'
 keywords: ['interview', 'typing']
 ---
 

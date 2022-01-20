@@ -1,7 +1,7 @@
 ---
 title: 'Assetgraph - Optimization Framework for Web Pages and Applications - Interview with Peter Müller'
 date: 2016-09-05
-headerImage: 'assets/img/network.jpg'
+headerImage: 'img/network.jpg'
 keywords: ['interview']
 ---
 
@@ -55,7 +55,7 @@ T> **Editor's note:** Peter has written a tool known as [Assetviz](https://githu
 
 ### 3. Transforming the graph
 
-![Transforming the graph](assets/img/assetgraph/graph.png)
+![Transforming the graph](img/assetgraph/graph.png)
 
 Now you have a fully populated graph model of your code, and this is where the fun starts. Using the transform pipeline you can queue transformations to run on the graph. If you want to rename a file, change its URL with `asset.url = 'foo.html'`. As a result all relations pointing to it will be updated.
 

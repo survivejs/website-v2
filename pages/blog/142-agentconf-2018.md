@@ -1,7 +1,7 @@
 ---
 title: 'Experiences on AgentConf 2018'
 date: 2018-02-06
-headerImage: 'assets/img/agentconf-2018/lech-02.jpg'
+headerImage: 'img/agentconf-2018/lech-02.jpg'
 keywords: ['conference', 'javascript']
 ---
 
@@ -11,7 +11,7 @@ The concept is simple. After two days of single track talks in Dornbirn, there a
 
 ## The Arrival Day
 
-![Dornbirn at night](assets/img/agentconf-2018/dornbirn-night.jpg)
+![Dornbirn at night](img/agentconf-2018/dornbirn-night.jpg)
 
 As a large part of the hotel capacity of Dornbirn was taken, I decided to stay at a local Airbnb with a friend that was going to the conference as well. We shared the costs and felt it was good value.
 
@@ -25,13 +25,13 @@ There was some complication on the way back, and after the cable car came back d
 
 ## The First Presentation Day
 
-![Breakfast at Spielboden kino](assets/img/agentconf-2018/spielboden-kino-breakfast.jpg)
+![Breakfast at Spielboden kino](img/agentconf-2018/spielboden-kino-breakfast.jpg)
 
 The first day started with an hour-long breakfast and registration at 8:00. That was early enough for me at least! The breakfast was disappointing, though, as there was only single kind of bread and something to drink with it. Fortunately, this was fixed on the second day.
 
 ### Max Stoiber on Open Source
 
-![Max Stoiber on open source](assets/img/agentconf-2018/max-stoiber.jpg)
+![Max Stoiber on open source](img/agentconf-2018/max-stoiber.jpg)
 
 Max's presentation covered his successful career with open source so far. It was interesting for me to contrast it with [the one by Evan You on ScriptConf](/blog/scriptconf-2018/#evan-you-on-open-source) as the take was somewhat different. Whereas Evan's presentation felt more grounded to the rough reality, Max's was more on the lighter, optimistic side.
 
@@ -41,7 +41,7 @@ For me, there's not much left to sell in the idea, and I'm more interested in fi
 
 ### Guillermo Rauch and Leo Lamprecht on Folding Space and Time
 
-![Guillermo and Leo on folding space and time](assets/img/agentconf-2018/guillermo-and-leo.jpg)
+![Guillermo and Leo on folding space and time](img/agentconf-2018/guillermo-and-leo.jpg)
 
 Guillermo and Leo discussed how their company Zeit approaches scalability. Once you understand what takes time in your requests, you can start to think about where and how to perform the work.
 
@@ -49,7 +49,7 @@ Guillermo and Leo discussed how their company Zeit approaches scalability. Once 
 
 ### Peggy Rayzis on Apollo
 
-![Peggy on Apollo](assets/img/agentconf-2018/peggy.jpg)
+![Peggy on Apollo](img/agentconf-2018/peggy.jpg)
 
 After a coffee break, Peggy gave a talk on Apollo. I've seen Peggy present twice before. Even though there tend to be similar elements in her Apollo talks, you also learn new things as their GraphQL client keeps evolving.
 
@@ -57,7 +57,7 @@ It seems that at least in some cases you might be able to eschew state managemen
 
 ### Kaylie Alexa Kwon on Yarn Workflow
 
-![Kaylie on Yarn](assets/img/agentconf-2018/kaylie.jpg)
+![Kaylie on Yarn](img/agentconf-2018/kaylie.jpg)
 
 Kaylie discussed [Yarn](https://yarnpkg.com/) package manager and how they use it in their company. It was a good talk given it showed how she got involved with the project and also about the impact she has made on it so far as an outside contributor.
 
@@ -67,7 +67,7 @@ After the talk, there was a lunch break although I don't remember what we had fo
 
 ### Carly Litchfield on Testing
 
-![Carly on testing](assets/img/agentconf-2018/carly.jpg)
+![Carly on testing](img/agentconf-2018/carly.jpg)
 
 Although I missed the majority of Carly's talk, I did gain a few insights from it. I learned particularly of [Percy](https://percy.io/), a tool for visual regression testing. I was aware of the technique, but I didn't know there's such a good solution available yet.
 
@@ -75,7 +75,7 @@ Carly has made her [demo application](https://github.com/cjlitch/screenshot-test
 
 ### Andrey Okonetchnikov on Linting
 
-![Andrey on linting](assets/img/agentconf-2018/andrey.jpg)
+![Andrey on linting](img/agentconf-2018/andrey.jpg)
 
 Andrey discussed his story with [lint-staged](https://www.npmjs.com/package/lint-staged) so far. The plan was to get a particular feature done by the presentation, but no matter how hard we tried, there was always some edge case we couldn't manage to resolve. Alas, development has to continue.
 
@@ -87,7 +87,7 @@ Since I know the tool already and helped Andrey with the slides, there wasn't an
 
 ### Javi Velasco on Agnostic Component Design for React
 
-![Javi on React components](assets/img/agentconf-2018/javi.jpg)
+![Javi on React components](img/agentconf-2018/javi.jpg)
 
 Javi discussed his journey with [React Toolbox](http://react-toolbox.io/). It is an implementation of Google Material Design for React, and he is currently working on the next major version. I know from experience API design is hard to get right, so it was a fitting talk. I had seen it before in ReactiveConf, though, so there weren't many new insights for me.
 
@@ -95,7 +95,7 @@ When it comes to APIs, the key point for me is figuring out the right coupling a
 
 ### Lightning Talks
 
-![Benedikt on strange features of JavaScript](assets/img/agentconf-2018/lightning.jpg)
+![Benedikt on strange features of JavaScript](img/agentconf-2018/lightning.jpg)
 
 The lightning talks were the part where I got my ten minutes of fame or so. I was supposed to go first, but due to some misunderstanding, a local team went on the stage instead. I didn't follow their twenty-minute presentation too closely, but I did learn that if you wrap a web application in a desktop shell and it looks roughly the same, the enterprise clients won't care.
 
@@ -113,13 +113,13 @@ I don't have much to say for the dinner, but I'm sure it was something in an Ita
 
 ## The Second Presentation Day
 
-![Spielboden kino](assets/img/agentconf-2018/spielboden.jpg)
+![Spielboden kino](img/agentconf-2018/spielboden.jpg)
 
 The second day of presentations started with breakfast as well. This time around there was more variety to choose from although this time around I was better prepared by bringing something to eat myself.
 
 ### Sara Vieira on Depression
 
-![Sara on depression](assets/img/agentconf-2018/sara.jpg)
+![Sara on depression](img/agentconf-2018/sara.jpg)
 
 The first presentation of the day was about depression by the famous Sara Vieira. I know her personally, so it was interesting for me to hear how she ended up where she is right now and the effort it took.
 
@@ -129,13 +129,13 @@ Given it's a massive topic and demands discussion, I would have left it at the e
 
 ### Nacho Martin on Integrating Redux with a Server
 
-![Nacho on integrating Redux with a server](assets/img/agentconf-2018/nacho.jpg)
+![Nacho on integrating Redux with a server](img/agentconf-2018/nacho.jpg)
 
 Nacho Martin, an internet acquaintance of mine, discussed how they are using Redux and integrating it with their Elixir server. The key insight for me was that if you consider what your real problem is, then it's easier to solve it. In their case, they had a problem with duplicating logic over both server and client. If I understood right, the way to solve this was to simplify the state management and push a large part of this to the server.
 
 ### Benedikt Meurer on TurboFan
 
-![Benedikt on TurboFan](assets/img/agentconf-2018/benedikt.jpg)
+![Benedikt on TurboFan](img/agentconf-2018/benedikt.jpg)
 
 After a coffee break, Benedikt discussed V8's new engine, TurboFan. The talk made me appreciate all the work Google puts into it. JavaScript isn't a straightforward language to optimize yet they keep finding ways to achieve that, and there's more in store.
 
@@ -143,7 +143,7 @@ One of the learnings for me was that it's better to write close to standard inst
 
 ### Michel Weststrate on Reactivity
 
-![Michel on reactivity](assets/img/agentconf-2018/michel.jpg)
+![Michel on reactivity](img/agentconf-2018/michel.jpg)
 
 Michel gave a skiing themed variant on his MobX talk. It was an excellent introduction to the topic, and I'm sure it inspired people to try it. A solid talk.
 
@@ -151,25 +151,25 @@ This time around, the lunch was a burger. Both meat and vegetarian options were 
 
 ### Emil Sjölander on Yoga
 
-![Emil on Yoga](assets/img/agentconf-2018/emil.jpg)
+![Emil on Yoga](img/agentconf-2018/emil.jpg)
 
 Emil discussed [Yoga](https://facebook.github.io/yoga/), a cross-platform layout engine. I didn't get much out of the talk, but that might have been due to the excellent lunch, not the presentation.
 
 ### Kristijan Ristovski on State Management
 
-![Kristijan on state management](assets/img/agentconf-2018/kristijan.jpg)
+![Kristijan on state management](img/agentconf-2018/kristijan.jpg)
 
 Kristijan, also known as kitze by the community, discussed the concept of rock stars, trends, and following them. The points he made were fair. Instead of going with the popular option, it makes sense to consider your options and constraints, and only then make a decision. Going against the mainstream is an option too. Most importantly you should focus on providing value. Wrong thing done right is still the wrong thing.
 
 ### Sia Karamalegos on React Performance
 
-![Sia on React performance](assets/img/agentconf-2018/sia.jpg)
+![Sia on React performance](img/agentconf-2018/sia.jpg)
 
 Sia discussed React performance and provided multiple viewpoints on the topic. It was a good overview and you can [check out the slides online](https://speakerdeck.com/siakaramalegos/lightning-fast-react-apps) for the primary ideas. The topic is ideal for a small workshop.
 
 ### Asim Hussain on Bots
 
-![Asim on bots](assets/img/agentconf-2018/asim.jpg)
+![Asim on bots](img/agentconf-2018/asim.jpg)
 
 Asim gave the last presentation of the conference about bots. The point was simple. A certain famous American president writes tweets where [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis) can be applied. Given he is an influential figure, the argument is that this affects economics. If you created a bot that uses the technique and then trades, you would be able to make money.
 
@@ -179,13 +179,13 @@ After Asim's talk, we headed to Lech for skiing.
 
 ## The First Skiing Day
 
-![Lech in the morning](assets/img/agentconf-2018/lech-01.jpg)
+![Lech in the morning](img/agentconf-2018/lech-01.jpg)
 
 Given I hadn't been skiing in twenty years (just cross-country), I decided to play it safe and go with the beginner group. It didn't take long for my skiing instincts to kick in, though, and it began to feel comfortable by the end of the day.
 
 ## The Second Skiing Day
 
-![Before the epic ride](assets/img/agentconf-2018/lech-02.jpg)
+![Before the epic ride](img/agentconf-2018/lech-02.jpg)
 
 I decided to tackle the most prominent hill near the starting point in the second morning. The conditions weren't as sunny as during the first day, but they were still quite good. The ride was epic, and after that, I headed back to a smaller one to chill out before heading for lunch with other attendees.
 
@@ -193,7 +193,7 @@ Lech proved to be surprisingly expensive (2-3x Vienna), so therefore it's not th
 
 ## The Good, The Bad, The Ugly
 
-![Lech in sunset](assets/img/agentconf-2018/lech-03.jpg)
+![Lech in sunset](img/agentconf-2018/lech-03.jpg)
 
 Overall, AgentConf was great, and I enjoyed it a lot. Skiing was the highlight for me although I'll prepare better next year so I can spend more time on the more challenging slopes. I was physically fit for it, but it takes a certain amount of adaptation to get most out of skiing.
 
@@ -205,7 +205,7 @@ Food was excellent especially for the speakers' dinner and the second day. For s
 
 ## Conclusion
 
-![The organizers of AgentConf](assets/img/agentconf-2018/organizers.jpg)
+![The organizers of AgentConf](img/agentconf-2018/organizers.jpg)
 
 I might go to [AgentConf](https://www.agent.sh/) again next year, and it was one of the better technical conferences I've ever been. There are always little details you can do better, but the primary offering is solid and good value.
 

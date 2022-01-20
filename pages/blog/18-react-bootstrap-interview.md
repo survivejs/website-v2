@@ -1,7 +1,7 @@
 ---
 title: 'React-Bootstrap - Bootstrap Rebuilt for React - Interview with Matt Smith'
 date: 2015-10-13
-headerImage: 'assets/img/bootstrap.jpg'
+headerImage: 'img/bootstrap.jpg'
 keywords: ['interview', 'react', 'ui']
 ---
 

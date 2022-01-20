@@ -1,7 +1,7 @@
 ---
 title: 'Reactotron - A CLI and OS X App for Inspecting - Interview with Steve Kellock'
 date: 2016-09-19
-headerImage: 'assets/img/glow.jpg'
+headerImage: 'img/glow.jpg'
 keywords: ['interview', 'react']
 ---
 
@@ -33,7 +33,7 @@ It plugs into your React JS or React Native app and relays info up to 1 of the 2
 
 If your app uses Redux, you can track state changes, subscribe to parts of your state tree, and even replay & dispatch actions. There are ways to pass data like you would `console.log` and even supports images.
 
-![Reactotron in action](assets/img/reactotron/demo.gif)
+![Reactotron in action](img/reactotron/demo.gif)
 
 ## How does *Reactotron* differ from other solutions?
 

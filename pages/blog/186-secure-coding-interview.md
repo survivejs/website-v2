@@ -1,7 +1,7 @@
 ---
 title: "Secure Coding - Interview with Liran Tal"
 date: 2019-07-31
-headerImage: "assets/img/lock.jpg"
+headerImage: "img/lock.jpg"
 headerAuthor: "Free-Photos"
 headerSource: https://pixabay.com/photos/padlock-shed-locked-lock-secure-690286/
 keywords: ["interview", "security"]

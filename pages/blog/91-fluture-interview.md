@@ -1,7 +1,7 @@
 ---
 title: 'Fluture - Fantasy Land compliant alternative to Promises - Interview with Aldwin Vlasblom'
 date: 2017-05-02
-headerImage: 'assets/img/future.jpg'
+headerImage: 'img/future.jpg'
 keywords: ['interview', 'functional programming']
 ---
 

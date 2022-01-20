@@ -1,7 +1,7 @@
 ---
 title: 'React Component Boilerplate v1.0'
 date: 2015-10-22
-headerImage: 'assets/img/boilerplate.jpg'
+headerImage: 'img/boilerplate.jpg'
 keywords: ['react']
 ---
 
@@ -30,7 +30,7 @@ $ git push
 $ git push --tags
 ```
 
-I know this could be hidden easily behind a single command but it's not too bad as I might not want to push immediately always. A tool known as [semantic-release](https://www.npmjs.com/package/semantic-release) could simplify the workflow further but I haven't adopted it yet. 
+I know this could be hidden easily behind a single command but it's not too bad as I might not want to push immediately always. A tool known as [semantic-release](https://www.npmjs.com/package/semantic-release) could simplify the workflow further but I haven't adopted it yet.
 
 To make sure I get the right build artifacts out there in the current approach, I've set up a couple of npm hooks like this:
 

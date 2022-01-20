@@ -1,7 +1,7 @@
 ---
 title: "Benefit - utility CSS library - Interview with Chad Donohue"
 date: 2019-06-03
-headerImage: "assets/img/road.jpg"
+headerImage: "img/road.jpg"
 headerAuthor: "Patrick Tomasso"
 headerSource: https://unsplash.com/photos/5hvn-2WW6rY
 keywords: ["interview", "styling", "react"]

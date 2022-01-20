@@ -1,7 +1,7 @@
 ---
 title: "Eleventy - A simpler static site generator - Interview with Jeremias Menichelli"
 date: 2020-10-05
-headerImage: assets/img/mountains.jpg
+headerImage: img/mountains.jpg
 headerAuthor: "Szabolcs Papp"
 headerSource: "https://unsplash.com/photos/T9uUo9CNTLk"
 keywords: ["interview", "static-site-generation"]

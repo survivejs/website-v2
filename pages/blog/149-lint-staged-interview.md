@@ -1,7 +1,7 @@
 ---
 title: 'lint-staged - Run Linters on git Staged Files - Interview with Andrey Okonetchnikov'
 date: 2018-04-08
-headerImage: 'assets/img/headers/lint.jpg'
+headerImage: 'img/headers/lint.jpg'
 keywords: ['interview', 'javascript', 'testing']
 ---
 
@@ -26,7 +26,7 @@ lint-staged is a simple to use tool to enforce code quality in teams.
 I care a lot about code readability and maintainability. To keep my code in good shape I use linters and other code analysis tools that help me catch simple bugs earlier. While working with different teams I noticed that:
 
 1. Not everyone cares so much about code quality.
-2. Not everyone has proper linter setup in their editors. 
+2. Not everyone has proper linter setup in their editors.
 
 As a result, even though some people were committed to using linters, the overall quality of the code was far from great, and it wasn’t improving. This kept me thinking about how to enhance the quality of code in teams without becoming a pain.
 

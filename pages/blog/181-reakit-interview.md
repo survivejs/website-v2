@@ -1,7 +1,7 @@
 ---
 title: "Reakit - Build accessible rich web apps with React - Interview with Diego Haz"
 date: 2019-06-10
-headerImage: "assets/img/reakit.png"
+headerImage: "img/reakit.png"
 keywords: ["interview", "react", "ui"]
 ---
 

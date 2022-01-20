@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v2.0 - Results and Errata'
 date: 2017-04-12
-headerImage: 'assets/img/fly.jpg'
+headerImage: 'img/fly.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

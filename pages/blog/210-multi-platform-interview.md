@@ -1,7 +1,7 @@
 ---
 title: "Multi-platform applications with JavaScript - Interview with Valentyn Poliskyi"
 date: 2020-11-09
-headerImage: "assets/img/wright.jpg"
+headerImage: "img/wright.jpg"
 keywords: ["interview", "javascript"]
 ---
 
@@ -11,7 +11,7 @@ To learn more about the approach, I am interviewing Valentyn Poliskyi.
 
 ## Can you tell a bit about yourself?
 
-![Valentyn Poliskyi|100|100|author](assets/img/valentyn.jpg)
+![Valentyn Poliskyi|100|100|author](img/valentyn.jpg)
 
 My name is Valentyn Poliskyi, and I'm a full-stack JavaScript developer. Throughout my career, I've been developing different types of applications, including front-end web development, REST, and mobile.
 

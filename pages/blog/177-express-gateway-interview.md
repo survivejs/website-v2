@@ -1,7 +1,7 @@
 ---
 title: 'Express Gateway - A microservices API Gateway built on top of Express.js - Interview with Vincenzo Chianese'
 date: 2019-04-22
-headerImage: 'assets/img/gateway.jpg'
+headerImage: 'img/gateway.jpg'
 keywords: ['express', 'interview', 'microservices']
 ---
 

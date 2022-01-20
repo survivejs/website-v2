@@ -1,7 +1,7 @@
 ---
 title: "Debugging JavaScript - Interview with Mehdi Osman"
 date: 2020-03-04
-headerImage: "assets/img/debugging.jpg"
+headerImage: "img/debugging.jpg"
 keywords:
   [
     "interview",
@@ -21,7 +21,7 @@ In this interview, I am learning more about the topic from [Mehdi Osman](https:/
 
 ## Can you tell a bit about yourself?
 
-![Mehdi Osman|50|50|author](assets/img/mehdi.jpg)
+![Mehdi Osman|50|50|author](img/mehdi.jpg)
 
 My name is Mehdi Osman, and I'm the founder of [Asayer](https://asayer.io), a frontend monitoring tool. Before that, I spent a few years as a frontend programmer working with C# and something called Silverlight - a deprecated framework for building rich internet applications - before it was taken by storm by HTML5 and JS frameworks.
 
@@ -51,7 +51,7 @@ DevTools are useful, but it's applicable only locally in your development enviro
 
 Asayer shows you a video replay of your user session synchronized with all technical details you need to reproduce the issue: network activity, JS errors, console logs, store actions/state, backend logs, and more. In other words, it's like having your browser's inspector open while looking over your user's shoulder.
 
-![Asayer Application](assets/img/asayer.png)
+![Asayer Application](img/asayer.png)
 
 ## What next?
 

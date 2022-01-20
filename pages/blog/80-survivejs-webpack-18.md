@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.8'
 date: 2017-02-18
-headerImage: 'assets/img/bubble.jpg'
+headerImage: 'img/bubble.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

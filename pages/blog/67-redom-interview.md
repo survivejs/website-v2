@@ -1,7 +1,7 @@
 ---
 title: 'RE:DOM - Tiny but Super Fast DOM Library - Interview with Juha Lindstedt'
 date: 2016-10-31
-headerImage: 'assets/img/eagle.jpg'
+headerImage: 'img/eagle.jpg'
 keywords: ['interview']
 ---
 
@@ -10,7 +10,7 @@ Sometimes small is beautiful. [Juha Lindstedt](https://twitter.com/pakastin)'s F
 ## How would you describe *RE:DOM* to someone who has never heard of it?
 
 <p>
-  ![RE:DOM|100|100|author](assets/img/redom.svg)
+  ![RE:DOM|100|100|author](img/redom.svg)
 
   [RE:DOM](https://redom.js.org) is a tiny UI library (~2 kB gzipped), handling only the hardest parts of managing the DOM. You could think of it as a vanilla JavaScript tool, but it's actually really useful in almost any kind of projects – even bigger ones.
 </p>

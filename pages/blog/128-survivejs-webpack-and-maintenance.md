@@ -1,7 +1,7 @@
 ---
 title: '“SurviveJS — Webpack” v2.1 and “SurviveJS — Maintenance” v0.9'
 date: 2017-11-17
-headerImage: 'assets/img/no-pressure.jpg'
+headerImage: 'img/no-pressure.jpg'
 keywords: ['maintenance', 'release-notes', 'webpack']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "atomic-layout - Layout composition as a React component - Interview with Artem Zakharchenko"
 date: 2019-03-15
-headerImage: "assets/img/atom.jpg"
+headerImage: "img/atom.jpg"
 keywords: ["interview", "react", "styling"]
 ---
 

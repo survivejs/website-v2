@@ -1,7 +1,7 @@
 ---
 title: 'Fall Tour - Vienna Clinics, ReactNext, WebExpo, ReactiveConf'
 date: 2017-07-19
-headerImage: 'assets/img/globe.jpg'
+headerImage: 'img/globe.jpg'
 keywords: ['survivejs', 'tour', 'training']
 ---
 

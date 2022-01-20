@@ -1,7 +1,7 @@
 ---
 title: 'Code Quality - Interview with João Caxaria'
 date: 2017-03-06
-headerImage: 'assets/img/coder.jpg'
+headerImage: 'img/coder.jpg'
 keywords: ['interview']
 ---
 

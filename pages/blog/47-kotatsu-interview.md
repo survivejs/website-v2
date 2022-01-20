@@ -1,7 +1,7 @@
 ---
 title: 'Kotatsu - Less Boilerplate for Modern JavaScript - Interview with Guillaume Plique'
 date: 2016-05-02
-headerImage: 'assets/img/japanese-maple.jpg'
+headerImage: 'img/japanese-maple.jpg'
 keywords: ['interview', 'react', 'boilerplate']
 ---
 

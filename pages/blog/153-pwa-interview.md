@@ -1,7 +1,7 @@
 ---
 title: 'Progressive Web Apps - The Why and How - Interview with Maciej Caputa'
 date: 2018-06-25
-headerImage: 'assets/img/capsule.jpg'
+headerImage: 'img/capsule.jpg'
 keywords: ['interview']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack and React - v2.0.0-rc3'
 date: 2016-01-22
-headerImage: 'assets/img/cool.jpg'
+headerImage: 'img/cool.jpg'
 keywords: ['release-notes', 'webpack', 'react']
 ---
 

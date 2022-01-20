@@ -1,7 +1,7 @@
 ---
 title: 'CodeceptJS - Modern Era Acceptance Testing for Node.js - Interview with Michael Bodnarchuk'
 date: 2016-08-15
-headerImage: 'assets/img/wright.jpg'
+headerImage: 'img/wright.jpg'
 keywords: ['interview', 'testing']
 ---
 
@@ -12,7 +12,7 @@ Michael Bodnarchuk, an old friend of mine from the [JSter](http://jster.net/) er
 ## Can you tell a bit about yourself?
 
 <p>
-  ![Michael Bodnarchuk|100|100|author](assets/img/interviews/michael.jpg)
+  ![Michael Bodnarchuk|100|100|author](img/interviews/michael.jpg)
 
   My name is Michael, I live in Kyiv, Ukraine. What I do the most is open-source development, mountain trips, and exploring the world step by step.
 </p>
@@ -45,7 +45,7 @@ I know there are already many folks around using it in different projects, one o
 
 I don't see reason why senior JavaScript developers should learn Selenium libraries to write test automation. The less time they spend on such tasks the more they can do for business part of applications. And *CodeceptJS* is a perfect time saver.
 
-![In action](assets/img/codeceptjs/in-action.png)
+![In action](img/codeceptjs/in-action.png)
 
 ## What kind of challenges have you experienced while developing it?
 
@@ -61,7 +61,7 @@ Currently, *CodeceptJS* allows you to use webdriverio, Selenium, WebdriverJS, Pr
 
 We also have localization for Russian and Portuguese, so you can write in it and see it in test reports. I think we will extend to more languages. One part of my global plan is to embrace Cucumber - to allow writing not only tests but business expectation as well. However, currently the focus is on stabilizing the product, getting more and more people on board, and making it not only fancy but reliable too.
 
-![Interactive session](assets/img/codeceptjs/passed.png)
+![Interactive session](img/codeceptjs/passed.png)
 
 ## What does the future look like for React and front-end in general? Can you see any particular trends?
 

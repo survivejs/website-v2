@@ -1,7 +1,7 @@
 ---
 title: 'nwb - CLI for React Applications and Components - Interview with Jonny Buchanan'
 date: 2016-05-09
-headerImage: 'assets/img/clock.jpg'
+headerImage: 'img/clock.jpg'
 keywords: ['interview', 'react', 'boilerplate']
 ---
 

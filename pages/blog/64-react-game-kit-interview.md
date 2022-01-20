@@ -1,7 +1,7 @@
 ---
 title: 'react-game-kit - Make games with React - Interview with Ken Wheeler'
 date: 2016-09-26
-headerImage: 'assets/img/board.jpg'
+headerImage: 'img/board.jpg'
 keywords: ['interview', 'react']
 ---
 

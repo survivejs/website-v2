@@ -1,7 +1,7 @@
 ---
 title: 'Experiences on ScriptConf 2018'
 date: 2018-02-01
-headerImage: 'assets/img/scriptconf-2018/linz-night.jpg'
+headerImage: 'img/scriptconf-2018/linz-night.jpg'
 keywords: ['conference', 'javascript']
 ---
 
@@ -13,7 +13,7 @@ The conference was split into two days. The first day was for workshops and the 
 
 ## The Beginning of the Presentation Day
 
-![The beginning of the conference](assets/img/scriptconf-2018/beginning.jpg)
+![The beginning of the conference](img/scriptconf-2018/beginning.jpg)
 
 The curious thing about ScriptConf was that the official program started at 13:00. There was an hour for registration before that. I came from Vienna on the morning train, and that left me time to explore Linz and make some friends. I met a couple of other developers going to the conference before registering and we had a chance to get some beverages and breakfast to eat.
 
@@ -21,7 +21,7 @@ In retrospect, I should have eaten a proper lunch before the event given the fir
 
 ## Evan You on Open Source
 
-![Evan You](assets/img/scriptconf-2018/evan-you.jpg)
+![Evan You](img/scriptconf-2018/evan-you.jpg)
 
 The day itself began with a presentation by [Evan You](https://twitter.com/youyuxi), the author of the popular [Vue.js](https://vuejs.org/) UI framework. It was about his journey into open source, and I think it was a fitting way to start the day. I could recognize many of his struggles and especially his version of hype cycle for open source development resonated with me.
 
@@ -31,7 +31,7 @@ For some reason, the entire day was riddled with small technical problems, and t
 
 ## Marcy Sutton on Accessibility
 
-![Marcy Sutton](assets/img/scriptconf-2018/marcy-sutton.jpg)
+![Marcy Sutton](img/scriptconf-2018/marcy-sutton.jpg)
 
 The day continued with [Marcy Sutton](https://twitter.com/marcysutton)'s talk on accessibility. I feel this is an important topic that needs more attention from the web development community. Often it's an afterthought if it's given any thought at all. I became aware of [aXe tools](https://axe-core.org/), and I'll use the Chrome plugin in the future.
 
@@ -39,19 +39,19 @@ I feel the talk would work exceptionally well in a workshop format as then you g
 
 ## Simona Cotin on Serverless
 
-![scriptconf-2018](assets/img/scriptconf-2018/simona-cotin.jpg)
+![scriptconf-2018](img/scriptconf-2018/simona-cotin.jpg)
 
 [Simona Cotin](https://twitter.com/simona_cotin) discussed the phenomenon of Serverless applications. It was an excellent overview of the topic although I'm not that interested in Azure myself. Perhaps something more platform-agnostic would have fit the conference better.
 
 ## Michaela Lehr on Augmented Reality
 
-![Michaela Lehr](assets/img/scriptconf-2018/michaela-lehr.jpg)
+![Michaela Lehr](img/scriptconf-2018/michaela-lehr.jpg)
 
 [Michaela Lehr](https://twitter.com/FischaelaMeer) covered the rise of Augmented Reality (AR) and related technologies (Virtual Reality (VR), Mixed Reality (MR)). The beautiful thing about the talk was that it gave a good idea of the potential and future. It will still take years before we see real mainstream adoption. Now is the time to experiment.
 
 ## André Staltz on Cycle.js
 
-![André Staltz](assets/img/scriptconf-2018/andre-staltz.jpg)
+![André Staltz](img/scriptconf-2018/andre-staltz.jpg)
 
 [André Staltz](https://twitter.com/andrestaltz) approached his [Cycle.js framework](https://cycle.js.org/) from a refreshing angle of paper coding. Instead of focusing on code, he focused on graphs to get to the concepts behind Cycle.js. Although Cycle.js was already familiar to me, the talk drove down the key ideas even further and explained the recent improvements which allow you to treat your applications as fractals - applications of applications.
 
@@ -59,7 +59,7 @@ The dinner provided after André's talk was adequate compared to some other tech
 
 ## Phil Hawksworth on Next Wave Infrastructure
 
-![Phil Hawksworth](assets/img/scriptconf-2018/phil-hawksworth.jpg)
+![Phil Hawksworth](img/scriptconf-2018/phil-hawksworth.jpg)
 
 Although the talk had a dry premise, [Phil Hawksworth](https://twitter.com/philhawksworth)'s talk was one of the better ones of the conference. It made me even more convinced that static sites enhanced the right way is an excellent way to develop websites. The technology is maturing, and it provides even more benefits than I knew.
 
@@ -67,13 +67,13 @@ The ability to treat each Git commit as deployment is a simple yet powerful idea
 
 ## Charlie Gerard on Mind Control
 
-![Charlie Gerard](assets/img/scriptconf-2018/charlie-gerard.jpg)
+![Charlie Gerard](img/scriptconf-2018/charlie-gerard.jpg)
 
 [Charlie Gerard](https://twitter.com/devdevcharlie) discussed how to control JavaScript using your mind. That is, how to achieve this using a specific device. She showed how she acquired equipment and developed a Node.js API for it. The presentation was made even better by live demonstrations that drove down the points.
 
 ## The Good, The Bad, The Ugly
 
-![The MC](assets/img/scriptconf-2018/dj.jpg)
+![The MC](img/scriptconf-2018/dj.jpg)
 
 Overall, the second iteration of ScriptConf was a cool conference. Especially having an MC on the stage was a good idea and that's something I hope other conferences will copy as it improves the atmosphere surprisingly much.
 
@@ -83,7 +83,7 @@ Although the primary space of the conference was roomy, the place where you regi
 
 ## Conclusion
 
-![Linz at night](assets/img/scriptconf-2018/linz-night.jpg)
+![Linz at night](img/scriptconf-2018/linz-night.jpg)
 
 I am happy I went to [ScriptConf](https://scriptconf.org/), and I feel it was good value. I spent approximately 200 euros for the entire trip, and if nothing else, I got exposed to new ideas and people. I might do this again next year.
 

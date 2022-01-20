@@ -1,7 +1,7 @@
 ---
 title: 'Mostly Adequate Guide to Functional Programming - Interview with Brian Lonsdorf'
 date: 2016-08-01
-headerImage: 'assets/img/mostly.jpg'
+headerImage: 'img/mostly.jpg'
 keywords: ['interview', 'functional programming']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: '"SurviveJS - Webpack 5" - Amazon Version is Available'
 date: 2020-11-27
-headerImage: "assets/img/screwdrivers.jpg"
+headerImage: "img/screwdrivers.jpg"
 keywords: ["release-notes", "webpack"]
 ---
 

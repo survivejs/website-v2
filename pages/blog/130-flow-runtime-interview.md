@@ -1,7 +1,7 @@
 ---
 title: 'Flow Runtime - A runtime type system for JavaScript with full Flow compatibility - Interview with Charles Pick'
 date: 2017-11-26
-headerImage: 'assets/img/drop.jpg'
+headerImage: 'img/drop.jpg'
 keywords: ['interview', 'typing']
 ---
 

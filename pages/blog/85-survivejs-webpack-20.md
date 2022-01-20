@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v2.0'
 date: 2017-03-29
-headerImage: 'assets/img/bugs.jpg'
+headerImage: 'img/bugs.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

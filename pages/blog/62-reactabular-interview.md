@@ -1,7 +1,7 @@
 ---
 title: 'Reactabular - Spectacular tables for React - Interview with Juho Vepsäläinen'
 date: 2016-09-12
-headerImage: 'assets/img/spectacular.jpg'
+headerImage: 'img/spectacular.jpg'
 keywords: ['interview', 'react']
 ---
 

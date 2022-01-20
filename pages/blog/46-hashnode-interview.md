@@ -1,7 +1,7 @@
 ---
 title: 'Hashnode - Community for Software Developers - Interview with Sandeep Panda'
 date: 2016-04-25
-headerImage: 'assets/img/hashnode.jpg'
+headerImage: 'img/hashnode.jpg'
 keywords: ['interview']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Fall Events'
 date: 2018-09-04
-headerImage: 'assets/img/fall-2018/lighthouse.jpg'
+headerImage: 'img/fall-2018/lighthouse.jpg'
 keywords: ['survivejs']
 ---
 
@@ -9,7 +9,7 @@ Summer is over and I've made travel plans for the Fall. More details below.
 
 ## WebExpo - 21-23.09.2018
 
-![WebExpo 2018](assets/img/fall-2018/webexpo2018.png)
+![WebExpo 2018](img/fall-2018/webexpo2018.png)
 
 [I went to WebExpo last year](blog/webexpo-2017) for the first time. It's one of my favorite crossover conferences. It spans from development to business to design. They have the same spacious venue this year and it's always nice to visit Prague. [Learn more about WebExpo](https://www.webexpo.net/) at their site.
 
@@ -23,7 +23,7 @@ I'll discuss static sites and their potential in my talk. In addition I'll give 
 
 ## GraphQL Finland - 18-19.10.2018
 
-![GraphQL Finland 2018](assets/img/fall-2018/gqlfi2018.png)
+![GraphQL Finland 2018](img/fall-2018/gqlfi2018.png)
 
 To continue on the success of React Finland, we'll organize the first GraphQL event of the Nordics in the form of [GraphQL Finland](https://graphql-finland.fi/). The lineup looks promising and it's a great way for you to get into the topic and see how GraphQL is transforming the backend.
 

@@ -1,7 +1,7 @@
 ---
 title: "Nullstack - Full-stack JavaScript Components - Interview with Christian Mortaro"
 date: 2021-01-15
-headerImage: "assets/img/nullstack.jpg"
+headerImage: "img/nullstack.jpg"
 keywords: ["interview", "javascript"]
 ---
 

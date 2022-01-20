@@ -1,7 +1,7 @@
 ---
 title: 'Experiences on CSSCamp and JSCamp 2019'
 date: 2019-07-27
-headerImage: 'assets/img/jscamp2019/hello.jpg'
+headerImage: 'img/jscamp2019/hello.jpg'
 keywords: ['conference']
 ---
 
@@ -9,27 +9,27 @@ I was invited to [CSSCamp 2019 (17.07)](https://csscamp.tech) and [JSCamp 2019 (
 
 ## Overview of CSSCamp and JSCamp 2019
 
-![Hello from CSSCamp or JSCamp](assets/img/jscamp2019/hello.jpg)
+![Hello from CSSCamp or JSCamp](img/jscamp2019/hello.jpg)
 
 CSSCamp and JSCamp were held as a dual conference in Barcelona, Spain. CSSCamp was held for the first time while JSCamp was the second time in a row. Before that, there used to be a year of AngularCamp before the event was rebranded last year.
 
 In total, the events attract roughly 600 developers, and especially the conference portions seemed close to sold out although there was space in the workshops. I know from experience selling can be unpredictable, and many things can go wrong.
 
-![Preparing for the speaker interviews](assets/img/jscamp2019/interview.jpg)
+![Preparing for the speaker interviews](img/jscamp2019/interview.jpg)
 
 ### The Venue
 
-![Especially the lighting of the venue was impressive](assets/img/jscamp2019/lighting.jpg)
+![Especially the lighting of the venue was impressive](img/jscamp2019/lighting.jpg)
 
 The event was held at Auditorio AXA, the same venue as last year. Although not the most spacious, it's one of the more attractive conference venues I've seen, and it fits the purpose quite well. Capacity-wise the conference cannot grow from this within the same space, but that said, the scale seems fine even now. Sometimes events become too big, and as a result, the atmosphere suffers.
 
 ### The Workshop Days - 15-16.07
 
-![Coffee at the workshops](assets/img/jscamp2019/coffee.jpg)
+![Coffee at the workshops](img/jscamp2019/coffee.jpg)
 
 The conference began on Monday with a workshop by Kyle Simpson. He held another one on Tuesday, and that's when I joined the event. On Tuesday, Sean Larkin and Harry Roberts held theirs in addition to a second workshop by Kyle. The workshops were held in a full-day format. I cannot comment on the quality of the workshops as I didn't attend any this time.
 
-![Learning hard at a workshop](assets/img/jscamp2019/workshop.jpg)
+![Learning hard at a workshop](img/jscamp2019/workshop.jpg)
 
 ### CSSCamp - 17.07
 
@@ -37,17 +37,17 @@ The conference began on Monday with a workshop by Kyle Simpson. He held another 
 
 The day started with a keynote by Tatiana Mac, where she discussed how to build socially inclusive design systems. It's easy to forget the context in which we design, and by understanding our biases, we'll be able to create more accessible designs.
 
-![Tatiana Mac delivering her keynote](assets/img/jscamp2019/tatiana.jpg)
+![Tatiana Mac delivering her keynote](img/jscamp2019/tatiana.jpg)
 
 After the keynote, Jason Pamenthal followed with a technical talk about variable fonts and their potential for the web. Variable fonts move away from the traditional thinking of fonts where you have multiple separate variants of the same typeface to choose from. Instead, we have a single typeface we can alter on various dimensions using variables, hence the name variable fonts.
 
 Cassie Evans talk showcased how to use SVG for animation on the web, and it was well-received by the audience. I think there's a lot of potential there we are still missing as developers. The funny thing is that as a specification SVG is old but we still don't use it to its full potential. It's nice to see SVG receiving more attention as especially now with high resolution displays using it pays off.
 
-![Cassie Evans at the makeup lady - each speaker received the treatment](assets/img/jscamp2019/makeup.jpg)
+![Cassie Evans at the makeup lady - each speaker received the treatment](img/jscamp2019/makeup.jpg)
 
 Oliver Turner continued on Houdini, the upcoming standard that's going to change the way we write and think about CSS. The talk was valuable as it showed perhaps a glance of a future where innovation in CSS is driven by the community, not by the standards bodies.
 
-![Oliver Turner captured from the backstage](assets/img/jscamp2019/oliver.jpg)
+![Oliver Turner captured from the backstage](img/jscamp2019/oliver.jpg)
 
 After the lunch break, Stéphanie Walter dived into design techniques that let us improve perceived performance. Although actual, absolute performance is essential, by understanding a bit of psychology, we can create applications that feel faster by designing the right way.
 
@@ -63,7 +63,7 @@ Although the method requires effort when you construct the classes, now you have
 
 ### JSCamp - 18.07 - Day 1
 
-![Kyle Simpson preparing for his keynote](assets/img/jscamp2019/kyle.jpg)
+![Kyle Simpson preparing for his keynote](img/jscamp2019/kyle.jpg)
 
 After the CSSCamp day, it was time for JSCamp and its two days. The first conference day began with an 80-minute keynote by Kyle Simpson. His main point was that we should rethink the way we develop our sites and applications. Although ideas like progressive enhancement were valid in the past, we need a bit more.
 
@@ -83,19 +83,19 @@ I'm a proponent of the approach, and I've seen its power in practice as I've dev
 
 ### JSCamp - 18.07 - Afterparty
 
-![Sala Bikini](assets/img/jscamp2019/bikini.jpg)
+![Sala Bikini](img/jscamp2019/bikini.jpg)
 
 The afterparty of the event was held at Sala Bikini right underneath the main venue. Space itself was great although the party may have been too late for people to join. I decided to turn in early to prepare for the last day of the conference as it had been a rough week already.
 
-![Partying at afterparty](assets/img/jscamp2019/party.jpg)
+![Partying at afterparty](img/jscamp2019/party.jpg)
 
 One of the main attractions of the afterparty was a synthpop band. Although I missed the show, I had a chance to discuss with the band during a speakers' dinner and they seemed like fun people and I bet the gig was great.
 
-![Preparing for the gig](assets/img/jscamp2019/discolights.jpg)
+![Preparing for the gig](img/jscamp2019/discolights.jpg)
 
 ### JSCamp - 19.07 - Day 2
 
-![There was something interesting to look at but I don't know what](assets/img/jscamp2019/looking.jpg)
+![There was something interesting to look at but I don't know what](img/jscamp2019/looking.jpg)
 
 Day two of JSCamp started with a talk about accessibility patterns by Garance Vallat. She included many practical examples, and it was an informative talk to follow. For me, as a conference organizer, it would have been interesting to pair the presentation with Sergei Kriger's one as then you gain an enhanced perspective on the topic.
 
@@ -117,11 +117,11 @@ T> [You can learn more about an earlier version of Svelte at the interview.](/bl
 
 Henri Helvetica ended the conference by discussing the evolution and the shape of the web. It was more of a philosophical talk that put what we are doing as web developers into a context. As web developers, we have a great responsibility in how the web develops. We should take good care of it, so it's there for future generations to use as we did in our time.
 
-![Did you know Helvetica is Henri's stage name?](assets/img/jscamp2019/henri.jpg)
+![Did you know Helvetica is Henri's stage name?](img/jscamp2019/henri.jpg)
 
 ## Conclusion
 
-![At Tibidabo, one of the speakers' dinner locations](assets/img/jscamp2019/tibidabo.jpg)
+![At Tibidabo, one of the speakers' dinner locations](img/jscamp2019/tibidabo.jpg)
 
 For me, both CSSCamp and JSCamp are reliable conferences. They seem to pull the local communities together and compared to the last year, and I think the audience was more diverse. It was a good move to attract more designers to the events by having the CSS theme included. The venue itself is excellent although now it's running at its limit meaning the conference cannot grow further.
 

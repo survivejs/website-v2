@@ -1,7 +1,7 @@
 ---
 title: 'GraphQL Finland - Learn GraphQL Up North - Interview with Mikhail Novikov'
 date: 2018-07-05
-headerImage: 'assets/img/graphql-finland.png'
+headerImage: 'img/graphql-finland.png'
 keywords: ['interview', 'graphql', 'conference']
 ---
 

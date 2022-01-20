@@ -17,7 +17,8 @@ Then, setup a `.config.json` file as follows:
 ```json
 {
   "getImagesEndpoint": "TODO",
-  "getImagesToken": "TODO"
+  "getImagesToken": "TODO",
+  "imagesEndpoint": "TODO"
 }
 ```
 

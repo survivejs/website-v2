@@ -1,7 +1,7 @@
 ---
 title: 'Mikey - React/Redux CLI/Framework - Interview with Michael Farrell'
 date: 2016-06-06
-headerImage: 'assets/img/mikey.jpg'
+headerImage: 'img/mikey.jpg'
 keywords: ['interview', 'boilerplate', 'react', 'redux']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Refract - Manage Component Side Effects the Reactive Way - Interview with Thomas Roch.'
 date: 2018-09-16
-headerImage: 'assets/img/aperture.jpg'
+headerImage: 'img/aperture.jpg'
 keywords: ['interview', 'state-management', 'react']
 ---
 

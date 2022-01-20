@@ -1,7 +1,7 @@
 ---
 title: 'A Quick Look at React Books'
 date: 2015-08-01
-headerImage: 'assets/img/books.jpg'
+headerImage: 'img/books.jpg'
 keywords: ['react', 'publishing']
 ---
 

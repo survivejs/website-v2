@@ -1,7 +1,7 @@
 ---
 title: "a-plus-forms - A+ forms. Would use again - Interview with Nikolay Nemshilov"
 date: 2017-11-20
-headerImage: "assets/img/crystal.jpg"
+headerImage: "img/crystal.jpg"
 keywords: ["forms", "interview", "react"]
 editors: ["bebraw", "karlhorky"]
 ---

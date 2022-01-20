@@ -1,7 +1,7 @@
 ---
 title: 'Rekit - Toolkit for building scalable React applications - Interview with Nate Wang'
 date: 2017-08-09
-headerImage: 'assets/img/toolkit.jpg'
+headerImage: 'img/toolkit.jpg'
 keywords: ['interview', 'react', 'redux', 'javascript']
 editors: ['bebraw', 'karlhorky']
 ---
@@ -31,11 +31,11 @@ You can think of *Rekit* as an advanced *create-react-app*:
 
 When starting a project, the first thing is to create a project folder structure and plan how to scale it when adding more features. *Rekit* can help to create such a project which scales well, following a [feature oriented architecture](https://medium.com/@nate_wang/feature-oriented-architecture-for-web-applications-2b48e358afb0):
 
-![Rekit architecture](assets/img/rekit/architecture.png)
+![Rekit architecture](img/rekit/architecture.png)
 
 After creating the project and installing dependencies, you can use the powerful Rekit tools to manage the project and generate boilerplate code. Rekit portal, a web-based tool shipped with Rekit 2.0, works as an IDE for React development. Components, actions, and routes can all be created, moved and deleted by the Rekit portal.
 
-![Rekit portal](assets/img/rekit/portal.png)
+![Rekit portal](img/rekit/portal.png)
 
 T> [You can find a live demo of Rekit portal online.](http://rekit-portal.herokuapp.com/)
 

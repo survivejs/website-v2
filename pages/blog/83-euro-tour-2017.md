@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS Euro Tour 2017'
 date: 2017-03-10
-headerImage: 'assets/img/europe.jpg'
+headerImage: 'img/europe.jpg'
 keywords: ['survivejs', 'tour']
 ---
 

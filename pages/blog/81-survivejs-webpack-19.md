@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.9'
 date: 2017-03-01
-headerImage: 'assets/img/crystal.jpg'
+headerImage: 'img/crystal.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

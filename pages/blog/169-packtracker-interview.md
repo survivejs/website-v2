@@ -1,7 +1,7 @@
 ---
 title: 'packtracker.io - Webpack bundle analysis, for every commit - Interview with Jonathan D. Johnson'
 date: 2019-02-22
-headerImage: 'assets/img/packtracker/header.png'
+headerImage: 'img/packtracker/header.png'
 keywords: ['interview', 'webpack']
 ---
 
@@ -38,11 +38,11 @@ Another primary feature is the ability to set asset budgets to help your team st
 
 No other solution provides historical tracking and out-of-the-box pull request reporting. By this I mean, you can analyze your bundle history over time, helping to quantify optimization efforts and prevent slow size creep over time.
 
-![Build status](assets/img/packtracker/pack-01.png)
+![Build status](img/packtracker/pack-01.png)
 
 We also allow you to introspect the makeup of every commit, allowing you to explore your bundle helping you to identify redundant chunk contents and large dependencies.
 
-![Bundle composition](assets/img/packtracker/pack-02.png)
+![Bundle composition](img/packtracker/pack-02.png)
 
 ## Why did you develop _packtracker.io_?
 

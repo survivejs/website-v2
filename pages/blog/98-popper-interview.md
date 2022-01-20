@@ -1,7 +1,7 @@
 ---
 title: 'Popper.js - Easy Tooltips and Popovers - Interview with Federico Zivolo'
 date: 2017-05-29
-headerImage: 'assets/img/pencils.jpg'
+headerImage: 'img/pencils.jpg'
 keywords: ['interview', 'javascript']
 ---
 

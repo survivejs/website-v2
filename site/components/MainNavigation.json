@@ -12,7 +12,7 @@
             "element": "img",
             "class": "w-8 h-fit",
             "attributes": {
-              "src": "/assets/img/logo.svg"
+              "src": "/img/logo.svg"
             }
           }],
           "attributes": {

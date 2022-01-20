@@ -1,7 +1,7 @@
 ---
 title: 'Inferno - Blazing fast, React-like UI library - Interview with Dominic Gannaway'
 date: 2016-12-12
-headerImage: 'assets/img/inferno.jpg'
+headerImage: 'img/inferno.jpg'
 keywords: ['interview', 'react']
 ---
 

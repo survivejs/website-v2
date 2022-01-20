@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.4.2'
 date: 2016-12-19
-headerImage: 'assets/img/tunnel.jpg'
+headerImage: 'img/tunnel.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

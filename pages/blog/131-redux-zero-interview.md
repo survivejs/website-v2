@@ -1,7 +1,7 @@
 ---
 title: "Redux Zero - Single Store, No Reducers - Interview with Matheus Lima"
 date: 2017-12-04
-headerImage: "assets/img/calculator.jpg"
+headerImage: "img/calculator.jpg"
 keywords: ["interview", "redux", "react"]
 ---
 
@@ -13,7 +13,7 @@ T> [See also the Kea interview](/blog/kea-interview/) for another approach and [
 
 ## Can you tell a bit about yourself?
 
-![Matheus Lima|100|100|author](assets/img/interviews/matheus.jpg)
+![Matheus Lima|100|100|author](img/interviews/matheus.jpg)
 
 I am Matheus Lima, a JavaScript lead developer at Concrete Solutions.
 

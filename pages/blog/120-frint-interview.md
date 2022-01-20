@@ -1,7 +1,7 @@
 ---
 title: "FrintJS - Build reactive applications with React and RxJS - Interview with Fahad Ibnay Heylaal"
 date: 2017-09-06
-headerImage: "assets/img/frint.png"
+headerImage: "img/frint.png"
 keywords: ["interview", "react", "rxjs"]
 ---
 
@@ -32,13 +32,13 @@ FrintJS has this concept of [Apps](https://frint.js.org/guides/apps/). Everythin
 
 There has to be a single Root App, and then there can be multiple Child Apps registering themselves to the Root one:
 
-![FrintJS apps](assets/img/frint/apps.png)
+![FrintJS apps](img/frint/apps.png)
 
 If they are meant for rendering, they can also pass options for targeting different [Regions](https://frint.js.org/guides/regions/) (areas where Apps are expected to be mounted) during registration.
 
 Code splitting is another primary thing we needed to tackle, and you can see here how different Apps can be loaded targeting different regions, which are coming from separate bundles:
 
-![FrintJS regions](assets/img/frint/regions.png)
+![FrintJS regions](img/frint/regions.png)
 
 It has a flexible dependency injection system, and rendering is entirely an optional thing. We use React, that's why we built [`frint-react`](https://frint.js.org/docs/packages/frint-react/) too in our monorepo so that we can connect our Apps with React nicely.
 
@@ -48,7 +48,7 @@ In fact, I recently released [`frint-vue`](https://github.com/frintjs/frint-vue)
 
 If you are working with components, then FrintJS encourages you to keep the logic outside of your components as much as possible, and only pass the props as a stream to it, so the component is only responsible for rendering and nothing else.
 
-![props-stream](assets/img/frint/props-stream.png)
+![props-stream](img/frint/props-stream.png)
 
 T> [You can read a blog series about RxJS and React to learn more.](https://medium.com/@fahad19/using-rxjs-with-react-js-part-i-introduction-4d027ef55aa6).
 

@@ -1,7 +1,7 @@
 ---
 title: 'PureScript - Strongly Typed Programming Language Compiling to JavaScript - Interview with Phil Freeman'
 date: 2016-08-22
-headerImage: 'assets/img/pure.jpg'
+headerImage: 'img/pure.jpg'
 keywords: ['interview']
 ---
 

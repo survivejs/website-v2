@@ -1,7 +1,7 @@
 ---
 title: "react-styleguidist - Style guide generator for React - Interview with Artem Sapegin"
 date: 2016-02-22
-headerImage: "assets/img/styleguidist.jpg"
+headerImage: "img/styleguidist.jpg"
 keywords: ["interview", "react", "styleguide", "ui"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: '"SurviveJS - Webpack 5" - Further webpack 5 updates'
 date: 2020-10-30
-headerImage: "assets/img/mandelbulb.jpg"
+headerImage: "img/mandelbulb.jpg"
 keywords: ["release-notes", "webpack"]
 ---
 

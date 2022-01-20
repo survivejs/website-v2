@@ -1,7 +1,7 @@
 ---
 title: 'redux-saga - Saga Middleware for Redux to Handle Side Effects - Interview with Yassine Elouafi'
 date: 2016-07-18
-headerImage: 'assets/img/dice.jpg'
+headerImage: 'img/dice.jpg'
 keywords: ['interview', 'react', 'redux', 'redux-saga', 'state-management']
 ---
 
@@ -12,7 +12,7 @@ T> Check out [the earlier interview about Redux](./redux-interview) if you haven
 ### Can you tell a bit about yourself?
 
 <p>
-  ![Yassine Elouafi|100|100|author](assets/img/interviews/yassine.jpg)
+  ![Yassine Elouafi|100|100|author](img/interviews/yassine.jpg)
 
   My name is Yassine Elouafi, 39 old and Dad for 2 kids. I live in Tangier (Morocco) and work on a real estate company. I have a lot of passion for coding and learning and hacking new things, exploring new ideas.
 </p>

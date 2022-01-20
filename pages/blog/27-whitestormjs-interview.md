@@ -1,7 +1,7 @@
 ---
 title: 'WhitestormJS - Three.js Based Game Engine - Interview with Alexander Buzin'
 date: 2015-12-22
-headerImage: 'assets/img/whitestorm.jpg'
+headerImage: 'img/whitestorm.jpg'
 keywords: ['interview']
 ---
 

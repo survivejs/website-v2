@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack and React - v2.0.0'
 date: 2016-02-15
-headerImage: 'assets/img/laptop.jpg'
+headerImage: 'img/laptop.jpg'
 keywords: ['release-notes', 'webpack', 'react']
 ---
 

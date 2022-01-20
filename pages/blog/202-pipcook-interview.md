@@ -1,7 +1,7 @@
 ---
 title: "Pipcook - Bridging JavaScript with Python for machine learning - Interview with Wenhe Li"
 date: 2020-09-14
-headerImage: "assets/img/server.jpg"
+headerImage: "img/server.jpg"
 keywords: ["interview", "machine-learning"]
 ---
 

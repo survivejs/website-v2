@@ -1,7 +1,7 @@
 ---
 title: 'Reindex - Instant GraphQL Backend for Your React Apps - Interview with Ville Immonen'
 date: 2016-03-07
-headerImage: 'assets/img/aurora.jpg'
+headerImage: 'img/aurora.jpg'
 keywords: ['interview', 'react', 'graphql']
 ---
 

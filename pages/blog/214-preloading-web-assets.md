@@ -1,7 +1,7 @@
 ---
 title: "Preloading Web Assets"
 date: 2020-12-08
-headerImage: "assets/img/fractal.jpg"
+headerImage: "img/fractal.jpg"
 keywords: ["performance", "techniques"]
 ---
 

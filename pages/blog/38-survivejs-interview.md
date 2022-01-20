@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Learn Webpack and React - Interview with Juho Vepsäläinen'
 date: 2016-02-29
-headerImage: 'assets/img/survivejs_cover.jpg'
+headerImage: 'img/survivejs_cover.jpg'
 keywords: ['interview', 'react']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'webpack-config-plugins - Best practices for webpack loader configurations - Interview with Jan Nicklas'
 date: 2019-01-18
-headerImage: 'assets/img/plugins.jpg'
+headerImage: 'img/plugins.jpg'
 keywords: ['interview', 'webpack']
 ---
 

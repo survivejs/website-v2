@@ -1,7 +1,7 @@
 ---
 title: "Detox - Testing React Native - Interview with Mykola Solopii"
 date: 2020-08-06
-headerImage: "assets/img/detox.jpg"
+headerImage: "img/detox.jpg"
 headerAuthor: "congerdesign"
 headerSource: https://pixabay.com/photos/water-drink-detox-detox-water-1487304/
 keywords: ["interview", "testing", "react", "react native"]
@@ -13,7 +13,7 @@ Testing mobile applications is a tough topic as you have to worry about differen
 
 ## Can you tell a bit about yourself?
 
-![Mykola Solopii|100|100|author](assets/img/mykola.jpg)
+![Mykola Solopii|100|100|author](img/mykola.jpg)
 
 I am a senior test automation engineer at [Career Karma](https://careerkarma.com/) with plenty of experience testing different types of applications.
 

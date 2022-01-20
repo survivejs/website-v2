@@ -1,7 +1,7 @@
 ---
 title: 'React.rocks - React Components and Demos - Interview with Jeff Winkler'
 date: 2016-03-14
-headerImage: 'assets/img/rocks.jpg'
+headerImage: 'img/rocks.jpg'
 keywords: ['interview', 'react']
 ---
 
@@ -10,7 +10,7 @@ Given there's a lot going on in the React ecosystem, it can be difficult to keep
 ## Can you tell a bit about yourself?
 
 <p>
-  ![Jeff Winkler|100|100|author](assets/img/interviews/jeff.jpg)
+  ![Jeff Winkler|100|100|author](img/interviews/jeff.jpg)
 
   I am a full stack developer and I have been writing code for over 20 years. From museum kiosks to big enterprise software. I've been using React for a couple years. I'm a tool/feedback loop junkie. I've been lucky enough to work on a couple green-field ReactJS projects.
 </p>

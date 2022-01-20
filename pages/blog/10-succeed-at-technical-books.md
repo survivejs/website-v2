@@ -1,7 +1,7 @@
 ---
 title: 'How to Succeed at Technical Books?'
 date: 2015-09-04
-headerImage: 'assets/img/writing.jpg'
+headerImage: 'img/writing.jpg'
 keywords: ['publishing']
 ---
 

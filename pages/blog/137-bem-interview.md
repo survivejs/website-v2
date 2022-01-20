@@ -1,7 +1,7 @@
 ---
 title: "BEM - Methodology to enable reuse in front-end development - Interview with Sergey Berezhnoy"
 date: 2018-01-12
-headerImage: "assets/img/bem.png"
+headerImage: "img/bem.png"
 keywords: ["interview", "architecture", "react"]
 ---
 

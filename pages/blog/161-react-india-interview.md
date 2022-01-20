@@ -1,7 +1,7 @@
 ---
 title: 'React India 2019 - The international React.js conference in Goa, India - Interview with Manjula Dube'
 date: 2018-11-11
-headerImage: 'assets/img/react-india-header.jpg'
+headerImage: 'img/react-india-header.jpg'
 keywords: [conference', 'react', 'interview']
 ---
 
@@ -9,7 +9,7 @@ It is exciting to organize a conference, especially when it's the first of its k
 
 ## Can you tell a bit about yourself?
 
-![Manjula Dube|100|100|author](assets/img/interviews/manjula.jpg)
+![Manjula Dube|100|100|author](img/interviews/manjula.jpg)
 
 I am a software engineer based out of Berlin. I also teach React/Javascript at Code University and Le Wagon. I love to code like I love Indian food.
 

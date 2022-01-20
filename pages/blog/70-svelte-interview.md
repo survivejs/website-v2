@@ -1,7 +1,7 @@
 ---
 title: 'Svelte - The magical disappearing UI framework - Interview with Rich Harris'
 date: 2016-12-07
-headerImage: 'assets/img/svelte.jpg'
+headerImage: 'img/svelte.jpg'
 keywords: ['interview']
 ---
 

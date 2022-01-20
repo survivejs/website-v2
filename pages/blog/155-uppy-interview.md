@@ -1,7 +1,7 @@
 ---
 title: "Uppy - Painless Uploads for JavaScript - Interview with Artur Paikin"
 date: 2018-07-17
-headerImage: "assets/img/upload.jpg"
+headerImage: "img/upload.jpg"
 keywords: ["interview", "javascript"]
 ---
 
@@ -34,7 +34,7 @@ For large files, resumability is also essential: like [surviving wifi hiccups](h
 
 All those things can significantly improve the user experience when uploading is a central aspect of your web/app. And Uppy can be deployed with nothing but a JS tag, using an existing `<form>` for fallback, and your Apache/Nginx server.
 
-![Uploading files](assets/img/uppy/upload.png)
+![Uploading files](img/uppy/upload.png)
 
 ## How does _Uppy_ work?
 
@@ -122,7 +122,7 @@ How Uppy is different:
 - Uppy supports React (or any other framework) and time traveling but does not require it. There are community offered Vue.js and Angular bindings, and we’re aiming to make those first-class citizens too.
 - You can supply your plugins for encryption, modification, meta editing, etc.
 
-![Dropping files](assets/img/uppy/drop-files.png)
+![Dropping files](img/uppy/drop-files.png)
 
 ## Why did you develop _Uppy_?
 

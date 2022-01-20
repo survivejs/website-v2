@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.0.0'
 date: 2016-04-02
-headerImage: 'assets/img/spring.jpg'
+headerImage: 'img/spring.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

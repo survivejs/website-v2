@@ -1,7 +1,7 @@
 ---
 title: 'unmarshaller - Toolbox for configuration - Interview with Sven Sauleau'
 date: 2017-06-05
-headerImage: 'assets/img/station.jpg'
+headerImage: 'img/station.jpg'
 keywords: ['interview']
 ---
 

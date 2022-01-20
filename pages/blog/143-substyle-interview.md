@@ -1,7 +1,7 @@
 ---
 title: "substyle - Build Styling Agnostic Components for React - Interview with Jan-Felix Schwarz"
 date: 2018-02-08
-headerImage: "assets/img/headers/taxi.jpg"
+headerImage: "img/headers/taxi.jpg"
 keywords: ["interview", "react", "styling", "cssinjs"]
 ---
 

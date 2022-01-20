@@ -1,7 +1,7 @@
 ---
 title: 'Parket - A state management library inspired by mobx-state-tree - Interview with Leah Ullmann'
 date: 2018-02-16
-headerImage: 'assets/img/parket.jpg'
+headerImage: 'img/parket.jpg'
 keywords: ['interview', 'state-management']
 ---
 

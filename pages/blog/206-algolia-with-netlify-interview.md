@@ -1,7 +1,7 @@
 ---
 title: "Algolia with Netlify - Easy search for static sites - Interview with Samuel Bodin"
 date: 2020-10-19
-headerImage: "assets/img/jamstack.jpg"
+headerImage: "img/jamstack.jpg"
 keywords: ["interview", "static-site-generation"]
 ---
 
@@ -61,7 +61,7 @@ Netlify has a great environment, and it was a tremendous challenge to integrate 
 
 Besides, our goals are very similar, and it feels like the ecosystem will work great together.
 
-![Algolia installed on Netlify](assets/img/algolia-installed.jpg)
+![Algolia installed on Netlify](img/algolia-installed.jpg)
 
 ## What next?
 

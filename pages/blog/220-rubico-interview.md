@@ -1,7 +1,7 @@
 ---
 title: "Rubico - [a]synchronous functional programming - Interview with Richard Tong"
 date: 2021-03-10
-headerImage: "assets/img/cube.jpg"
+headerImage: "img/cube.jpg"
 headerAuthor: "congerdesign"
 headerSource: "https://pixabay.com/photos/magic-cube-patience-tricky-hobby-1976725/"
 keywords: ["interview", "javascript"]

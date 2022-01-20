@@ -1,7 +1,7 @@
 ---
 title: "VPNpro - How do VPNs work - Interview with Olivia Scott"
 date: 2020-01-28
-headerImage: "assets/img/network.jpg"
+headerImage: "img/network.jpg"
 headerAuthor: "851878"
 headerSource: "https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/"
 keywords: ["interview"]

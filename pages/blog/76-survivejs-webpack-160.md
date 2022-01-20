@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.6.0'
 date: 2017-01-19
-headerImage: 'assets/img/kermit.jpg'
+headerImage: 'img/kermit.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

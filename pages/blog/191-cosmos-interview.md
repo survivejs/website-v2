@@ -1,7 +1,7 @@
 ---
 title: "React Cosmos - A development environment for ambitious developers - Interview with Ovidiu Cherecheş"
 date: 2020-02-13
-headerImage: "assets/img/cosmos.jpg"
+headerImage: "img/cosmos.jpg"
 keywords: ["interview", "react", "styleguide", "ui"]
 ---
 
@@ -19,7 +19,7 @@ I'm Ovidiu, a web developer from Romania passionate about building user interfac
 
 React Cosmos is a dev environment for building scalable, high-quality user interfaces. It enables you to develop React components in isolation and create UI component libraries.
 
-![React Cosmos](assets/img/cosmos-01.png)
+![React Cosmos](img/cosmos-01.png)
 
 ## How does _React Cosmos_ work?
 
@@ -41,7 +41,7 @@ export default {
 
 React Cosmos needs to understand your source code to work, and it hooks into your build pipeline to do so. Technically this means that you can use React Cosmos regardless of how you write your code, be it ES20XX, TypeScript, Flow, etc. But it also means that sometimes you need to push a few options into a config or two to make the integration work.
 
-![Example views](assets/img/cosmos-02.png)
+![Example views](img/cosmos-02.png)
 
 ## How does _React Cosmos_ differ from other solutions?
 

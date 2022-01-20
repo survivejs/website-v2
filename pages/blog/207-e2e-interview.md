@@ -1,7 +1,7 @@
 ---
 title: "End-to-end testing - Interview with Erik Fogg"
 date: 2020-10-29
-headerImage: "assets/img/screwdrivers.jpg"
+headerImage: "img/screwdrivers.jpg"
 keywords: ["interview", "testing"]
 ---
 
@@ -11,7 +11,7 @@ To understand end-to-end testing better, I am interviewing Erik Fogg from [ProdP
 
 ## Can you tell a bit about yourself?
 
-![Erik Fogg|100|100|author](assets/img/erik.jpg)
+![Erik Fogg|100|100|author](img/erik.jpg)
 
 I'm Erik Fogg, the Chief Operating Officer at ProdPerfect. My background is actually in process improvement and operations efficiency, which seems odd for a tech company. But I'm surrounded by lots of great engineers who are much smarter than myself, and a big part of my job is making sure that our customers can embed us into their processes in a way that makes developing software far more efficient.
 

@@ -1,7 +1,7 @@
 ---
 title: "Redux Form - The best way to manage your form state in Redux - Interview with Erik Rasmussen"
 date: 2017-12-11
-headerImage: "assets/img/crystal.jpg"
+headerImage: "img/crystal.jpg"
 keywords: ["forms", "interview", "react", "redux"]
 ---
 

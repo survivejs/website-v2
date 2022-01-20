@@ -1,7 +1,7 @@
 ---
 title: "Squareboat - Growing an IT Business - Interview with Gaurav Gupta"
 date: 2019-12-16
-headerImage: "assets/img/boat.jpg"
+headerImage: "img/boat.jpg"
 headerAuthor: "851878"
 headerSource: "https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/"
 keywords: ["interview"]
@@ -13,7 +13,7 @@ To learn more about the topic, I am interviewing [Gaurav Gupta](https://twitter.
 
 ## Can you tell a bit about yourself?
 
-![Gaurav Gupta|100|100|author](assets/img/interviews/gaurav-gupta.jpg)
+![Gaurav Gupta|100|100|author](img/interviews/gaurav-gupta.jpg)
 
 I am a tech entrepreneur who wants to use technology to make the world a better place. After spending a big part of my life in the industry, I feel that an understanding and control of technology is the ultimate super-power that anyone can have.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Proppy - Functional props composition for components - Interview with Fahad Ibnay Heylaal'
 date: 2018-06-22
-headerImage: 'assets/img/proppy.png'
+headerImage: 'img/proppy.png'
 keywords: ['interview']
 ---
 
@@ -32,7 +32,7 @@ It comes with additional integration packages for connecting it to other renderi
 
 The goal of this project is to lift the state of your UI components one level up and keep your components layer always stateless. Data can come from various sources (like Redux, RxJS, REST API, etc.) and can be composed together, and that composition can later be connected to your stateless component.
 
-![Proppy flow|951](assets/img/proppy-flow.gif)
+![Proppy flow|951](img/proppy-flow.gif)
 
 All the logic and behavior of your component can be expressed as props using the core [`proppy`](https://proppyjs.com/docs/packages/proppy/) package. Afterward, that composition can be connected to your rendering library of choice using the higher-order components that Proppy's integration packages provide.
 

@@ -1,7 +1,7 @@
 ---
 title: "Kea - High level abstraction between React and Redux - Interview with Marius Andra"
 date: 2017-09-18
-headerImage: "assets/img/kea.jpg"
+headerImage: "img/kea.jpg"
 keywords:
   ["interview", "react", "redux", "state-management"]
 ---

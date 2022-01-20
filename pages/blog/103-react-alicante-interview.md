@@ -1,7 +1,7 @@
 ---
 title: 'React Alicante - The international React.js conference in Spain - Interview with Victoria Quirante'
 date: 2017-06-23
-headerImage: 'assets/img/alicante.jpg'
+headerImage: 'img/alicante.jpg'
 keywords: ['interview', 'react', 'conference']
 ---
 

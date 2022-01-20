@@ -3,6 +3,8 @@ import { parse } from "https://deno.land/x/frontmatter/mod.ts";
 import cloneDeep from "https://deno.land/x/lodash@4.17.15-es/cloneDeep.js";
 import trimStart from "https://deno.land/x/lodash@4.17.15-es/trimStart.js";
 import removeMarkdown from "https://esm.sh/remove-markdown@0.3.0";
+import config from "../../.config.json" assert { type: "json" };
+import images from "../../.images.json" assert { type: "json" };
 
 type MarkdownWithFrontmatter = {
   content: string;
@@ -28,7 +30,11 @@ async function indexMarkdown(directory: string) {
         (d) => {
           const p = parse(d) as {
             content: string;
-            data: Record<string, unknown>;
+            data: Record<string, unknown> & {
+              description?: string;
+              preview?: string;
+              headerImage?: string;
+            };
           };
           const preview = generatePreview(p.content, 150);
 
@@ -37,7 +43,7 @@ async function indexMarkdown(directory: string) {
             data: {
               ...p.data,
               description: p.data?.description || p.data?.preview || preview,
-              headerImage: p.data?.headerImage ? "/" + p.data?.headerImage : "",
+              headerImage: resolveHeaderImage(p.data?.headerImage),
               slug: cleanSlug(path),
               preview,
             },
@@ -48,6 +54,21 @@ async function indexMarkdown(directory: string) {
   );
 
   return generateAdjacent(ret);
+}
+
+function resolveHeaderImage(headerImage?: string) {
+  if (!headerImage) {
+    return "";
+  }
+
+  // @ts-expect-error Error is expected as headerImage isn't strict enough and
+  // we validate it in runtime.
+  const image = images[headerImage];
+  if (!image) {
+    throw new Error("Failed to find a matching image for " + headerImage);
+  }
+
+  return config.imagesEndpoint + image + "/public";
 }
 
 function getIndex(str: string) {

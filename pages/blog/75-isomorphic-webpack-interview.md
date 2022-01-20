@@ -1,7 +1,7 @@
 ---
 title: 'isomorphic-webpack - Universal module consumption using webpack - Interview with Gajus Kuizinas'
 date: 2017-01-10
-headerImage: 'assets/img/shell.jpg'
+headerImage: 'img/shell.jpg'
 keywords: ['interview', 'webpack']
 ---
 

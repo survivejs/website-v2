@@ -1,7 +1,7 @@
 ---
 title: '"SurviveJS - Webpack" book updated to webpack 5'
 date: 2020-08-28
-headerImage: "assets/img/strange.jpg"
+headerImage: "img/strange.jpg"
 keywords: ["release-notes", "webpack"]
 ---
 

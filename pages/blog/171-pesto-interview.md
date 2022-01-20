@@ -1,7 +1,7 @@
 ---
 title: 'Pesto - A career accelerator for India’s top software engineering talent - Interview with Andrew Linfoot'
 date: 2019-03-08
-headerImage: 'assets/img/pesto.jpg'
+headerImage: 'img/pesto.jpg'
 keywords: ['interview']
 ---
 

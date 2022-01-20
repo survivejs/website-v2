@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.2.0'
 date: 2016-05-11
-headerImage: 'assets/img/bell.jpg'
+headerImage: 'img/bell.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

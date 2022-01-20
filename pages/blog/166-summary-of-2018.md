@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Summary of 2018'
 date: 2019-01-03
-headerImage: 'assets/img/concat-2018/afterparty.jpg'
+headerImage: 'img/concat-2018/afterparty.jpg'
 keywords: ['survivejs']
 ---
 

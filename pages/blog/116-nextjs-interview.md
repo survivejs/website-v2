@@ -1,7 +1,7 @@
 ---
 title: "Next.js - Framework for server-rendered React apps - Interview with Arunoda Susiripala"
 date: 2017-08-15
-headerImage: "assets/img/next.jpg"
+headerImage: "img/next.jpg"
 keywords: ["interview", "react", "webpack"]
 editors: ["bebraw", "karlhorky"]
 ---

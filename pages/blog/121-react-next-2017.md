@@ -1,7 +1,7 @@
 ---
 title: "Experiences on React Next 2017"
 date: 2017-09-15
-headerImage: "assets/img/react-next/event.jpg"
+headerImage: "img/react-next/event.jpg"
 keywords: ["conference", "react", "webpack"]
 ---
 
@@ -19,31 +19,31 @@ To be honest, I would look into alternatives like [Gatsby](https://www.gatsbyjs.
 
 ## Tour of Israel
 
-![Jerusalem](assets/img/react-next/jerusalem.jpg)
+![Jerusalem](img/react-next/jerusalem.jpg)
 
 All the speakers were invited to a [two-day tour of Israel](http://react-next.com/tour/). We spent time in the old city of Jerusalem first. After that, we headed to a "bedouin camp" where we rode camels and slept through the night.
 
 T> Unless you prefer excitement, **don't** ride the first camel.
 
-![Sunrise at the desert](assets/img/react-next/sunrise.jpg)
+![Sunrise at the desert](img/react-next/sunrise.jpg)
 
 Especially the sunset and sunrise were magical. I happened to wake up early enough to enjoy a short morning run. That was truly a unique experience and one of the highlights of the entire trip for me. Sometimes you find the best things outside of the official program.
 
-![Masada](assets/img/react-next/masada1.jpg)
+![Masada](img/react-next/masada1.jpg)
 
 We spent the second day of the tour exploring the fortress at Masada. Once you get there, you realize whey they built one there roughly two thousand years ago. The visit was again one of those memorable experiences that will remain with me.
 
-![Masada](assets/img/react-next/masada2.jpg)
+![Masada](img/react-next/masada2.jpg)
 
 After visiting the fortress, we headed to the Dead Sea. It was nice to see but to be honest, it wasn't my favorite place. That said, now I can say I've gone there and done that.
 
-![Tel Aviv art museum](assets/img/react-next/telaviv.jpg)
+![Tel Aviv art museum](img/react-next/telaviv.jpg)
 
 I did touring of my own after the main event. Especially the art museum is a treat if you like modern architecture combined with nice exhibitions ranging from modern art to classics.
 
 ## The Event
 
-![React Next 2017](assets/img/react-next/event.jpg)
+![React Next 2017](img/react-next/event.jpg)
 
 [The event itself](http://react-next.com/schedule/) was professionally organized. There were roughly 700 people this year, and the atmosphere was amazing. The two tracks were filled with speakers from all around the world with primarily React related topics. Overall the quality of the talks was high although I skipped most.
 

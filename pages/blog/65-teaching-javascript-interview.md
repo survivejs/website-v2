@@ -1,7 +1,7 @@
 ---
 title: 'Teaching JavaScript - Interview with Bianca Gandolfo'
 date: 2016-10-03
-headerImage: 'assets/img/teaching.jpg'
+headerImage: 'img/teaching.jpg'
 keywords: ['interview', 'javascript']
 ---
 

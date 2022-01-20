@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack and React - v1.9.5'
 date: 2015-11-03
-headerImage: 'assets/img/types.jpg'
+headerImage: 'img/types.jpg'
 keywords: ['release-notes', 'webpack', 'react']
 ---
 

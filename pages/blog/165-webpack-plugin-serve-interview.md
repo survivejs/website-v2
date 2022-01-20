@@ -1,7 +1,7 @@
 ---
 title: 'webpack-plugin-serve - A Development Server in a webpack Plugin - Interview with Andrew Powell'
 date: 2018-12-13
-headerImage: 'assets/img/wps.jpg'
+headerImage: 'img/wps.jpg'
 keywords: ['interview', 'bundling', 'webpack']
 ---
 
@@ -46,7 +46,7 @@ I'd wager the conversation would go something like this;
 
 **Sean Connery**:
 
-![](assets/img/seanc.jpg)
+![](img/seanc.jpg)
 
 **Me**: Right?
 

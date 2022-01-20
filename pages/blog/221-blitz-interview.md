@@ -1,7 +1,7 @@
 ---
 title: "Blitz.js - The Full-stack React Framework - Interview with Brandon Bayer"
 date: 2021-04-12
-headerImage: "assets/img/fractal.jpg"
+headerImage: "img/fractal.jpg"
 keywords: ["interview", "react"]
 ---
 
@@ -27,7 +27,7 @@ T> To learn about Next.js, [read the interview with Arunoda Susirapala](/blog/ne
 
 Fundamentally it works the same as Next.js. However, Blitz adds a novel new "zero-API" data layer, which abstracts the API layer into a compile step. As a developer, you don't need to mess with REST or GraphQL APIs. Blitz lets you write functions that run on the server, import them into your React components, and they will work like magic.
 
-![Server and client](assets/img/blitz.jpg)
+![Server and client](img/blitz.jpg)
 
 ## How does _Blitz.js_ differ from other solutions?
 

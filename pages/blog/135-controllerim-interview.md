@@ -1,7 +1,7 @@
 ---
 title: "controllerim - MobX Inspired State Management for React - Interview with Nir Yosef"
 date: 2017-12-27
-headerImage: "assets/img/controller.jpg"
+headerImage: "img/controller.jpg"
 keywords: ["interview", "react", "state-management"]
 ---
 

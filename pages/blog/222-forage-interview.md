@@ -1,7 +1,7 @@
 ---
 title: "Forage Analytics - Analytics for React Native - Interview with Steven Malone"
 date: 2021-05-31
-headerImage: "assets/img/telescope.jpg"
+headerImage: "img/telescope.jpg"
 keywords:
   ["interview", "analytics", "react", "react native"]
 ---
@@ -12,7 +12,7 @@ To learn more about it, I am interviewing Steven Malone about [Forage Analytics]
 
 ## Can you tell a bit about yourself?
 
-![Steven Malone|100|100|author](assets/img/steven.jpg)
+![Steven Malone|100|100|author](img/steven.jpg)
 
 I am the Marketing Coordinator for Yozu & Forage Analytics. My background includes Computer Science & Digital Marketing. For the last three years, I have led all marketing activities within Yozu. It's the company that built Forage Analytics.
 
@@ -22,7 +22,7 @@ These activities range from paid advertising, SEO, content, social media, and in
 
 Forage is a mobile analytics product built from the ground up for React Native. We give development teams powerful insight into all mobile app user interactions. Forage captures and stores data without limits and delivers responsive analysis, removing the constraints faced with other tools.
 
-![Forage sessions](assets/img/forage_01.png)
+![Forage sessions](img/forage_01.png)
 
 ## How does _Forage Analytics_ work?
 
@@ -30,13 +30,13 @@ Forage provides an SDK distributed through npm as this allows you to integrate t
 
 When the user minimizes your application, Forage SDK bundles all the collected information you have requested and sends it to our scalable AWS backend for instant access to your data on app.forage-analytics.com.
 
-![Forage dashboard](assets/img/forage_02.png)
+![Forage dashboard](img/forage_02.png)
 
 ## How does _Forage Analytics_ differ from other solutions?
 
 Forage is the first purpose-built product made specifically for React Native. As a software company, our dev teams were constantly faced with project delays due to the limitations of other mobile analytics tools we used. With Forage, we now capture and store unlimited data without being obstructed by daily limitations to what we can process.
 
-![Forage graphs](assets/img/forage_03.png)
+![Forage graphs](img/forage_03.png)
 
 ## Why did you develop _Forage Analytics_?
 

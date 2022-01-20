@@ -1,7 +1,7 @@
 ---
 title: "DSS - Deterministic Style Sheets - Interview with Giuseppe Gurgone"
 date: 2018-09-05
-headerImage: "assets/img/dss.png"
+headerImage: "img/dss.png"
 keywords: ["interview", "styling", "cssinjs"]
 ---
 
@@ -11,7 +11,7 @@ To learn more about one, this time we'll learn about [DSS](https://dss-lang.com/
 
 ## Can you tell a bit about yourself?
 
-![Giuseppe Gurgone|100|100|author](assets/img/interviews/giuseppe.jpg)
+![Giuseppe Gurgone|100|100|author](img/interviews/giuseppe.jpg)
 
 My name is Giuseppe, and I am a front-end engineer from Sicily, Italy. In the past I worked for Yelp on their frontend core team, I am a core team member of SUIT CSS and co-author of a CSS-in-JS library called styled-jsx. If it wasn't clear, I like to build front-end infrastructure and CSS libraries. 😅
 

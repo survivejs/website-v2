@@ -1,7 +1,7 @@
 ---
 title: 'Webpack in Munich, May 2018'
 date: 2018-03-17
-headerImage: 'assets/img/berlin.jpg'
+headerImage: 'img/berlin.jpg'
 keywords: ['webpack', 'javascript', 'survivejs']
 ---
 

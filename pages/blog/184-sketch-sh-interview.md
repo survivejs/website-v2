@@ -1,7 +1,7 @@
 ---
 title: "Sketch.sh - Interactive ReasonML sketchbook - Interview with Nguyen Dang Khoa"
 date: 2019-07-16
-headerImage: "assets/img/sketchbook.jpg"
+headerImage: "img/sketchbook.jpg"
 keywords: ["interview", "reasonml"]
 ---
 
@@ -23,7 +23,7 @@ You can think of _Sketch.sh_ as a notebook with an integrated code editor. You c
 
 OCaml has its own virtual machine called `ocamlrun` for executing the bytecode produced by `ocamlc`. Here is an overview of OCaml's compilation targets:
 
-![OCaml compilation targets](assets/img/sketch.png)
+![OCaml compilation targets](img/sketch.png)
 
 [js_of_ocaml](https://github.com/ocsigen/js_of_ocaml/) is an OCaml-to-JavaScript compiler. _Sketch.sh_ works by using `js_of_ocaml` to compile `ocamlc` and `ocamlrun` to JavaScript and then executes user's input code by calling these tools.
 

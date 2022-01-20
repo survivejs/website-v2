@@ -1,7 +1,7 @@
 ---
 title: 'Functional Programming - Interview with Arfat Salman'
 date: 2019-04-05
-headerImage: 'assets/img/function.jpg'
+headerImage: 'img/function.jpg'
 keywords: ['interview', 'functional-programming']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Codecrumbs - Document a Codebase by Breadcrumbs - Interview with Bohdan Liashenko'
 date: 2019-03-01
-headerImage: 'assets/img/codecrumbs.png'
+headerImage: 'img/codecrumbs.png'
 keywords: ['interview', 'maintenance']
 ---
 
@@ -41,7 +41,7 @@ Codecrumbs offers many features when it comes to learning a codebase:
 
 On top of that, there is multi-language support (JavaScript, TypeScript, Python, Java, etc.) and the ability to share your findings with others by handy export and import feature.
 
-![User interface of Codecrumbs](assets/img/codecrumbs.png)
+![User interface of Codecrumbs](img/codecrumbs.png)
 
 ## How does _Codecrumbs_ work?
 

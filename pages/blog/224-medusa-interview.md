@@ -1,7 +1,7 @@
 ---
 title: "Medusa - Own your ecommerce stack - Interview with Sebastian Rindom"
 date: 2021-12-14
-headerImage: "assets/img/medusa.jpg"
+headerImage: "img/medusa.jpg"
 keywords: ["interview", "ecommerce"]
 ---
 

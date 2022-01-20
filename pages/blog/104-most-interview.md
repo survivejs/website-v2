@@ -1,7 +1,7 @@
 ---
 title: 'Most.js - Monadic streams for reactive programming - Interview with Brian Cavalier'
 date: 2017-06-26
-headerImage: 'assets/img/cradle.jpg'
+headerImage: 'img/cradle.jpg'
 keywords: ['interview', 'functional programming']
 ---
 
@@ -12,7 +12,7 @@ To learn more about the topic, I'm interviewing [Brian Cavalier](https://twitter
 ## Can you tell a bit about yourself?
 
 <p>
-  ![Brian Cavalier|100|100|author](assets/img/interviews/brian.jpg)
+  ![Brian Cavalier|100|100|author](img/interviews/brian.jpg)
 
 I'm a software engineer at Yelp in Pittsburgh, PA, where I work on Node-based web services and distributed systems. I had done all kinds of stuff before I started writing JavaScript: Basic, Assembly, C, C++, Ruby, ML, and way more Java than I want to admit. Recently, I've done a decent amount of Haskell, and have been actively digging into Purescript, Rust, and Idris. I love learning about how to solve problems in different ways.
 </p>

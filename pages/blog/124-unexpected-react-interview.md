@@ -1,7 +1,7 @@
 ---
 title: 'unexpected-react - Test Full Virtual DOM - Interview with Dave Brotherstone'
 date: 2017-09-29
-headerImage: 'assets/img/unexpected.jpg'
+headerImage: 'img/unexpected.jpg'
 keywords: ['interview', 'react', 'testing']
 ---
 

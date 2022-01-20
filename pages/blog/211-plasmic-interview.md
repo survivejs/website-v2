@@ -1,7 +1,7 @@
 ---
 title: "Plasmic - The fast and fun visual builder for React - Interview with Yang Zhang"
 date: 2020-11-16
-headerImage: "assets/img/plasma.jpg"
+headerImage: "img/plasma.jpg"
 headerAuthor: "TheDigitalArtist"
 headerSource: "https://pixabay.com/illustrations/banner-header-electric-energy-1557847/"
 keywords: ["interview", "react", "ui", "styleguide"]
@@ -13,7 +13,7 @@ It's this question that we'll explore in this interview of [Yang Zhang](https://
 
 ## Can you tell a bit about yourself?
 
-![Yang Zhang|100|100|author](assets/img/yang.jpg)
+![Yang Zhang|100|100|author](img/yang.jpg)
 
 I'm a software engineer currently working full-time on [Plasmic](https://www.plasmic.app/), which is a dream job for me - getting to build novel visual tools for users like myself. It's funny that I'm now deep in the front-end space because I came from a very backend-focused past life.
 
@@ -33,7 +33,7 @@ Plasmic is starting as a pretty technical tool since we've been focused on letti
 
 What you build in Plasmic can be consumed flexibly. You can generate actual React code into your codebase, or you can consume it like CMS content over an API - and more. The central point of Plasmic is about integrating into your arbitrary real-world codebase.
 
-![Plasmic User Interface](assets/img/plasmic-01.png)
+![Plasmic User Interface](img/plasmic-01.png)
 
 ## How does _Plasmic_ work?
 
@@ -84,7 +84,7 @@ There's also a new feature within Plasmic called [Plume](https://www.plasmic.app
 
 You can trivially create a bespoke design system this way. Everything is powered by the excellent [react-aria and react-stately libraries from Adobe](https://github.com/adobe/react-spectrum). They go very deep on accessibility and take it further than most libraries I've seen.
 
-![Many different ways to design a slider, one of the component types Plume supports](assets/img/plasmic-02.png)
+![Many different ways to design a slider, one of the component types Plume supports](img/plasmic-02.png)
 
 ## How does _Plasmic_ differ from other solutions?
 

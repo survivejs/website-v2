@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.5.0'
 date: 2017-01-03
-headerImage: 'assets/img/sea.jpg'
+headerImage: 'img/sea.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack and React - v1.7'
 date: 2015-08-16
-headerImage: 'assets/img/pineapple.jpg'
+headerImage: 'img/pineapple.jpg'
 keywords: ['release-notes', 'webpack', 'react']
 ---
 

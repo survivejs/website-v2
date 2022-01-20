@@ -1,7 +1,7 @@
 ---
 title: "NoCode programming - Doing more with less code - Interview with Alex Moldovan"
 date: 2020-09-07
-headerImage: "assets/img/no-pressure.jpg"
+headerImage: "img/no-pressure.jpg"
 keywords: ["interview"]
 ---
 
@@ -11,7 +11,7 @@ NoCode programming is an emerging topic. To learn more about it, I am interviewi
 
 ## Can you tell a bit about yourself?
 
-![Alex Moldovan|100|100|author](assets/img/alexm.jpg)
+![Alex Moldovan|100|100|author](img/alexm.jpg)
 
 My name is Alex, and I'm a software engineer based in Cluj, Romania. I work at a startup called [teleportHQ](https://teleporthq.io/), and I'm one of the founders of [JSHeroes](https://jsheroes.io/), one of the biggest JS communities in Europe.
 
@@ -43,7 +43,7 @@ I've been with the team for the past two years. During this time, I have worked 
 
 One thing which made me interested in the company was the desire to open-source the code generators and the [OpenUIDL](https://dl.acm.org/doi/10.1145/3397874) (our format for representing UIs in a JSON structure).
 
-![Creating in teleportHQ](assets/img/nocode-01.jpg)
+![Creating in teleportHQ](img/nocode-01.jpg)
 
 ## What is _teleportHQ_?
 
@@ -51,7 +51,7 @@ We are building a NoCode/LowCode platform (we call it the **playground**) for pr
 
 Our "secret" sauce is a set of [open source **code generators**](https://github.com/teleporthq/teleport-code-generators) with which you can export your work from our platform at any time and continue on your own in any of the most popular frontend frameworks today (e.g., React, Vue, Angular, etc.).
 
-![Theming in teleportHQ](assets/img/nocode-02.jpg)
+![Theming in teleportHQ](img/nocode-02.jpg)
 
 ## How does _teleportHQ_ differ from other solutions?
 
@@ -59,7 +59,7 @@ There are plenty of tools and solutions for building static-_ish_ websites, so w
 
 Our long term vision is to bend technology towards humans, and we all strive to create a platform that makes it hard or impossible for content creators to offer bad experiences to their end-users. We want to bake in all the knowledge that the dev community has so that future users can rely on a solid bedrock when building applications, without even knowing it.
 
-![Editing in teleportHQ](assets/img/nocode-03.jpg)
+![Editing in teleportHQ](img/nocode-03.jpg)
 
 ## What next?
 

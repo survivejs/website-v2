@@ -1,7 +1,7 @@
 ---
 title: 'ShaderFrog - Building a WebGL Shader Editor and Composer - Interview with Andrew Ray'
 date: 2015-09-28
-headerImage: 'assets/img/frog.jpg'
+headerImage: 'img/frog.jpg'
 keywords: ['interview', 'react']
 ---
 

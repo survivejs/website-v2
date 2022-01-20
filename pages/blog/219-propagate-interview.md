@@ -1,7 +1,7 @@
 ---
 title: "PropagateAt - Talk to your greatest fans via text - Interview with Kumar Abhirup"
 date: 2021-02-12
-headerImage: "assets/img/telescope.jpg"
+headerImage: "img/telescope.jpg"
 keywords: ["interview"]
 ---
 

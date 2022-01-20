@@ -1,7 +1,7 @@
 ---
 title: "Webix - Declarative UI Framework for Rapid Development - Interview with Maksim Kozhukh"
 date: 2020-02-07
-headerImage: "assets/img/web.jpg"
+headerImage: "img/web.jpg"
 headerAuthor: "jplenio"
 headerSource: "https://pixabay.com/photos/cobweb-drip-water-mirroring-blue-3725540/"
 keywords: ["interview"]
@@ -13,7 +13,7 @@ I'm interviewing Maksim Kozhukh from [Webix](https://webix.com/) to learn more a
 
 ## Can you tell a bit about yourself?
 
-![Maksim Kozhukh|100|100|author](assets/img/interviews/maksim.jpg)
+![Maksim Kozhukh|100|100|author](img/interviews/maksim.jpg)
 
 I am Maksim Kozhukh, the head of Webix and a software architect with 20+ years of experience and extensive expertise in web technologies. I started my career in Netscape age and came through all web industry trends, disasters, and inventions. Webix is one of the many projects I am managing right now.
 
@@ -41,7 +41,7 @@ To give you an example, consider that you need a tree view with the following fe
 
 It should look something like this:
 
-![Tree UI mockup](assets/img/webix.png)
+![Tree UI mockup](img/webix.png)
 
 It would likely take at least a couple of hours of work if developed from scratch, not to mention design required.
 

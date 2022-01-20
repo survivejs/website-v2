@@ -1,7 +1,7 @@
 ---
 title: "Tomo - Like CRA but more flexible - Interview with Jason Wohlgemuth"
 date: 2019-09-04
-headerImage: "assets/img/kermit.jpg"
+headerImage: "img/kermit.jpg"
 keywords: ["interview"]
 ---
 

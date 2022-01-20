@@ -1,7 +1,7 @@
 ---
 title: "Midway - A Node.js framework for Serverless - Interview with Harry Chen"
 date: 2020-08-24
-headerImage: "assets/img/server.jpg"
+headerImage: "img/server.jpg"
 headerAuthor: "jarmoluk"
 headerSource: https://pixabay.com/photos/cyberspace-data-wire-electronic-2784907/
 keywords: ["interview", "nodejs", "serverless"]

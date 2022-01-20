@@ -1,7 +1,7 @@
 ---
 title: 'async-reactor - Render Async Stateless Functional Components in React - Interview with Sven Sauleau'
 date: 2017-05-15
-headerImage: 'assets/img/reactor.jpg'
+headerImage: 'img/reactor.jpg'
 keywords: ['interview', 'react']
 ---
 

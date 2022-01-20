@@ -1,7 +1,7 @@
 ---
 title: 'Webpack UI - Configure webpack with a UI - Interview with Even Stensberg'
 date: 2019-05-31
-headerImage: 'assets/img/wpui/newproject.jpg'
+headerImage: 'img/wpui/newproject.jpg'
 keywords: ['interview', 'webpack']
 ---
 
@@ -11,7 +11,7 @@ To overcome this issue, [Even Stensberg](https://twitter.com/evenstensberg) and 
 
 ## Can you tell a bit about yourself?
 
-![Even Stensberg|100|100|author](assets/img/interviews/even.jpg)
+![Even Stensberg|100|100|author](img/interviews/even.jpg)
 
 Growing up playing World of Warcraft, I initially wanted to make games that I created myself. I was fortunate as a kid, and I'm thankful for growing up in Norway for that. I got a Packard Bell Computer early on, around the age of six, but the internet we had was too slow to do anything meaningful except gaming on high latency.
 
@@ -33,7 +33,7 @@ Since then, I've been actively maintaining webpack-cli, and we're releasing the 
 
 ## How would you describe _Webpack UI_ to someone who has never heard of it?
 
-![New project](assets/img/wpui/newproject.jpg)
+![New project](img/wpui/newproject.jpg)
 
 _Webpack UI_ is like creating a new game on Pokemon. You create a game, choose your desired player and Pokemon, then you are all set to explore.
 
@@ -43,7 +43,7 @@ The tool is intended to make webpack easier to use by having a Graphical User In
 
 ## How will _Webpack UI_ work?
 
-![Dashboard](assets/img/wpui/dashboard.jpg)
+![Dashboard](img/wpui/dashboard.jpg)
 
 It's nice that you asked, cause I've been thinking about making it as easy for users as possible for some time. As a developer, most developers are known with how the terminal works. You will need to run a command like `webpack ui` and then a local server will open on your machine and start the application. From there, you will enter the dashboard, where you will have the opportunity to create a new front end application or to import an existing project.
 
@@ -51,7 +51,7 @@ After doing so, you can compile a web application, add more things to your appli
 
 ## How will _Webpack UI_ differ from other solutions?
 
-![Starter packs](assets/img/wpui/starterpack.jpg)
+![Starter packs](img/wpui/starterpack.jpg)
 
 There aren't so many features as _Webpack UI_ because this trend of Graphical User Interfaces for libraries have just started, even though there are some. _Webpack UI_ is much alike Vue UI, but it is different in many ways.
 
@@ -63,7 +63,7 @@ Most developers would argue that GUI's are bad because they slow down productivi
 
 ## Why are you developing _Webpack UI_?
 
-![Scaffolds](assets/img/wpui/scaffolds.jpg)
+![Scaffolds](img/wpui/scaffolds.jpg)
 
 The end game of _Webpack UI_ and what the team has been working on for so long is that developers have a lot of power adjusting advanced webpack configurations and front end projects, but still has a solid foundation to start from.
 

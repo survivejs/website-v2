@@ -1,7 +1,7 @@
 ---
 title: 'Blue Arrow Awards - Finnish Code Ambassador of 2017'
 date: 2017-05-21
-headerImage: 'assets/img/baa.jpg'
+headerImage: 'img/baa.jpg'
 keywords: ['survivejs']
 ---
 

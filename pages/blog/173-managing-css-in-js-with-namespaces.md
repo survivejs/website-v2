@@ -1,7 +1,7 @@
 ---
 title: "Managing css-in-js Components with Namespaces"
 date: 2019-03-19
-headerImage: "assets/img/headers/car.jpg"
+headerImage: "img/headers/car.jpg"
 keywords: ["cssinjs", "react", "styling"]
 ---
 

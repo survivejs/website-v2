@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS Euro Summer Tour 2017'
 date: 2017-05-28
-headerImage: 'assets/img/thinking.jpg'
+headerImage: 'img/thinking.jpg'
 keywords: ['survivejs', 'tour']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'ajv - The Fastest JSON Schema Validator - Interview with Evgeny Poberezkin'
 date: 2017-01-23
-headerImage: 'assets/img/chess.jpg'
+headerImage: 'img/chess.jpg'
 keywords: ['interview', 'json']
 ---
 

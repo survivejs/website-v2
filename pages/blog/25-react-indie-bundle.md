@@ -1,7 +1,7 @@
 ---
 title: 'React Indie Bundle - Summary'
 date: 2015-12-07
-headerImage: 'assets/img/rib_header.png'
+headerImage: 'img/rib_header.png'
 keywords: ['react']
 ---
 

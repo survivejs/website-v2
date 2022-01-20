@@ -1,7 +1,7 @@
 ---
 title: 'Glamor - Inline CSS for React et al - Interview with Sunil Pai'
 date: 2016-10-17
-headerImage: 'assets/img/glamor.jpg'
+headerImage: 'img/glamor.jpg'
 keywords: ['interview', 'react', 'styling', 'cssinjs']
 ---
 

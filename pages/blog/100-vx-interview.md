@@ -1,7 +1,7 @@
 ---
 title: 'vx - The Power of D3 with the Benefits of React - Interview with Harrison Shoff'
 date: 2017-06-12
-headerImage: 'assets/img/vx.png'
+headerImage: 'img/vx.png'
 keywords: ['interview', 'react', 'visualization']
 ---
 
@@ -34,7 +34,7 @@ Outside of work, I enjoy playing golf poorly, reading programming books I don't 
 
 Below is a flow diagram that illustrates how *vx* could fit in at your organization:
 
-![vx flow diagram](assets/img/vx/diagram.png)
+![vx flow diagram](img/vx/diagram.png)
 
 ## How does *vx* work?
 

@@ -1,7 +1,7 @@
 ---
 title: 'JSS - Author CSS Using JavaScript as a Host Language - Interview with Oleg Slobodskoi'
 date: 2017-07-07
-headerImage: 'assets/img/clock.jpg'
+headerImage: 'img/clock.jpg'
 keywords: ['interview', 'react', 'styling', 'cssinjs']
 editors: ['bebraw', 'karlhorky']
 ---

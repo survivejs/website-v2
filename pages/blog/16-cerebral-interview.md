@@ -1,7 +1,7 @@
 ---
 title: 'Cerebral - Expressing Application Flow with Signals - Interview with Christian Alfoni'
 date: 2015-10-05
-headerImage: 'assets/img/cerebral.jpg'
+headerImage: 'img/cerebral.jpg'
 keywords: ['interview', 'react', 'state-management']
 ---
 
@@ -12,7 +12,7 @@ While I've been plugging away with the book, Christian has been busy developing 
 ## How did you discover Webpack and React? Can you provide a bit of background?
 
 <p>
-  ![Christian Alfoni|100|100|author](assets/img/interviews/christian.jpg)
+  ![Christian Alfoni|100|100|author](img/interviews/christian.jpg)
 
   I had saved up some money and chose to quit my job the summer of last year (2014). I wanted to spend 6 months on my own researching web technologies and play around with projects. I feel kinda lucky that way, as obsessed I am with JavaScript and building things I now got the chance to level up. At my previous employer I left a Backbone app with a Grunt workflow. Before that it was all vanilla JavaScript… crazy, but learned a lot!
 </p>
@@ -49,7 +49,7 @@ As signals are arrays of actions you can also use the new spread operator. This 
 
 So Cerebral is this layer between your state storing and UI. It handles the complex part of your application, state changing flow. It is a single powerful entity representing the layer between state and ui, as displayed here:
 
-![Cerebral is between the state and the UI|425|510|center-image](assets/img/cerebral_state_ui.png)
+![Cerebral is between the state and the UI|425|510|center-image](img/cerebral_state_ui.png)
 
 Running the debugger next to the UI gives you insight into all these three layers. The UI, the state changing flow and the current state of the application. It is pretty cool!
 About the future of Cerebral. I have been working on a project for a year now.

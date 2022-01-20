@@ -1,7 +1,7 @@
 ---
 title: 'Fastpack - Pack JavaScript code fast and easy - Interview with Oleksiy Golovko'
 date: 2018-05-29
-headerImage: 'assets/img/builder.jpg'
+headerImage: 'img/builder.jpg'
 keywords: ['interview', 'fastpack', 'bundling']
 ---
 

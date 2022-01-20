@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.7.0'
 date: 2017-02-04
-headerImage: 'assets/img/frost.jpg'
+headerImage: 'img/frost.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 

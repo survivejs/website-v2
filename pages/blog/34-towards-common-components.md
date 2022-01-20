@@ -1,7 +1,7 @@
 ---
 title: 'Towards a Common Component Definition'
 date: 2016-02-02
-headerImage: 'assets/img/bridge.jpg'
+headerImage: 'img/bridge.jpg'
 keywords: ['react', 'opinion']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'React Finland - Your Chance to Learn React Up North - Interview with Juho Vepsäläinen'
 date: 2017-12-23
-headerImage: 'assets/img/finland.jpg'
+headerImage: 'img/finland.jpg'
 keywords: ['interview', 'react', 'conference']
 ---
 

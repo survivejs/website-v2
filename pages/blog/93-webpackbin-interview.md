@@ -1,7 +1,7 @@
 ---
 title: 'WebpackBin - Webpack Code Sandbox - Interview with Christian Alfoni'
 date: 2017-05-09
-headerImage: 'assets/img/bin.jpg'
+headerImage: 'img/bin.jpg'
 keywords: ['interview', 'webpack']
 ---
 
@@ -16,7 +16,7 @@ T> **Editor's note:** WebpackBin isn't online anymore. You can still read the bl
 ## Can you tell a bit about yourself?
 
 <p>
-  ![Christian Alfoni|100|100|author](assets/img/interviews/christian.jpg)
+  ![Christian Alfoni|100|100|author](img/interviews/christian.jpg)
 
   For sure! :) I am a 33-year-old JavaScript hacker, developer, OSS enthusiast and due to that an emotional wreck. Living in Trondheim, Norway. I spend my days at Ducky, a startup I joined last year.
 </p>

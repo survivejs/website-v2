@@ -1,7 +1,7 @@
 ---
 title: "Ukrainian developer market - Interview with Eliza Kravchenko"
 date: 2020-10-12
-headerImage: "assets/img/calculator.jpg"
+headerImage: "img/calculator.jpg"
 keywords: ["interview"]
 ---
 
@@ -11,7 +11,7 @@ To learn about Ukrainian developer market, I am interviewing Eliza Kravchenko fr
 
 ## Can you tell a bit about yourself?
 
-![Eliza Kravchenko|100|100|author](assets/img/eliza.jpg)
+![Eliza Kravchenko|100|100|author](img/eliza.jpg)
 
 My name is Eliza Kravchenko, and I am the lead of the resource management team in Mobilunity. The position links the company, clients, and developers.
 

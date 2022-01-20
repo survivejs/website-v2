@@ -1,7 +1,7 @@
 ---
 title: "MonoLisa - Font follows function - Interview with Marcus Sterz"
 date: 2020-03-10
-headerImage: "assets/img/types.jpg"
+headerImage: "img/types.jpg"
 keywords: ["interview", "fonts"]
 ---
 
@@ -11,7 +11,7 @@ In this interview, you'll learn more about [MonoLisa](https://monolisa.dev/) fro
 
 ## Can you tell a bit about yourself?
 
-![Marcus Sterz|100|100|author](assets/img/marcus.jpg)
+![Marcus Sterz|100|100|author](img/marcus.jpg)
 
 I am a type designer from Vienna, Austria. Coming from a background as a graphic designer, I started developing typefaces in 2008. My Foundry name is FaceType; we create retail and custom typefaces.
 

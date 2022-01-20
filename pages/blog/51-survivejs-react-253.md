@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - React - v2.5.3'
 date: 2016-06-01
-headerImage: 'assets/img/serene.jpg'
+headerImage: 'img/serene.jpg'
 keywords: ['release-notes', 'react']
 ---
 

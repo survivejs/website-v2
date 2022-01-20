@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Summer Events'
 date: 2018-05-30
-headerImage: 'assets/img/pineapple.jpg'
+headerImage: 'img/pineapple.jpg'
 keywords: ['survivejs']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'FRZR - a Tiny View Library - Interview with Juha Lindstedt'
 date: 2016-04-18
-headerImage: 'assets/img/frzr.jpg'
+headerImage: 'img/frzr.jpg'
 keywords: ['interview']
 ---
 

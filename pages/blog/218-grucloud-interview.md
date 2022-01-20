@@ -1,7 +1,7 @@
 ---
 title: "GruCloud - Infrastructure as Code in JavaScript - Interview with Frederic Heem"
 date: 2021-02-03
-headerImage: "assets/img/cloud.jpg"
+headerImage: "img/cloud.jpg"
 headerAuthor: "Free-Photos"
 headerSource: "https://pixabay.com/photos/sky-clouds-sunlight-dark-690293/"
 keywords: ["interview", "cloud", "devops"]
@@ -13,7 +13,7 @@ As a JavaScript programmer, it's interesting for me you can achieve the same but
 
 ## Can you tell a bit about yourself?
 
-![Frederic Heem|100|100|author](assets/img/starhackit/hf.jpg)
+![Frederic Heem|100|100|author](img/starhackit/hf.jpg)
 
 I have been developing software for the last 20 years, mainly in the UK and Italy. Lately, the focus has been on JavaScript: frontend, backend, and mobile.
 
@@ -175,7 +175,7 @@ gc destroy
 
 Things can get a little bit more complex with more resources and the dependencies between them. The **gc graph** command produces a graph displaying the infrastructure:
 
-![graph](assets/img/grucloud.svg)
+![graph](img/grucloud.svg)
 
 GruCloud takes care of creating and destroying the resources in the right order.
 

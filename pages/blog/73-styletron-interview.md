@@ -1,7 +1,7 @@
 ---
 title: 'Styletron - Universal, high-performance JavaScript styles - Interview with Ryan Tsao'
 date: 2016-12-26
-headerImage: 'assets/img/highway.jpg'
+headerImage: 'img/highway.jpg'
 keywords: ['interview', 'react', 'styling', 'cssinjs']
 ---
 

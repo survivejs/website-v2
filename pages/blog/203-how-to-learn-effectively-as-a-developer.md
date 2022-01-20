@@ -1,7 +1,7 @@
 ---
 title: "How to learn effectively as a developer"
 date: 2020-09-24
-headerImage: "assets/img/fractal.jpg"
+headerImage: "img/fractal.jpg"
 keywords: ["interview", "learning"]
 ---
 

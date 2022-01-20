@@ -1,7 +1,7 @@
 ---
 title: 'Rambda - Faster and Smaller Alternative to Ramda - Interview with Dejan Toteff'
 date: 2017-04-03
-headerImage: 'assets/img/telescope.jpg'
+headerImage: 'img/telescope.jpg'
 keywords: ['interview', 'functional programming']
 ---
 

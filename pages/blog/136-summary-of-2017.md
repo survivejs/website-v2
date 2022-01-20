@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Summary of 2017'
 date: 2017-12-31
-headerImage: 'assets/img/finland.jpg'
+headerImage: 'img/finland.jpg'
 keywords: ['survivejs']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Logux - Replace AJAX-REST - Interview with Andrey Sitnik'
 date: 2018-01-26
-headerImage: 'assets/img/headers/logs.jpg'
+headerImage: 'img/headers/logs.jpg'
 keywords: ['interview', 'ajax']
 ---
 

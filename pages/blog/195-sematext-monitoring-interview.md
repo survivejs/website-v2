@@ -1,7 +1,7 @@
 ---
 title: "Synthetics - Monitor availability and performance of your website and APIs - Interview with Siva Kaliappan"
 date: 2020-06-18
-headerImage: "assets/img/rope.jpg"
+headerImage: "img/rope.jpg"
 headerAuthor: "freyer"
 headerSource: https://pixabay.com/photos/rope-green-synthetic-industrial-1457381/
 keywords: ["interview", "monitoring"]

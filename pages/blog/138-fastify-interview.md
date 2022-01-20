@@ -1,7 +1,7 @@
 ---
 title: 'Fastify - Fast and low overhead web framework for Node.js - Interview with Tomas Della Vedova'
 date: 2018-01-17
-headerImage: 'assets/img/mustang.jpg'
+headerImage: 'img/mustang.jpg'
 keywords: ['interview', 'nodejs']
 ---
 
@@ -63,11 +63,11 @@ Furthermore, the plugin model is based on [reentrant](https://stackoverflow.com/
 
 The plugin system creates a direct acyclic graph, and in this way, it is impossible to create cross dependencies, and you can use a different version of the same plugin in different parts of your application.
 
-![Directed acyclic graph](assets/img/fastify/dag.png)
+![Directed acyclic graph](img/fastify/dag.png)
 
 Thanks to this architecture it is easy to split your application in multiple microservices because we'll help you with the creation of a system where the separation of concerns and cohesion are two essential keys of your application.
 
-![Directed acyclic graph services](assets/img/fastify/dag-services.png)
+![Directed acyclic graph services](img/fastify/dag-services.png)
 
 ## Why did you develop *Fastify*?
 

@@ -1,7 +1,7 @@
 ---
 title: 'ES Modules - Interview with Bradley Farias'
 date: 2017-05-22
-headerImage: 'assets/img/modules.jpg'
+headerImage: 'img/modules.jpg'
 keywords: ['interview', 'javascript']
 ---
 

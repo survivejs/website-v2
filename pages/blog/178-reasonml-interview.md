@@ -1,7 +1,7 @@
 ---
 title: "ReasonML - Type safety with ease - Interview with Gabriel Rubens"
 date: 2019-05-27
-headerImage: "assets/img/reason.jpg"
+headerImage: "img/reason.jpg"
 keywords: ["interview", "reasonml"]
 ---
 
@@ -13,7 +13,7 @@ T> To learn more about ReasonML, I recommend checking out [ReasonConf](https://w
 
 ## Can you tell a bit about yourself?
 
-![Gabriel Rubens|100|100|author](assets/img/interviews/gabriel.jpg)
+![Gabriel Rubens|100|100|author](img/interviews/gabriel.jpg)
 
 I'm co-founder and Head of Tech at Astrocoders. We're a lean and fast software company focused mostly on everything related to financial, tax, and banking applications.
 

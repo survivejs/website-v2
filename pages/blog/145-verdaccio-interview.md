@@ -1,7 +1,7 @@
 ---
 title: 'Verdaccio - A lightweight npm proxy registry - Interview with Juan Picado'
 date: 2018-02-26
-headerImage: 'assets/img/headers/skydiving.jpg'
+headerImage: 'img/headers/skydiving.jpg'
 keywords: ['interview', 'npm', 'packaging']
 ---
 

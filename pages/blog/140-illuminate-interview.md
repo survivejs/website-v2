@@ -1,7 +1,7 @@
 ---
 title: 'Illuminate - Syntax highlighter for Node - Interview with Vivek Bansal'
 date: 2018-01-30
-headerImage: 'assets/img/city-lights.jpg'
+headerImage: 'img/city-lights.jpg'
 keywords: ['interview', 'nodejs']
 ---
 

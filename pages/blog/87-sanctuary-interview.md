@@ -1,7 +1,7 @@
 ---
 title: 'Sanctuary - Refuge from unsafe JavaScript - Interview with David Chambers'
 date: 2017-04-10
-headerImage: 'assets/img/sanctuary.jpg'
+headerImage: 'img/sanctuary.jpg'
 keywords: ['interview', 'functional programming']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Motorcycle.js - A statically-typed, functional and reactive framework for modern browsers - Interview with Tylor Steinberger'
 date: 2017-08-18
-headerImage: 'assets/img/motorcycle.jpg'
+headerImage: 'img/motorcycle.jpg'
 keywords: ['interview', 'functional programming', 'cyclejs']
 editors: ['bebraw', 'karlhorky']
 ---
@@ -40,7 +40,7 @@ Motorcycle is programmed as a function over time given it's most functional and 
 
 In order to better understand how Motorcycle works, it's important to understand what it achieves first. Motorcycle itself is just a single function named `run`. Using `run` requires two functions. We call these two functions `Main` and `Effects`.
 
-![Motorcycle run diagram](assets/img/motorcycle/run-diagram.png)
+![Motorcycle run diagram](img/motorcycle/run-diagram.png)
 
 As you may be able to tell from the diagram above, the `run` function effectively operates like this:
 

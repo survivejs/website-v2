@@ -1,7 +1,7 @@
 ---
 title: 'documentation.js - The documentation system for modern JavaScript - Interview with Tom MacWright'
 date: 2017-07-31
-headerImage: 'assets/img/document.jpg'
+headerImage: 'img/document.jpg'
 keywords: ['interview', 'documentation', 'javascript']
 editors: ['bebraw', 'karlhorky']
 ---

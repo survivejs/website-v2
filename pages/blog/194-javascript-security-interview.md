@@ -1,7 +1,7 @@
 ---
 title: "JavaScript Security - Interview with David Balaban"
 date: 2020-04-28
-headerImage: "assets/img/lock.jpg"
+headerImage: "img/lock.jpg"
 headerAuthor: "Free-Photos"
 headerSource: https://pixabay.com/photos/padlock-shed-locked-lock-secure-690286/
 keywords: ["interview", "security"]

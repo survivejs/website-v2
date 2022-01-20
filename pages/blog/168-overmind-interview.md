@@ -2,7 +2,7 @@
 title: 'Overmind - Frictionless State Management - Interview with Christian Alfoni'
 date: 2019-02-15
 updateDate: 2019-06-26
-headerImage: 'assets/img/overmind-header.jpg'
+headerImage: 'img/overmind-header.jpg'
 keywords: ['interview', 'react', 'state-management']
 ---
 
@@ -52,7 +52,7 @@ T> See [Christian's article about mutation tracking](https://itnext.io/updating-
 
 One of those enhancements is that even though you define your state as plain objects, arrays, strings, etc., it becomes reactive. That means when you change some state, Overmind can pinpoint what components are interested in that change, even though you use the native mutation api of JavaScript.
 
-![devtools_state](assets/img/overmind/overmind-01.png)
+![devtools_state](img/overmind/overmind-01.png)
 
 It can do this because it uses [proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). What is essential to understand about this is that mutation and proxies allows for a far more optimized notification of what has changed compared to immutability.
 
@@ -60,7 +60,7 @@ With immutability, a change to a posts title in an array causes a change to the 
 
 The chosen approach also increases debugging experience as Overmind can tell you exactly what value you changed, and it knows the dependencies of the components.
 
-![devtools_mutate](assets/img/overmind/overmind-02.png)
+![devtools_mutate](img/overmind/overmind-02.png)
 
 ### All Actions Have The Same First Argument
 
@@ -114,7 +114,7 @@ Your application is the state, effects, and the logic to manage them. The UI is 
 
 All the naming is explicitly related to the domains of your application. You can change out the UI or run the same app on multiple environments, and you can change out any of the tools your application uses to talk to the outside world, without touching the application itself. It is just about separation of concerns really, but with a concept of effects, you know where and how to do that separation while gaining additional debugging information.
 
-![devtoos_effects](assets/img/overmind/overmind-03.png)
+![devtoos_effects](img/overmind/overmind-03.png)
 
 ### Example of a Complex Action
 

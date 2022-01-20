@@ -1,7 +1,7 @@
 ---
 title: "PixelCraft - a Pixel Art Editor - Interview with Abhishek Chaudhary"
 date: 2021-01-19
-headerImage: "assets/img/pixelcraft.png"
+headerImage: "img/pixelcraft.png"
 keywords: ["interview", "javascript", "graphics"]
 ---
 

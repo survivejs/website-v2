@@ -1,7 +1,7 @@
 ---
 title: 'Cycle.js - Reactive Framework for HCI - Interview with André Staltz'
 date: 2015-09-21
-headerImage: 'assets/img/cycle.jpg'
+headerImage: 'img/cycle.jpg'
 keywords: ['interview', 'functional programming', 'cyclejs']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Codemod - Refactoring Code Programmatically - Interview with Ramana Venkata'
 date: 2016-01-01
-headerImage: 'assets/img/codemod.jpg'
+headerImage: 'img/codemod.jpg'
 keywords: ['interview', 'react']
 ---
 

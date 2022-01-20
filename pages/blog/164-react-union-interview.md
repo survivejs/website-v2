@@ -1,7 +1,7 @@
 ---
 title: "React Union - React for CMSs and Portals - Interview with Tomáš Konrády"
 date: 2018-12-02
-headerImage: "assets/img/react-union.jpg"
+headerImage: "img/react-union.jpg"
 keywords: ["interview", "react"]
 ---
 

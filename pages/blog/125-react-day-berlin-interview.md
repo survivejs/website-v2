@@ -1,7 +1,7 @@
 ---
 title: 'React Day Berlin - Fully Packed Day of Your Favorite React Content - Interview with Robert Haritonov'
 date: 2017-10-17
-headerImage: 'assets/img/react-day.jpg'
+headerImage: 'img/react-day.jpg'
 keywords: ['interview', 'react', 'conference']
 ---
 

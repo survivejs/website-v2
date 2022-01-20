@@ -1,7 +1,7 @@
 ---
 title: 'Unicon - Wrangle SVGs from your favorite design tool - Interview with Travis Arnold'
 date: 2018-11-26
-headerImage: 'assets/img/unicorn.jpg'
+headerImage: 'img/unicorn.jpg'
 headerSource: 'https://unsplash.com/photos/opkaRk20tAw'
 keywords: ['interview', 'design']
 ---

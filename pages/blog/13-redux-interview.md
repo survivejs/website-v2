@@ -1,7 +1,7 @@
 ---
 title: 'Redux - Reinventing Flux - Interview with Dan Abramov'
 date: 2015-09-14
-headerImage: 'assets/img/ducks.jpg'
+headerImage: 'img/ducks.jpg'
 keywords: ['interview', 'react', 'redux', 'state-management']
 ---
 
@@ -12,7 +12,7 @@ Besides React Hot Loader, Dan is behind well-known projects such as [React DnD](
 ## How did you discover React? Can you provide a bit of background?
 
 <p>
-  ![Dan Abramov|100|100|author](assets/img/interviews/dan.jpg)
+  ![Dan Abramov|100|100|author](img/interviews/dan.jpg)
 
   I think it’s a typical story. In 2014, when I was working at [Stampsy](http://stampsy.com), we needed to pivot from an iPad app to a webapp in a matter of a few months. We only knew Backbone so we went with it, but as the app grew more dynamic and complicated, we knew we couldn’t use it for much longer.
 </p>
@@ -31,7 +31,7 @@ Every time he’d change some tiny piece of UI, he’d have to refresh, open tha
 
 Secondly, I read a book on Erlang when I was a teenager, and it said something that changed my life forever:
 
-![Pure functions can be replaced while the application is running|400|400|center-image](assets/img/pure_functions.jpg)
+![Pure functions can be replaced while the application is running|400|400|center-image](img/pure_functions.jpg)
 
 Thirdly, I was in awe of Bret Victor’s videos.
 

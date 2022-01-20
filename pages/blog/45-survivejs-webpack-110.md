@@ -1,7 +1,7 @@
 ---
 title: 'SurviveJS - Webpack - v1.1.0'
 date: 2016-04-24
-headerImage: 'assets/img/texture.jpg'
+headerImage: 'img/texture.jpg'
 keywords: ['release-notes', 'webpack']
 ---
 
