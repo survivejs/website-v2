@@ -8,14 +8,14 @@ import images from "../../.images.json" assert { type: "json" };
 
 type MarkdownWithFrontmatter = {
   content: string;
-  data: {
-    description: string;
-    preview: string;
-    headerImage: string;
-    slug: string;
-    title: string;
-    date: Date;
-    keywords: string[];
+  data: Record<string, unknown> & {
+    description?: string;
+    preview?: string;
+    headerImage?: string;
+    author?: {
+      name: string;
+      twitter: string;
+    };
   };
 };
 
@@ -28,14 +28,7 @@ async function indexMarkdown(directory: string) {
     files.map(({ path }) =>
       Deno.readTextFile(path).then(
         (d) => {
-          const p = parse(d) as {
-            content: string;
-            data: Record<string, unknown> & {
-              description?: string;
-              preview?: string;
-              headerImage?: string;
-            };
-          };
+          const p = parse(d) as MarkdownWithFrontmatter;
           const preview = generatePreview(p.content, 150);
 
           return {
@@ -46,8 +39,12 @@ async function indexMarkdown(directory: string) {
               headerImage: resolveHeaderImage(p.data?.headerImage),
               slug: cleanSlug(path),
               preview,
+              author: p.data?.author || {
+                name: "Juho Vepsäläinen",
+                twitter: "https://twitter.com/bebraw",
+              },
             },
-          } as MarkdownWithFrontmatter;
+          };
         },
       )
     ),

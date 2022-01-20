@@ -27,6 +27,36 @@
       "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl prose lg:prose-xl",
       "children": [
         {
+          "element": "div",
+          "class": "font-thin text-base text-gray-600 flex justify-between",
+          "children": [
+            {
+              "element": "div",
+              "class": "flex gap-1",
+              "children": [
+                {
+                  "element": "span",
+                  "children": "Published:"
+                },
+                {
+                  "element": "time",
+                  "==children": "new Date(match.data.date).toLocaleDateString('en-US')",
+                  "attributes": {
+                    "__datetime": "match.data.date"
+                  }
+                }
+              ]
+            },
+            {
+              "element": "Link",
+              "==children": "match.data.author.name",
+              "attributes": {
+                "==href": "match.data.author.twitter"
+              }
+            }
+          ]
+        },
+        {
           "element": "p",
           "inputProperty": "match.content",
           "transformWith": ["markdown"],
