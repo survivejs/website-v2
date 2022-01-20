@@ -19,10 +19,10 @@
           "__children": [
             {
               "element": "li",
-              "class": "rounded bg-cover bg-center bg-blend-hue",
               "children": [
                 {
                   "element": "div",
+                  "class": "rounded bg-cover bg-center bg-blend-hue",
                   "children": [
                     {
                       "element": "div",
