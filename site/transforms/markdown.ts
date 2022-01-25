@@ -154,15 +154,13 @@ function parseCustomQuote(token, match, className) {
     const text = token.text;
 
     if (text.indexOf(match) === 0) {
-      const icon = className === "tip"
-        ? "icon-attention-circled"
-        : "icon-attention";
-
       return {
         type: "html",
         text: `<blockquote class="${
           className === "tip" ? "bg-teal-50" : "bg-red-50"
-        }"><i class="${icon}"></i>${
+        }"><span class="mr-2">${
+          className === "tip" ? "&#9432;" : "&#9888;"
+        }</span>${
           marked.parseInline(
             text
               .slice(2)

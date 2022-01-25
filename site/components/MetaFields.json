@@ -83,20 +83,6 @@
     "__children": "meta.title"
   },
   {
-    "element": "link",
-    "attributes": {
-      "rel": "stylesheet",
-      "href": "/assets/style/fontello-codes.css"
-    }
-  },
-  {
-    "element": "link",
-    "attributes": {
-      "rel": "stylesheet",
-      "href": "/assets/style/fontello-embedded.css"
-    }
-  },
-  {
     "_reference": "https://web.dev/defer-non-critical-css/",
     "element": "link",
     "attributes": {
