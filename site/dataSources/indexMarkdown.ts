@@ -80,8 +80,8 @@ function resolveImages(headerImage?: string) {
   }
 
   return {
-    header: config.imagesEndpoint + image + "/public",
-    thumbnail: config.imagesEndpoint + image + "/thumb",
+    header: config.imagesEndpoint + `?image=${image}&type=public`,
+    thumbnail: config.imagesEndpoint + `?image=${image}&type=thumb`,
   };
 }
 
