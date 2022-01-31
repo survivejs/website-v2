@@ -12,6 +12,8 @@ import highlightMarkdown from "https://unpkg.com/highlight.js@11.3.1/es/language
 import highlightCSS from "https://unpkg.com/highlight.js@11.3.1/es/languages/css";
 import highlightSQL from "https://unpkg.com/highlight.js@11.3.1/es/languages/sql";
 import highlightC from "https://unpkg.com/highlight.js@11.3.1/es/languages/c";
+import config from "../../.config.json" assert { type: "json" };
+import images from "../../.images.json" assert { type: "json" };
 
 highlight.registerLanguage("bash", highlightBash);
 highlight.registerLanguage("javascript", highlightJS);
@@ -101,6 +103,31 @@ function transformMarkdown(input: string) {
           level +
           ">" +
           "</a>\n";
+      },
+      image(href: string, _title: string, text: string) {
+        const textParts = text ? text.split("|") : [];
+        const alt = textParts[0] || "";
+        // TODO: Get width and height from CF somehow
+        const width = textParts[1] || "";
+        const height = textParts[2] || "";
+        const isAuthor = textParts[3] === "author";
+        const imageClassName = isAuthor ? "float-right rounded-full" : "";
+        const captionClassName = isAuthor ? "hidden" : "font-thin text-center";
+        let src = href;
+
+        if (!href.startsWith("/assets/") && !href.startsWith("http")) {
+          // @ts-expect-error Error is expected as headerImage isn't strict enough and
+          // we validate it in runtime.
+          const image = images[href];
+
+          if (!image) {
+            throw new Error("Failed to find a matching image for " + href);
+          }
+
+          src = config.imagesEndpoint + `?image=${image}&type=public`;
+        }
+
+        return `<figure><img src="${src}" alt="${alt}" class="${imageClassName}" width="${width}" height="${height}" /><figcaption class="${captionClassName}">${alt}</figcaption></figure>`;
       },
       link(href: string, title: string, text: string) {
         if (href === null) {
