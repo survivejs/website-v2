@@ -26,6 +26,8 @@ function resolveKeywordToTitle(keyword: string) {
       return "SurviveJS";
     case "nodejs":
       return "NodeJS";
+    case "rxjs":
+      return "RxJS";
     case "reasonml":
       return "ReasonML";
     default:

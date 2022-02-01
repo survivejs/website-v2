@@ -14,6 +14,11 @@
       "__bind": "blogPosts.content",
       "children": [
         {
+          "element": "h1",
+          "class": "text-4xl mb-8",
+          "children": "Blog posts"
+        },
+        {
           "element": "ul",
           "class": "flex flex-col gap-8",
           "__children": [
