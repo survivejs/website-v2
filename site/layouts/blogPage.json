@@ -64,12 +64,47 @@
           "__children": "content"
         },
         {
+          "element": "h2",
+          "class": "hidden",
+          "children": "Topics"
+        },
+        {
+          "element": "div",
+          "class": "",
+          "__bind": "match.data.topics",
+          "children": [
+            {
+              "element": "ul",
+              "class": "flex flex-row gap-2",
+              "__children": [
+                {
+                  "element": "li",
+                  "class": "border-2 border-gray-400 text-gray-600 font-light p-1",
+                  "children": [
+                    {
+                      "element": "div",
+                      "__children": "data"
+                    },
+                    {
+                      "element": "Link",
+                      "__children": "title",
+                      "attributes": {
+                        "==href": "'/topics/' + slug + '/'"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "element": "div",
           "class": "flex flex-row w-full",
           "children": [
             {
               "visibleIf": "match.previous",
-              "element": "a",
+              "element": "Link",
               "class": "w-full",
               "children": [
                 {
@@ -113,7 +148,7 @@
             },
             {
               "visibleIf": "match.next",
-              "element": "a",
+              "element": "Link",
               "class": "w-full",
               "children": [
                 {

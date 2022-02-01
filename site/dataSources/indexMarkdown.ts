@@ -21,6 +21,7 @@ type MarkdownWithFrontmatter = {
 type MarkdownWithFrontmatterInput = MarkdownWithFrontmatter & {
   data: Record<string, unknown> & {
     headerImage?: string;
+    keywords?: string[];
   };
 };
 
@@ -57,6 +58,12 @@ async function indexMarkdown(directory: string) {
                 name: "Juho Vepsäläinen",
                 twitter: "https://twitter.com/bebraw",
               },
+              topics: p.data?.keywords?.map((keyword) => {
+                return {
+                  title: resolveKeywordToTitle(keyword),
+                  slug: keyword,
+                };
+              }) || [],
             },
           } as MarkdownWithFrontmatterResult;
         },
@@ -65,6 +72,21 @@ async function indexMarkdown(directory: string) {
   );
 
   return generateAdjacent(ret);
+}
+
+function resolveKeywordToTitle(keyword: string) {
+  switch (keyword) {
+    case "baas":
+      return "BaaS";
+    case "javascript":
+      return "JavaScript";
+    case "typescript":
+      return "TypeScript";
+    case "graphql":
+      return "GraphQL";
+    default:
+      return keyword[0].toUpperCase() + keyword.slice(1);
+  }
 }
 
 function resolveImages(headerImage?: string) {
