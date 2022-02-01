@@ -68,6 +68,7 @@
           "class": "flex flex-row w-full",
           "children": [
             {
+              "visibleIf": "match.previous",
               "element": "a",
               "class": "w-full",
               "children": [
@@ -94,6 +95,12 @@
               }
             },
             {
+              "visibleIf": "!match.previous",
+              "element": "div",
+              "class": "w-full"
+            },
+            {
+              "visibleIf": "match.next",
               "element": "a",
               "class": "w-full",
               "children": [
@@ -118,6 +125,11 @@
                 "==href": "'/blog/' + match.next.data.slug + '/'",
                 "==style": "'background-image:url(' + match.next.data.images.thumbnail + ')'"
               }
+            },
+            {
+              "visibleIf": "!match.next",
+              "element": "div",
+              "class": "w-full"
             }
           ]
         }
