@@ -47,6 +47,20 @@
       }
     }
   },
+  "topic": {
+    "layout": "topicIndex",
+    "meta": {
+      "title": "Topics",
+      "description": "Blog topics"
+    },
+    "dataSources": [
+      {
+        "id": "topics",
+        "operation": "indexTopics",
+        "input": "./pages/blog"
+      }
+    ]
+  },
   "atom.xml": {
     "layout": "rssPage",
     "type": "xml",

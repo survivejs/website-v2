@@ -1,38 +1,15 @@
-import * as path from "https://deno.land/std@0.113.0/path/mod.ts";
 import { parse } from "https://deno.land/x/frontmatter/mod.ts";
 import cloneDeep from "https://deno.land/x/lodash@4.17.15-es/cloneDeep.js";
 import trimStart from "https://deno.land/x/lodash@4.17.15-es/trimStart.js";
 import removeMarkdown from "https://esm.sh/remove-markdown@0.3.0";
+import dir from "../utils/dir.ts";
+import resolveKeywordToTitle from "../utils/resolve-keyword-to-title.ts";
 import config from "../../.config.json" assert { type: "json" };
 import images from "../../.images.json" assert { type: "json" };
-
-type MarkdownWithFrontmatter = {
-  content: string;
-  data: Record<string, unknown> & {
-    description?: string;
-    preview?: string;
-    author?: {
-      name: string;
-      twitter: string;
-    };
-  };
-};
-
-type MarkdownWithFrontmatterInput = MarkdownWithFrontmatter & {
-  data: Record<string, unknown> & {
-    headerImage?: string;
-    keywords?: string[];
-  };
-};
-
-type MarkdownWithFrontmatterResult = {
-  data: Record<string, unknown> & {
-    images?: {
-      header: string;
-      thumbnail: string;
-    };
-  };
-};
+import type {
+  MarkdownWithFrontmatterInput,
+  MarkdownWithFrontmatterResult,
+} from "../types.ts";
 
 async function indexMarkdown(directory: string) {
   const files = await dir(directory, ".md");
@@ -74,27 +51,6 @@ async function indexMarkdown(directory: string) {
   return generateAdjacent(ret);
 }
 
-function resolveKeywordToTitle(keyword: string) {
-  switch (keyword) {
-    case "baas":
-      return "BaaS";
-    case "ecommerce":
-      return "E-commerce";
-    case "react native":
-      return "React Native";
-    case "javascript":
-      return "JavaScript";
-    case "typescript":
-      return "TypeScript";
-    case "graphql":
-      return "GraphQL";
-    case "npm":
-      return "npm";
-    default:
-      return keyword[0].toUpperCase() + keyword.slice(1);
-  }
-}
-
 function resolveImages(headerImage?: string) {
   if (!headerImage) {
     return "";
@@ -115,22 +71,6 @@ function resolveImages(headerImage?: string) {
 
 function getIndex(str: string) {
   return parseInt(str.split("-")[0], 10);
-}
-
-async function dir(p: string, extension?: string) {
-  const ret = [];
-
-  for await (const { name } of Deno.readDir(p)) {
-    if (extension) {
-      if (path.extname(name) === extension) {
-        ret.push({ path: path.join(p, name), name });
-      }
-    } else {
-      ret.push({ path: path.join(p, name), name });
-    }
-  }
-
-  return ret;
 }
 
 function cleanSlug(resourcePath: string) {

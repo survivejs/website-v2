@@ -89,7 +89,7 @@
                       "element": "Link",
                       "__children": "title",
                       "attributes": {
-                        "==href": "'/topics/' + slug + '/'"
+                        "==href": "'/topic/' + slug + '/'"
                       }
                     }
                   ]
