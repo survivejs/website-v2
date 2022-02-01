@@ -28,23 +28,23 @@
               "children": [
                 {
                   "element": "div",
-                  "class": "rounded flex flex-col gap-2 p-2",
+                  "class": "rounded flex flex-col gap-1",
                   "children": [
                     {
                       "element": "Link",
                       "children": [
                         {
                           "element": "h2",
-                          "class": "text-3xl",
+                          "class": "text-xl",
                           "children": [
                             {
                               "element": "span",
-                              "class": "pr-2",
+                              "class": "pr-1",
                               "__children": "title"
                             },
                             {
                               "element": "span",
-                              "class": "text-lg",
+                              "class": "text-sm font-light",
                               "==children": "'(' + posts.length + ')'"
                             }
                           ]
