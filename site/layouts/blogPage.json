@@ -91,7 +91,10 @@
               ],
               "attributes": {
                 "==href": "'/blog/' + match.previous.data.slug + '/'",
-                "==style": "'background-image:url(' + match.previous.data.images.thumbnail + ')'"
+                "x-state": "{ image: '' }",
+                "==x-intersect": "`{ options: { once: true }, state: { image: 'background-image:url(` + match.previous.data.images.thumbnail + `)' } }`",
+                "x-attr": "",
+                "@style": "state.image"
               }
             },
             {
@@ -123,7 +126,10 @@
               ],
               "attributes": {
                 "==href": "'/blog/' + match.next.data.slug + '/'",
-                "==style": "'background-image:url(' + match.next.data.images.thumbnail + ')'"
+                "x-state": "{ image: '' }",
+                "==x-intersect": "`{ options: { once: true }, state: { image: 'background-image:url(` + match.next.data.images.thumbnail + `)' } }`",
+                "x-attr": "",
+                "@style": "state.image"
               }
             },
             {
