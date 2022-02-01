@@ -127,7 +127,7 @@ function transformMarkdown(input: string) {
           src = config.imagesEndpoint + `?image=${image}&type=public`;
         }
 
-        return `<figure><img src="${src}" alt="${alt}" class="${imageClassName}" width="${width}" height="${height}" /><figcaption class="${captionClassName}">${alt}</figcaption></figure>`;
+        return `<figure><img x-state="{ image: '' }" x-attr @src="state.image" x-intersect="{ options: { once: true }, state: { image: '${src}' }}" alt="${alt}" class="${imageClassName}" width="${width}" height="${height}" /><figcaption class="${captionClassName}">${alt}</figcaption></figure>`;
       },
       link(href: string, title: string, text: string) {
         if (href === null) {
