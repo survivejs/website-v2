@@ -1,6 +1,6 @@
 {
   "port": 3000,
-  "amountOfBuildThreads": 1,
+  "amountOfBuildThreads": 5,
   "meta": {
     "language": "en",
     "siteName": "SurviveJS"
