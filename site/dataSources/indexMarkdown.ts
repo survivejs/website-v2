@@ -78,12 +78,18 @@ function resolveKeywordToTitle(keyword: string) {
   switch (keyword) {
     case "baas":
       return "BaaS";
+    case "ecommerce":
+      return "E-commerce";
+    case "react native":
+      return "React Native";
     case "javascript":
       return "JavaScript";
     case "typescript":
       return "TypeScript";
     case "graphql":
       return "GraphQL";
+    case "npm":
+      return "npm";
     default:
       return keyword[0].toUpperCase() + keyword.slice(1);
   }
