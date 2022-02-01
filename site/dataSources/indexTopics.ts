@@ -1,5 +1,6 @@
 import { parse } from "https://deno.land/x/frontmatter/mod.ts";
 import dir from "../utils/dir.ts";
+import cleanSlug from "../utils/clean-slug.ts";
 import resolveBlogPost from "../utils/resolve-blog-post.ts";
 import resolveKeywordToTitle from "../utils/resolve-keyword-to-title.ts";
 import type {
@@ -39,7 +40,7 @@ async function indexTopics(directory: string) {
     return {
       title: resolveKeywordToTitle(topic),
       posts: keywords[topic],
-      slug: topic,
+      slug: cleanSlug(topic),
     };
   });
 }
