@@ -29,7 +29,7 @@ function resolveBlogPost(path: string, p: MarkdownWithFrontmatterInput) {
 
 function resolveImages(headerImage?: string) {
   if (!headerImage) {
-    return "";
+    return { header: "", thumbnail: "" };
   }
 
   // @ts-expect-error Error is expected as headerImage isn't strict enough and

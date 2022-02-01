@@ -1,12 +1,15 @@
 import { parse } from "https://deno.land/x/frontmatter/mod.ts";
 import dir from "../utils/dir.ts";
+import resolveBlogPost from "../utils/resolve-blog-post.ts";
 import resolveKeywordToTitle from "../utils/resolve-keyword-to-title.ts";
-import cleanSlug from "../utils/clean-slug.ts";
-import type { MarkdownWithFrontmatterInput } from "../types.ts";
+import type {
+  MarkdownWithFrontmatterInput,
+  MarkdownWithFrontmatterResult,
+} from "../types.ts";
 
 async function indexTopics(directory: string) {
   const files = await dir(directory, ".md");
-  const keywords: Record<string, { title: string; slug: string }[]> = {};
+  const keywords: Record<string, MarkdownWithFrontmatterResult[]> = {};
 
   files.sort((a, b) => getIndex(b.name) - getIndex(a.name));
 
@@ -18,15 +21,9 @@ async function indexTopics(directory: string) {
 
           p.data.keywords?.forEach((keyword) => {
             if (keywords[keyword]) {
-              keywords[keyword].push({
-                title: p.data.title,
-                slug: cleanSlug(path),
-              });
+              keywords[keyword].push({ ...p, data: resolveBlogPost(path, p) });
             } else {
-              keywords[keyword] = [{
-                title: p.data.title,
-                slug: cleanSlug(path),
-              }];
+              keywords[keyword] = [{ ...p, data: resolveBlogPost(path, p) }];
             }
           });
         },

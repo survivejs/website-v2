@@ -18,25 +18,8 @@
           "==children": "match.title + ' posts'"
         },
         {
-          "element": "ul",
-          "class": "",
-          "__bind": "match.posts",
-          "__children": [
-            {
-              "element": "li",
-              "class": "",
-              "children": [
-                {
-                  "element": "Link",
-                  "class": "",
-                  "__children": "title",
-                  "attributes": {
-                    "==href": "'/blog/' + slug + '/'"
-                  }
-                }
-              ]
-            }
-          ]
+          "element": "BlogPosts",
+          "__bind": "match.posts"
         },
         {
           "element": "Link",

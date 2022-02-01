@@ -2,10 +2,7 @@ import { parse } from "https://deno.land/x/frontmatter/mod.ts";
 import cloneDeep from "https://deno.land/x/lodash@4.17.15-es/cloneDeep.js";
 import dir from "../utils/dir.ts";
 import resolveBlogPost from "../utils/resolve-blog-post.ts";
-import type {
-  MarkdownWithFrontmatterInput,
-  MarkdownWithFrontmatterResult,
-} from "../types.ts";
+import type { MarkdownWithFrontmatterInput } from "../types.ts";
 
 async function indexMarkdown(directory: string) {
   const files = await dir(directory, ".md");
@@ -21,7 +18,7 @@ async function indexMarkdown(directory: string) {
           return {
             ...p,
             data: resolveBlogPost(path, p),
-          } as MarkdownWithFrontmatterResult;
+          };
         },
       )
     ),
