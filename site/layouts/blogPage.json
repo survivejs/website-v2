@@ -78,8 +78,17 @@
                   "children": [
                     {
                       "element": "h2",
-                      "class": "",
-                      "children": "Previous post"
+                      "class": "flex flex-row justify-between",
+                      "children": [
+                        {
+                          "element": "span",
+                          "children": "&lsaquo;"
+                        },
+                        {
+                          "element": "span",
+                          "children": "Previous post"
+                        }
+                      ]
                     },
                     {
                       "element": "h3",
@@ -113,8 +122,17 @@
                   "children": [
                     {
                       "element": "h2",
-                      "class": "",
-                      "children": "Next post"
+                      "class": "flex flex-row justify-between",
+                      "children": [
+                        {
+                          "element": "span",
+                          "children": "Next post"
+                        },
+                        {
+                          "element": "span",
+                          "children": "&rsaquo;"
+                        }
+                      ]
                     },
                     {
                       "element": "h3",
