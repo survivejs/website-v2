@@ -1,9 +1,9 @@
 import { parse } from "https://deno.land/x/frontmatter/mod.ts";
 import cloneDeep from "https://deno.land/x/lodash@4.17.15-es/cloneDeep.js";
-import trimStart from "https://deno.land/x/lodash@4.17.15-es/trimStart.js";
 import removeMarkdown from "https://esm.sh/remove-markdown@0.3.0";
 import dir from "../utils/dir.ts";
 import resolveKeywordToTitle from "../utils/resolve-keyword-to-title.ts";
+import cleanSlug from "../utils/clean-slug.ts";
 import config from "../../.config.json" assert { type: "json" };
 import images from "../../.images.json" assert { type: "json" };
 import type {
@@ -71,16 +71,6 @@ function resolveImages(headerImage?: string) {
 
 function getIndex(str: string) {
   return parseInt(str.split("-")[0], 10);
-}
-
-function cleanSlug(resourcePath: string) {
-  const parts = resourcePath.split("/");
-  const end =
-    trimStart(parts.slice(-1)[0], "0123456789-_", undefined).split(".")[0];
-
-  return end.toLowerCase()
-    .replace(/ /g, "-")
-    .replace(/_/g, "-");
 }
 
 function generateAdjacent(pages: unknown[]) {

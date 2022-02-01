@@ -1,11 +1,12 @@
 import { parse } from "https://deno.land/x/frontmatter/mod.ts";
 import dir from "../utils/dir.ts";
 import resolveKeywordToTitle from "../utils/resolve-keyword-to-title.ts";
+import cleanSlug from "../utils/clean-slug.ts";
 import type { MarkdownWithFrontmatterInput } from "../types.ts";
 
 async function indexMarkdown(directory: string) {
   const files = await dir(directory, ".md");
-  const keywords: Record<string, number> = {};
+  const keywords: Record<string, string[]> = {};
 
   files.sort((a, b) => getIndex(b.name) - getIndex(a.name));
 
@@ -17,9 +18,9 @@ async function indexMarkdown(directory: string) {
 
           p.data.keywords?.forEach((keyword) => {
             if (keywords[keyword]) {
-              keywords[keyword]++;
+              keywords[keyword].push(cleanSlug(path));
             } else {
-              keywords[keyword] = 1;
+              keywords[keyword] = [cleanSlug(path)];
             }
           });
         },
@@ -34,7 +35,7 @@ async function indexMarkdown(directory: string) {
   return keywordsArray.map((topic) => {
     return {
       title: resolveKeywordToTitle(topic),
-      count: keywords[topic],
+      posts: keywords[topic],
       slug: topic,
     };
   });

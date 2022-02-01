@@ -45,7 +45,7 @@
                             {
                               "element": "span",
                               "class": "text-lg",
-                              "==children": "'(' + count + ')'"
+                              "==children": "'(' + posts.length + ')'"
                             }
                           ]
                         }
