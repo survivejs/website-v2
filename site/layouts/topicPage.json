@@ -15,7 +15,7 @@
         {
           "element": "h1",
           "class": "text-4xl",
-          "__children": "match.title"
+          "==children": "match.title + ' posts'"
         },
         {
           "element": "ul",
@@ -40,6 +40,7 @@
         },
         {
           "element": "Link",
+          "class": "font-light",
           "children": "Back to topics",
           "attributes": {
             "href": "/topic/"
