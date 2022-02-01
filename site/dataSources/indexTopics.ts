@@ -4,9 +4,9 @@ import resolveKeywordToTitle from "../utils/resolve-keyword-to-title.ts";
 import cleanSlug from "../utils/clean-slug.ts";
 import type { MarkdownWithFrontmatterInput } from "../types.ts";
 
-async function indexMarkdown(directory: string) {
+async function indexTopics(directory: string) {
   const files = await dir(directory, ".md");
-  const keywords: Record<string, string[]> = {};
+  const keywords: Record<string, { title: string; slug: string }[]> = {};
 
   files.sort((a, b) => getIndex(b.name) - getIndex(a.name));
 
@@ -18,9 +18,15 @@ async function indexMarkdown(directory: string) {
 
           p.data.keywords?.forEach((keyword) => {
             if (keywords[keyword]) {
-              keywords[keyword].push(cleanSlug(path));
+              keywords[keyword].push({
+                title: p.data.title,
+                slug: cleanSlug(path),
+              });
             } else {
-              keywords[keyword] = [cleanSlug(path)];
+              keywords[keyword] = [{
+                title: p.data.title,
+                slug: cleanSlug(path),
+              }];
             }
           });
         },
@@ -45,4 +51,4 @@ function getIndex(str: string) {
   return parseInt(str.split("-")[0], 10);
 }
 
-export default indexMarkdown;
+export default indexTopics;

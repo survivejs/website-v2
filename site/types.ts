@@ -12,6 +12,7 @@ type MarkdownWithFrontmatter = {
 
 type MarkdownWithFrontmatterInput = MarkdownWithFrontmatter & {
   data: Record<string, unknown> & {
+    title: string;
     headerImage?: string;
     keywords?: string[];
   };

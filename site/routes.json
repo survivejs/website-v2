@@ -59,7 +59,22 @@
         "operation": "indexTopics",
         "input": "./pages/blog"
       }
-    ]
+    ],
+    "expand": {
+      "dataSources": [
+        {
+          "id": "topics",
+          "operation": "indexTopics",
+          "input": "./pages/blog"
+        }
+      ],
+      "matchBy": {
+        "dataSource": "topics",
+        "slug": "slug"
+      },
+      "layout": "topicPage",
+      "meta": {}
+    }
   },
   "atom.xml": {
     "layout": "rssPage",
