@@ -183,17 +183,17 @@ function parseCustomQuote(token, match, className) {
     if (text.indexOf(match) === 0) {
       return {
         type: "html",
-        text: `<blockquote class="${
-          className === "tip" ? "bg-teal-50" : "bg-red-50"
+        text: `<blockquote class="py-2 border-l-4 flex flex-row bg-gray-50 ${
+          className === "tip" ? "border-green-500" : "border-red-500"
         }"><span class="mr-2">${
           className === "tip" ? "&#9432;" : "&#9888;"
-        }</span>${
+        }</span><div>${
           marked.parseInline(
             text
               .slice(2)
               .trim(),
           )
-        }</blockquote>`,
+        }</div></blockquote>`,
       };
     }
   }
