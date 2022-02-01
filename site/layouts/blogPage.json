@@ -14,7 +14,7 @@
       "children": [
         {
           "element": "h1",
-          "class": "flex text-center justify-center items-center text-white h-full text-5xl font-bold bg-gradient-to-b from-transparent to-gray-800",
+          "class": "p-4 flex text-center justify-center items-center text-white h-full text-5xl font-bold bg-gradient-to-b from-transparent to-gray-800",
           "__children": "match.data.title"
         }
       ],
@@ -24,7 +24,7 @@
     },
     {
       "element": "div",
-      "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl prose lg:prose-xl",
+      "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl flex flex-col gap-8",
       "children": [
         {
           "element": "div",
@@ -57,10 +57,69 @@
           ]
         },
         {
-          "element": "p",
+          "element": "div",
+          "class": "prose lg:prose-xl",
           "inputProperty": "match.content",
           "transformWith": ["markdown"],
           "__children": "content"
+        },
+        {
+          "element": "div",
+          "class": "flex flex-row w-full",
+          "children": [
+            {
+              "element": "a",
+              "class": "w-full",
+              "children": [
+                {
+                  "element": "div",
+                  "class": "h-full p-4 flex flex-col gap-2 text-white bg-gradient-to-b from-transparent to-gray-800",
+                  "children": [
+                    {
+                      "element": "h2",
+                      "class": "",
+                      "children": "Previous post"
+                    },
+                    {
+                      "element": "h3",
+                      "class": "font-thin",
+                      "__children": "match.previous.data.title"
+                    }
+                  ]
+                }
+              ],
+              "attributes": {
+                "==href": "'/blog/' + match.previous.data.slug + '/'",
+                "==style": "'background-image:url(' + match.previous.data.images.thumbnail + ')'"
+              }
+            },
+            {
+              "element": "a",
+              "class": "w-full",
+              "children": [
+                {
+                  "element": "div",
+                  "class": "h-full p-4 flex flex-col gap-2 text-white bg-gradient-to-b from-transparent to-gray-800",
+                  "children": [
+                    {
+                      "element": "h2",
+                      "class": "",
+                      "children": "Next post"
+                    },
+                    {
+                      "element": "h3",
+                      "class": "font-thin",
+                      "__children": "match.next.data.title"
+                    }
+                  ]
+                }
+              ],
+              "attributes": {
+                "==href": "'/blog/' + match.next.data.slug + '/'",
+                "==style": "'background-image:url(' + match.next.data.images.thumbnail + ')'"
+              }
+            }
+          ]
         }
       ]
     },

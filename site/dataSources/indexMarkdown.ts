@@ -119,8 +119,8 @@ function generateAdjacent(pages: unknown[]) {
   return pages.map((page, i) => {
     const ret = cloneDeep(page); // Avoid mutation
 
-    ret.previous = i > 0 && pages[i - 1];
-    ret.next = i < pages.length - 1 && pages[i + 1];
+    ret.next = i > 0 && pages[i - 1];
+    ret.previous = i < pages.length - 1 && pages[i + 1];
 
     return ret;
   });
