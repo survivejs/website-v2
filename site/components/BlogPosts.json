@@ -35,6 +35,11 @@
               "element": "p",
               "class": "text-md text-gray-200",
               "__children": "data.preview"
+            },
+            {
+              "element": "Topics",
+              "class": "text-white",
+              "__bind": "data.topics"
             }
           ]
         }

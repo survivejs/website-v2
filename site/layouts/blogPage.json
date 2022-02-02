@@ -13,9 +13,19 @@
       "class": "w-full h-64 bg-cover bg-center",
       "children": [
         {
-          "element": "h1",
-          "class": "p-4 flex text-center justify-center items-center text-white h-full text-5xl font-bold bg-gradient-to-b from-transparent to-gray-800",
-          "__children": "match.data.title"
+          "element": "div",
+          "class": "p-4 flex flex-col gap-16 justify-center text-white h-full bg-gradient-to-b from-transparent to-gray-800",
+          "children": [
+            {
+              "element": "h1",
+              "class": "text-5xl font-bold text-center items-center",
+              "__children": "match.data.title"
+            },
+            {
+              "element": "Topics",
+              "__bind": "match.data.topics"
+            }
+          ]
         }
       ],
       "attributes": {
@@ -62,41 +72,6 @@
           "inputProperty": "match.content",
           "transformWith": ["markdown"],
           "__children": "content"
-        },
-        {
-          "element": "h2",
-          "class": "hidden",
-          "children": "Topics"
-        },
-        {
-          "element": "div",
-          "class": "",
-          "__bind": "match.data.topics",
-          "children": [
-            {
-              "element": "ul",
-              "class": "flex flex-row gap-2",
-              "__children": [
-                {
-                  "element": "li",
-                  "class": "border-2 border-gray-400 text-gray-600 font-light p-1",
-                  "children": [
-                    {
-                      "element": "div",
-                      "__children": "data"
-                    },
-                    {
-                      "element": "Link",
-                      "__children": "title",
-                      "attributes": {
-                        "==href": "'/topic/' + slug + '/'"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "element": "div",

@@ -1,0 +1,29 @@
+{
+  "element": "div",
+  "children": [
+    {
+      "element": "h2",
+      "class": "hidden",
+      "children": "Topics"
+    },
+    {
+      "element": "ul",
+      "class": "flex flex-row gap-2",
+      "__children": [
+        {
+          "element": "li",
+          "class": "border-2 border-gray-400 font-light p-1",
+          "children": [
+            {
+              "element": "Link",
+              "__children": "title",
+              "attributes": {
+                "==href": "'/topic/' + slug + '/'"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
