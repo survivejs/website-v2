@@ -20,7 +20,7 @@
         {
           "element": "ul",
           "class": "flex flex-col gap-2",
-          "__bind": "topics.content",
+          "__bind": "topics",
           "__children": [
             {
               "element": "li",

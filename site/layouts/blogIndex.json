@@ -19,7 +19,7 @@
         },
         {
           "element": "BlogPosts",
-          "__bind": "blogPosts.content"
+          "__bind": "blogPosts"
         }
       ]
     },

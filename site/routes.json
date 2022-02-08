@@ -37,7 +37,6 @@
       ],
       "matchBy": {
         "dataSource": "blogPosts",
-        "collection": "content",
         "slug": "data.slug"
       },
       "layout": "blogPage",
