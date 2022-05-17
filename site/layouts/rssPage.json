@@ -20,7 +20,7 @@
             },
             {
               "element": "link",
-              "children": "https://gustwind.js.org/"
+              "__children": "meta.domain"
             },
             {
               "element": "lastBuildDate",
@@ -39,7 +39,7 @@
                 },
                 {
                   "element": "link",
-                  "#children": "'https://gustwind.js.org/blog/' + data.slug + '/'"
+                  "==children": "meta.domain + '/blog/' + data.slug + '/'"
                 },
                 {
                   "element": "guid",
