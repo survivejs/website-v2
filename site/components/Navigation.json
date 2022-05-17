@@ -1,23 +1,23 @@
 [
   {
     "element": "Link",
-    "children": "Maintenance book",
+    "children": "Blog",
     "attributes": {
-      "href": "/maintenance/"
+      "href": "/blog/"
     }
   },
   {
     "element": "Link",
-    "children": "React book",
+    "children": "GitHub",
     "attributes": {
-      "href": "/react/"
+      "href": "https://github.com/survivejs"
     }
   },
   {
     "element": "Link",
-    "children": "Webpack book",
+    "children": "@survivejs",
     "attributes": {
-      "href": "/webpack/"
+      "href": "https://twitter.com/survivejs"
     }
   }
 ]

@@ -16,29 +16,52 @@
               "children": [
                 {
                   "element": "h2",
-                  "children": "About"
+                  "children": "About the site"
                 },
                 {
                   "element": "div",
                   "class": "font-thin",
-                  "children": "Gustwind is a Deno powered JSON oriented site generator. It was written with speed and flexibility in mind."
+                  "children": "SurviveJS is a series of books about JavaScript targeted for beginner/intermediate developers wanting to catch up with recent developments."
                 }
               ]
             },
             {
               "element": "div",
-              "class": "flex flex-col",
+              "class": "flex flex-col gap-8",
               "children": [
                 {
-                  "element": "h2",
-                  "children": "Navigation"
+                  "element": "div",
+                  "children": [
+                    {
+                      "element": "h2",
+                      "children": "Navigation"
+                    },
+                    {
+                      "element": "div",
+                      "class": "flex flex-col gap-2 font-thin",
+                      "children": [
+                        {
+                          "element": "Navigation"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "element": "div",
-                  "class": "flex flex-col gap-2 font-thin",
                   "children": [
                     {
-                      "element": "Navigation"
+                      "element": "h2",
+                      "children": "Books"
+                    },
+                    {
+                      "element": "div",
+                      "class": "flex flex-col gap-2 font-thin",
+                      "children": [
+                        {
+                          "element": "Books"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -50,12 +73,12 @@
               "children": [
                 {
                   "element": "h2",
-                  "children": "Credits"
+                  "children": "About the author"
                 },
                 {
                   "element": "div",
                   "class": "font-thin",
-                  "inputText": "Gustwind was developed by [Juho Vepsäläinen](https://github.com/bebraw).",
+                  "inputText": "[Juho Vepsäläinen](https://github.com/bebraw) is behind the SurviveJS effort. He has been active in the open source scene since the early 2000s and participated in projects like Blender and webpack as a core team member.",
                   "transformWith": ["markdown"],
                   "__children": "content"
                 }

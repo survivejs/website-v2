@@ -1,0 +1,23 @@
+[
+  {
+    "element": "Link",
+    "children": "Maintenance book",
+    "attributes": {
+      "href": "/maintenance/"
+    }
+  },
+  {
+    "element": "Link",
+    "children": "React book",
+    "attributes": {
+      "href": "/react/"
+    }
+  },
+  {
+    "element": "Link",
+    "children": "Webpack book",
+    "attributes": {
+      "href": "/webpack/"
+    }
+  }
+]
