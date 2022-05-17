@@ -1,11 +1,7 @@
 {
-  "allow": ["net", "read"],
-  "env": {
-    "NO_COLOR": 1
-  },
-  "scripts": {
-    "bootstrap": "vr get-images",
-    "get-images": "deno run scripts/get-images.ts > .images.json",
+  "tasks": {
+    "bootstrap": "deno task get-images",
+    "get-images": "deno run --allow-read=. --allow-write=. scripts/get-images.ts > .images.json",
     "install:gustwind": "deno install -A --unstable --no-check -f https://deno.land/x/gustwind@v0.19.1/cli.ts",
     "build": "gustwind -b",
     "start": "gustwind -d",

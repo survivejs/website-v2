@@ -4,7 +4,7 @@ This is the source of [https://survivejs.com/](https://survivejs.com/).
 
 ## Development
 
-Make sure you have [Deno](https://deno.land) and [Velociraptor](https://velociraptor.run/) installed before proceeding.
+Make sure you have [Deno](https://deno.land) installed before proceeding.
 
 First, clone this repository:
 
@@ -25,13 +25,13 @@ Then, setup a `.config.json` file as follows:
 Then, bootstrap the project:
 
 ```bash
-vr bootstrap
+deno task bootstrap
 ```
 
 Finally, start the development server:
 
 ```bash
-vr start
+deno task start
 ```
 
 Now you can go to [http://localhost:3000](http://localhost:3000) to see the site.
@@ -41,7 +41,7 @@ Now you can go to [http://localhost:3000](http://localhost:3000) to see the site
 To generate the build, run:
 
 ```bash
-vr build
+deno task build
 ```
 
 ## Known caveats
