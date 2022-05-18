@@ -55,9 +55,153 @@
     },
     {
       "element": "div",
-      "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl prose lg:prose-xl",
-      "__bind": "readme",
-      "__children": "content"
+      "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-4xl flex flex-col gap-8",
+      "children": [
+        {
+          "element": "section",
+          "class": "flex flex-col gap-4",
+          "children": [
+            {
+              "element": "h2",
+              "class": "text-4xl",
+              "children": "SurviveJS — Maintenance"
+            },
+            {
+              "element": "div",
+              "class": "prose lg:prose-xl",
+              "children": [
+                {
+                  "element": "img",
+                  "class": "float-left w-1/4",
+                  "attributes": {
+                    "src": "/assets/img/covers/maintenance-cover.svg"
+                  }
+                },
+                {
+                  "__bind": "maintenanceBookDescription",
+                  "__children": "content"
+                },
+                {
+                  "element": "h3",
+                  "class": "text-xl",
+                  "children": "What will you learn"
+                },
+                {
+                  "__bind": "maintenanceBookLearn",
+                  "__children": "content"
+                },
+                {
+                  "element": "h3",
+                  "class": "text-xl",
+                  "children": "Getting the book"
+                },
+                {
+                  "__bind": "maintenanceBookGet",
+                  "__children": "content"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "hr"
+        },
+        {
+          "element": "section",
+          "class": "flex flex-col gap-4",
+          "children": [
+            {
+              "element": "h2",
+              "class": "text-4xl",
+              "children": "SurviveJS — React"
+            },
+            {
+              "element": "div",
+              "class": "prose lg:prose-xl",
+              "children": [
+                {
+                  "element": "img",
+                  "class": "float-right w-1/4",
+                  "attributes": {
+                    "src": "/assets/img/covers/react-cover.svg"
+                  }
+                },
+                {
+                  "__bind": "reactBookDescription",
+                  "__children": "content"
+                },
+                {
+                  "element": "h3",
+                  "class": "text-xl",
+                  "children": "What will you learn"
+                },
+                {
+                  "__bind": "reactBookLearn",
+                  "__children": "content"
+                },
+                {
+                  "element": "h3",
+                  "class": "text-xl",
+                  "children": "Getting the book"
+                },
+                {
+                  "__bind": "reactBookGet",
+                  "__children": "content"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "hr"
+        },
+        {
+          "element": "section",
+          "class": "flex flex-col gap-4",
+          "children": [
+            {
+              "element": "h2",
+              "class": "text-4xl",
+              "children": "SurviveJS — Webpack 5"
+            },
+            {
+              "element": "div",
+              "class": "prose lg:prose-xl",
+              "children": [
+                {
+                  "element": "img",
+                  "class": "float-left w-1/4",
+                  "attributes": {
+                    "src": "/assets/img/covers/webpack-cover.svg"
+                  }
+                },
+                {
+                  "__bind": "webpackBookDescription",
+                  "__children": "content"
+                },
+                {
+                  "element": "h3",
+                  "class": "text-xl",
+                  "children": "What will you learn"
+                },
+                {
+                  "__bind": "webpackBookLearn",
+                  "__children": "content"
+                },
+                {
+                  "element": "h3",
+                  "class": "text-xl",
+                  "children": "Getting the book"
+                },
+                {
+                  "__bind": "webpackBookGet",
+                  "__children": "content"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "element": "MainFooter"

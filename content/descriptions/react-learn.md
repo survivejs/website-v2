@@ -6,10 +6,8 @@ While implementing the Kanban step by step, you will pick up basic ideas of how 
 
 Once you have completed the project, you will end up with something like this:
 
-![Kanban animation|594|279|kanban-animation](assets/img/kanban.gif)
+![Kanban animation](img/kanban.gif)
 
 Even though the application looks simple, it's complex enough to illustrate potential problems such as reference handling.
-
-The React book is based on a [boilerplate](https://github.com/survivejs/react-boilerplate). If you want to understand the techniques used in the boilerplate itself, check out the webpack book above.
 
 Even if you know React well already, there might be handy ideas to pick up. The book effort started early 2015 and has seen steady releases since. Each release has improved the book somehow as the React ecosystem keeps on changing.

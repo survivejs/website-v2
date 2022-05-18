@@ -7,9 +7,57 @@
     "layout": "siteIndex",
     "dataSources": [
       {
-        "id": "readme",
+        "id": "maintenanceBookDescription",
         "operation": "file",
-        "input": "./README.md",
+        "input": "./content/descriptions/maintenance.md",
+        "transformWith": ["markdown"]
+      },
+      {
+        "id": "maintenanceBookLearn",
+        "operation": "file",
+        "input": "./content/descriptions/maintenance-learn.md",
+        "transformWith": ["markdown"]
+      },
+      {
+        "id": "maintenanceBookGet",
+        "operation": "file",
+        "input": "./content/gets/maintenance.md",
+        "transformWith": ["markdown"]
+      },
+      {
+        "id": "reactBookDescription",
+        "operation": "file",
+        "input": "./content/descriptions/react.md",
+        "transformWith": ["markdown"]
+      },
+      {
+        "id": "reactBookLearn",
+        "operation": "file",
+        "input": "./content/descriptions/react-learn.md",
+        "transformWith": ["markdown"]
+      },
+      {
+        "id": "reactBookGet",
+        "operation": "file",
+        "input": "./content/gets/react.md",
+        "transformWith": ["markdown"]
+      },
+      {
+        "id": "webpackBookDescription",
+        "operation": "file",
+        "input": "./content/descriptions/webpack.md",
+        "transformWith": ["markdown"]
+      },
+      {
+        "id": "webpackBookLearn",
+        "operation": "file",
+        "input": "./content/descriptions/webpack-learn.md",
+        "transformWith": ["markdown"]
+      },
+      {
+        "id": "webpackBookGet",
+        "operation": "file",
+        "input": "./content/gets/webpack.md",
         "transformWith": ["markdown"]
       }
     ]
