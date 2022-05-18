@@ -12,7 +12,7 @@ import highlightMarkdown from "https://unpkg.com/highlight.js@11.3.1/es/language
 import highlightCSS from "https://unpkg.com/highlight.js@11.3.1/es/languages/css";
 import highlightSQL from "https://unpkg.com/highlight.js@11.3.1/es/languages/sql";
 import highlightC from "https://unpkg.com/highlight.js@11.3.1/es/languages/c";
-import config from "../../.config.json" assert { type: "json" };
+import config from "../../meta.json" assert { type: "json" };
 import images from "../../.images.json" assert { type: "json" };
 
 highlight.registerLanguage("bash", highlightBash);
@@ -124,7 +124,7 @@ function transformMarkdown(input: string) {
             throw new Error("Failed to find a matching image for " + href);
           }
 
-          src = config.imagesEndpoint + `?image=${image}&type=public`;
+          src = config.meta.imagesEndpoint + `?image=${image}&type=public`;
         }
 
         return `<figure><img x-state="{ image: '' }" x-attr @src="state.image" x-intersect="{ options: { once: true }, state: { image: '${src}' }}" alt="${alt}" class="${imageClassName}" width="${width}" height="${height}" /><figcaption class="${captionClassName}">${alt}</figcaption></figure>`;

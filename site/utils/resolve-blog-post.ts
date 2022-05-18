@@ -1,7 +1,7 @@
 import removeMarkdown from "https://esm.sh/remove-markdown@0.3.0";
 import resolveKeywordToTitle from "./resolve-keyword-to-title.ts";
 import cleanSlug from "./clean-slug.ts";
-import config from "../../.config.json" assert { type: "json" };
+import config from "../../meta.json" assert { type: "json" };
 import images from "../../.images.json" assert { type: "json" };
 import type { MarkdownWithFrontmatterInput } from "../types.ts";
 
@@ -40,8 +40,8 @@ function resolveImages(headerImage?: string) {
   }
 
   return {
-    header: config.imagesEndpoint + `?image=${image}&type=public`,
-    thumbnail: config.imagesEndpoint + `?image=${image}&type=thumb`,
+    header: config.meta.imagesEndpoint + `?image=${image}&type=public`,
+    thumbnail: config.meta.imagesEndpoint + `?image=${image}&type=thumb`,
   };
 }
 

@@ -9,6 +9,26 @@
       "element": "MainNavigation"
     },
     {
+      "element": "header",
+      "class": "w-full h-64 bg-cover bg-center",
+      "children": [
+        {
+          "element": "div",
+          "class": "px-4 flex flex-col justify-center text-white h-full bg-gradient-to-b from-transparent to-gray-800",
+          "children": [
+            {
+              "element": "h1",
+              "class": "text-5xl font-bold text-center items-center",
+              "children": "Some title goes here"
+            }
+          ]
+        }
+      ],
+      "attributes": {
+        "==style": "'background-image:url(' + meta.imagesEndpoint + '?image=79d448e0-f0ca-4e50-f323-990a65ed8800&type=public' + ')'"
+      }
+    },
+    {
       "element": "div",
       "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl prose lg:prose-xl",
       "__bind": "readme",
