@@ -17,9 +17,34 @@
           "class": "px-4 flex flex-col justify-center text-white h-full bg-gradient-to-b from-transparent to-gray-800",
           "children": [
             {
-              "element": "h1",
-              "class": "text-5xl font-bold text-center items-center",
-              "children": "Some title goes here"
+              "element": "div",
+              "class": "flex flex-col gap-8 ml-8",
+              "children": [
+                {
+                  "element": "h1",
+                  "class": "text-xl font-bold uppercase",
+                  "children": [
+                    {
+                      "children": "Survive"
+                    },
+                    {
+                      "element": "strong",
+                      "class": "text-primary",
+                      "children": "JS"
+                    }
+                  ]
+                },
+                {
+                  "element": "h2",
+                  "class": "text-5xl font-light text-primary",
+                  "children": "Learn JavaScript"
+                },
+                {
+                  "element": "p",
+                  "class": "text-lg text-gray-300",
+                  "children": "SurviveJS will take you from apprentice to master"
+                }
+              ]
             }
           ]
         }
