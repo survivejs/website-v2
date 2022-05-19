@@ -39,7 +39,7 @@
                   "__children": "subtitle"
                 },
                 {
-                  "element": "p",
+                  "element": "div",
                   "class": "text-lg text-gray-300",
                   "==children": "render(callToAction)"
                 }
