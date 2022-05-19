@@ -30,9 +30,7 @@
               "children": "or"
             },
             {
-              "__todo": "This should become a Button",
-              "element": "div",
-              "class": "btn",
+              "element": "Button",
               "children": "become a webpack master",
               "attributes": {
                 "href": "https://leanpub.com/survivejs-webpack"
