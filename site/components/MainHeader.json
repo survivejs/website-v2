@@ -1,0 +1,56 @@
+{
+  "element": "header",
+  "class": "w-full h-64 bg-cover bg-center",
+  "children": [
+    {
+      "element": "div",
+      "class": "px-4 flex flex-col justify-center text-white h-full bg-gradient-to-b from-transparent to-gray-800",
+      "children": [
+        {
+          "element": "div",
+          "class": "md:mx-auto w-full lg:max-w-4xl",
+          "children": [
+            {
+              "element": "div",
+              "class": "flex flex-col gap-8",
+              "children": [
+                {
+                  "element": "h1",
+                  "class": "text-xl font-bold uppercase",
+                  "children": [
+                    {
+                      "children": "Survive"
+                    },
+                    {
+                      "element": "strong",
+                      "class": "text-primary",
+                      "children": "JS"
+                    },
+                    {
+                      "visibleIf": "maintitle",
+                      "element": "span",
+                      "==children": "' ' + '–' + ' ' + maintitle"
+                    }
+                  ]
+                },
+                {
+                  "element": "h2",
+                  "class": "text-5xl font-light text-primary",
+                  "__children": "subtitle"
+                },
+                {
+                  "element": "p",
+                  "class": "text-lg text-gray-300",
+                  "==children": "render(callToAction)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attributes": {
+    "==style": "'background-image:url(' + meta.imagesEndpoint + '?image=' + resolveImage('img/headers/front.jpg') + '&type=public' + ')'"
+  }
+}

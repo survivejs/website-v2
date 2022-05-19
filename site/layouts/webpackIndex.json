@@ -9,6 +9,40 @@
       "element": "MainNavigation"
     },
     {
+      "element": "MainHeader",
+      "__bind": {
+        "maintitle": "Webpack",
+        "subtitle": "From apprentice to master",
+        "__todo": "This should use a JSON structure to allow customization",
+        "callToAction": {
+          "element": "div",
+          "class": "flex gap-2 items-center",
+          "children": [
+            {
+              "element": "Link",
+              "children": "Read for free",
+              "attributes": {
+                "href": "/preface/"
+              }
+            },
+            {
+              "element": "span",
+              "children": "or"
+            },
+            {
+              "__todo": "This should become a Button",
+              "element": "div",
+              "class": "btn",
+              "children": "become a webpack master",
+              "attributes": {
+                "href": "https://leanpub.com/survivejs-webpack"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
       "element": "div",
       "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl",
       "children": [
