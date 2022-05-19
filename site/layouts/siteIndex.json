@@ -56,7 +56,7 @@
         }
       ],
       "attributes": {
-        "==style": "'background-image:url(' + meta.imagesEndpoint + '?image=79d448e0-f0ca-4e50-f323-990a65ed8800&type=public' + ')'"
+        "==style": "'background-image:url(' + meta.imagesEndpoint + '?image=' + resolveImage('img/headers/front.jpg') + '&type=public' + ')'"
       }
     },
     {

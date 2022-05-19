@@ -13,6 +13,7 @@
     "dataSources": "./site/dataSources",
     "layouts": "./site/layouts",
     "output": "./build",
+    "pageUtilities": "./site/pageUtilities.ts",
     "routes": "./site/routes.json",
     "transforms": "./site/transforms",
     "twindSetup": "./site/twindSetup.ts"
