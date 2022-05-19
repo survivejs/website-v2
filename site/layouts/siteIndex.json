@@ -26,7 +26,7 @@
             {
               "element": "h2",
               "class": "text-4xl",
-              "children": "SurviveJS — Maintenance"
+              "children": "SurviveJS — Webpack 5"
             },
             {
               "element": "div",
@@ -36,11 +36,11 @@
                   "element": "img",
                   "class": "float-left w-1/4",
                   "attributes": {
-                    "src": "/assets/img/covers/maintenance-cover.svg"
+                    "src": "/assets/img/covers/webpack-cover.svg"
                   }
                 },
                 {
-                  "__bind": "maintenanceBookDescription",
+                  "__bind": "webpackBookDescription",
                   "__children": "content"
                 },
                 {
@@ -49,7 +49,7 @@
                   "children": "What will you learn"
                 },
                 {
-                  "__bind": "maintenanceBookLearn",
+                  "__bind": "webpackBookLearn",
                   "__children": "content"
                 },
                 {
@@ -58,7 +58,7 @@
                   "children": "Getting the book"
                 },
                 {
-                  "__bind": "maintenanceBookGet",
+                  "__bind": "webpackBookGet",
                   "__children": "content"
                 }
               ]
@@ -124,7 +124,7 @@
             {
               "element": "h2",
               "class": "text-4xl",
-              "children": "SurviveJS — Webpack 5"
+              "children": "SurviveJS — Maintenance"
             },
             {
               "element": "div",
@@ -134,11 +134,11 @@
                   "element": "img",
                   "class": "float-left w-1/4",
                   "attributes": {
-                    "src": "/assets/img/covers/webpack-cover.svg"
+                    "src": "/assets/img/covers/maintenance-cover.svg"
                   }
                 },
                 {
-                  "__bind": "webpackBookDescription",
+                  "__bind": "maintenanceBookDescription",
                   "__children": "content"
                 },
                 {
@@ -147,7 +147,7 @@
                   "children": "What will you learn"
                 },
                 {
-                  "__bind": "webpackBookLearn",
+                  "__bind": "maintenanceBookLearn",
                   "__children": "content"
                 },
                 {
@@ -156,7 +156,7 @@
                   "children": "Getting the book"
                 },
                 {
-                  "__bind": "webpackBookGet",
+                  "__bind": "maintenanceBookGet",
                   "__children": "content"
                 }
               ]
