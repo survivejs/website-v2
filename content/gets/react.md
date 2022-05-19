@@ -3,6 +3,6 @@ The easiest way to get started with the material is to check out [the free onlin
 > There's a [Gitter chat](https://gitter.im/survivejs/react) for support. You can [check out the project at GitHub](https://github.com/survivejs/react-book) as well.
 
 <p class="btn-group">
-<a class='btn btn--normal btn--buy' href='https://leanpub.com/survivejs-react'>Buy at Leanpub</a>
-<a class='btn btn--normal btn--buy' href='/react/introduction/'>Read for free</a>
+<a class='btn btn-buy' href='https://leanpub.com/survivejs-react'>Buy at Leanpub</a>
+<a class='btn btn-buy' href='/react/introduction/'>Read for free</a>
 </p>
