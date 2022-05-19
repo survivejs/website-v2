@@ -62,6 +62,15 @@
       }
     ]
   },
+  "webpack": {
+    "layout": "webpackIndex"
+  },
+  "react": {
+    "layout": "reactIndex"
+  },
+  "maintenance": {
+    "layout": "maintenanceIndex"
+  },
   "blog": {
     "layout": "blogIndex",
     "meta": {
