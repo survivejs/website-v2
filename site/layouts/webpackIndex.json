@@ -13,30 +13,12 @@
       "__bind": {
         "maintitle": "Webpack",
         "subtitle": "From apprentice to master",
-        "__todo": "This should use a JSON structure to allow customization",
         "callToAction": {
-          "element": "div",
-          "class": "flex gap-2 items-center",
-          "children": [
-            {
-              "element": "Link",
-              "children": "Read for free",
-              "attributes": {
-                "href": "/preface/"
-              }
-            },
-            {
-              "element": "span",
-              "children": "or"
-            },
-            {
-              "element": "Button",
-              "children": "become a webpack master",
-              "attributes": {
-                "href": "https://leanpub.com/survivejs-webpack"
-              }
-            }
-          ]
+          "element": "BookCta",
+          "__bind": {
+            "topic": "webpack",
+            "bookLink": "https://leanpub.com/survivejs-webpack"
+          }
         }
       }
     },

@@ -9,6 +9,20 @@
       "element": "MainNavigation"
     },
     {
+      "element": "MainHeader",
+      "__bind": {
+        "maintitle": "Maintenance",
+        "subtitle": "From apprentice to master",
+        "callToAction": {
+          "element": "BookCta",
+          "__bind": {
+            "topic": "maintenance",
+            "bookLink": "https://leanpub.com/survivejs-maintenance"
+          }
+        }
+      }
+    },
+    {
       "element": "div",
       "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl",
       "children": [

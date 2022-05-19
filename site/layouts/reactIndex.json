@@ -9,6 +9,20 @@
       "element": "MainNavigation"
     },
     {
+      "element": "MainHeader",
+      "__bind": {
+        "maintitle": "React",
+        "subtitle": "From apprentice to master",
+        "callToAction": {
+          "element": "BookCta",
+          "__bind": {
+            "topic": "React",
+            "bookLink": "https://leanpub.com/survivejs-react"
+          }
+        }
+      }
+    },
+    {
       "element": "div",
       "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl",
       "children": [

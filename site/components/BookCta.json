@@ -1,0 +1,24 @@
+{
+  "element": "div",
+  "class": "flex gap-2 items-center",
+  "children": [
+    {
+      "element": "Link",
+      "children": "Read for free",
+      "attributes": {
+        "href": "/preface/"
+      }
+    },
+    {
+      "element": "span",
+      "children": "or"
+    },
+    {
+      "element": "Button",
+      "==children": "'become a ' + topic + ' master'",
+      "attributes": {
+        "__href": "bookLink"
+      }
+    }
+  ]
+}
