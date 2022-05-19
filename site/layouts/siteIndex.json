@@ -11,6 +11,7 @@
     {
       "element": "MainHeader",
       "__bind": {
+        "maintitle": false,
         "subtitle": "Learn JavaScript",
         "callToAction": "SurviveJS will take you from apprentice to master"
       }
