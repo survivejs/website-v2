@@ -18,31 +18,37 @@
           "children": [
             {
               "element": "div",
-              "class": "flex flex-col gap-8 ml-8",
+              "class": "md:mx-auto w-full lg:max-w-4xl",
               "children": [
                 {
-                  "element": "h1",
-                  "class": "text-xl font-bold uppercase",
+                  "element": "div",
+                  "class": "flex flex-col gap-8 ml-8",
                   "children": [
                     {
-                      "children": "Survive"
+                      "element": "h1",
+                      "class": "text-xl font-bold uppercase",
+                      "children": [
+                        {
+                          "children": "Survive"
+                        },
+                        {
+                          "element": "strong",
+                          "class": "text-primary",
+                          "children": "JS"
+                        }
+                      ]
                     },
                     {
-                      "element": "strong",
-                      "class": "text-primary",
-                      "children": "JS"
+                      "element": "h2",
+                      "class": "text-5xl font-light text-primary",
+                      "children": "Learn JavaScript"
+                    },
+                    {
+                      "element": "p",
+                      "class": "text-lg text-gray-300",
+                      "children": "SurviveJS will take you from apprentice to master"
                     }
                   ]
-                },
-                {
-                  "element": "h2",
-                  "class": "text-5xl font-light text-primary",
-                  "children": "Learn JavaScript"
-                },
-                {
-                  "element": "p",
-                  "class": "text-lg text-gray-300",
-                  "children": "SurviveJS will take you from apprentice to master"
                 }
               ]
             }
