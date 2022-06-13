@@ -17,7 +17,7 @@
             "element": "Link",
             "props": {
               "__children": "props.title",
-              "==href": "'/topic/' + props.slug + '/'"
+              "==href": "'/topics/' + props.slug + '/'"
             }
           }
         ]

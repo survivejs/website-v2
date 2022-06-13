@@ -103,7 +103,7 @@
       }
     }
   },
-  "topic": {
+  "topics": {
     "layout": "topicIndex",
     "meta": {
       "title": "Topics",
