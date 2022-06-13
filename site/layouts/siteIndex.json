@@ -29,7 +29,7 @@
                 "children": [
                   {
                     "element": "img",
-                    "class": "float-left w-1/4",
+                    "class": "float-left w-1/4 shadow mr-4",
                     "attributes": {
                       "src": "/assets/img/covers/webpack-cover.svg"
                     }
@@ -75,7 +75,7 @@
                 "children": [
                   {
                     "element": "img",
-                    "class": "float-right w-1/4",
+                    "class": "float-right w-1/4 shadow ml-4",
                     "attributes": {
                       "src": "/assets/img/covers/react-cover.svg"
                     }
@@ -121,7 +121,7 @@
                 "children": [
                   {
                     "element": "img",
-                    "class": "float-left w-1/4",
+                    "class": "float-left w-1/4 shadow mr-4",
                     "attributes": {
                       "src": "/assets/img/covers/maintenance-cover.svg"
                     }
