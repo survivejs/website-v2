@@ -27,21 +27,21 @@
                       "children": "JS"
                     },
                     {
-                      "visibleIf": "maintitle",
+                      "visibleIf": "props.maintitle",
                       "element": "span",
-                      "==children": "' ' + '–' + ' ' + maintitle"
+                      "==children": "' ' + '–' + ' ' + props.maintitle"
                     }
                   ]
                 },
                 {
                   "element": "h2",
                   "class": "text-5xl font-light text-primary",
-                  "__children": "subtitle"
+                  "__children": "props.subtitle"
                 },
                 {
                   "element": "div",
                   "class": "text-lg text-gray-300",
-                  "==children": "render(callToAction)"
+                  "##children": "props.callToAction"
                 }
               ]
             }
@@ -51,6 +51,6 @@
     }
   ],
   "attributes": {
-    "==style": "'background-image:url(' + meta.imagesEndpoint + '?image=' + resolveImage('img/headers/front.jpg') + '&type=public' + ')'"
+    "==style": "'background-image:url(' + context.meta.imagesEndpoint + '?image=' + utilities.resolveImage('img/headers/front.jpg') + '&type=public' + ')'"
   }
 }

@@ -8,81 +8,6 @@
     }
   },
   {
-    "element": "meta",
-    "attributes": {
-      "name": "pagepath",
-      "__content": "meta.pagePath"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "charset": "UTF-8",
-      "name": "viewport",
-      "content": "width=device-width, initial-scale=1.0"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "name": "og:site_name",
-      "__content": "meta.siteName"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "name": "twitter:site",
-      "__content": "meta.siteName"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "name": "og:title",
-      "__content": "meta.title"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "name": "twitter:title",
-      "__content": "meta.title"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "name": "description",
-      "__content": "meta.description"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "name": "og:description",
-      "__content": "meta.description"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "name": "twitter:description",
-      "__content": "meta.description"
-    }
-  },
-  {
-    "element": "meta",
-    "attributes": {
-      "name": "built",
-      "__content": "meta.built"
-    }
-  },
-  {
-    "element": "title",
-    "__children": "meta.title"
-  },
-  {
     "_reference": "https://web.dev/defer-non-critical-css/",
     "element": "link",
     "attributes": {
@@ -103,5 +28,80 @@
         }
       }
     ]
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "pagepath",
+      "__content": "context.meta.pagePath"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "charset": "UTF-8",
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "og:site_name",
+      "__content": "context.meta.siteName"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "twitter:site",
+      "__content": "context.meta.siteName"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "og:title",
+      "__content": "context.meta.title"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "twitter:title",
+      "__content": "context.meta.title"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "description",
+      "__content": "context.meta.description"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "og:description",
+      "__content": "context.meta.description"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "twitter:description",
+      "__content": "context.meta.description"
+    }
+  },
+  {
+    "element": "meta",
+    "attributes": {
+      "name": "built",
+      "__content": "context.meta.built"
+    }
+  },
+  {
+    "element": "title",
+    "__children": "context.meta.title"
   }
 ]

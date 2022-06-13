@@ -1,59 +1,79 @@
-{
-  "body": [
-    {
-      "element": "rss",
-      "attributes": {
-        "version": "2.0"
+[
+  {
+    "element": "?xml",
+    "attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    },
+    "closingCharacter": "?"
+  },
+  {
+    "element": "feed",
+    "__reference": "https://kevincox.ca/2022/05/06/rss-feed-best-practices/",
+    "attributes": {
+      "xmlns": "http://www.w3.org/2005/Atom"
+    },
+    "children": [
+      {
+        "element": "title",
+        "__children": "context.meta.siteName"
       },
-      "children": [
-        {
-          "element": "channel",
-          "__bind": "blogPosts.content",
+      {
+        "element": "id",
+        "__children": "context.meta.url"
+      },
+      {
+        "element": "link",
+        "attributes": {
+          "rel": "alternate",
+          "__href": "context.meta.url"
+        }
+      },
+      {
+        "element": "link",
+        "attributes": {
+          "rel": "self",
+          "==href": "context.meta.url + 'atom.xml'"
+        }
+      },
+      {
+        "element": "updated",
+        "==children": "(new Date(context.meta.built)).toISOString()"
+      },
+      {
+        "foreach": ["context.blogPosts.content", {
+          "element": "entry",
           "children": [
             {
               "element": "title",
-              "__children": "meta.title"
-            },
-            {
-              "element": "description",
-              "__children": "meta.description"
+              "__children": "props.data.title"
             },
             {
               "element": "link",
-              "__children": "meta.domain"
+              "attributes": {
+                "rel": "alternate",
+                "type": "text/html",
+                "==href": "context.meta.url + 'blog/' + props.data.slug + '/'"
+              }
             },
             {
-              "element": "lastBuildDate",
-              "__children": "meta.built"
+              "element": "id",
+              "__children": "props.data.slug"
             },
             {
-              "element": "item",
-              "__children": [
-                {
-                  "element": "title",
-                  "__children": "data.title"
-                },
-                {
-                  "element": "description",
-                  "__children": "data.description"
-                },
-                {
-                  "element": "link",
-                  "==children": "meta.domain + '/blog/' + data.slug + '/'"
-                },
-                {
-                  "element": "guid",
-                  "__children": "data.slug"
-                },
-                {
-                  "element": "pubDate",
-                  "__children": "data.date"
-                }
-              ]
+              "element": "published",
+              "==children": "(new Date(props.data.date)).toISOString()"
+            },
+            {
+              "element": "content",
+              "attributes": {
+                "type": "html"
+              },
+              "__children": "props.data.description"
             }
           ]
-        }
-      ]
-    }
-  ]
-}
+        }]
+      }
+    ]
+  }
+]

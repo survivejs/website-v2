@@ -4,8 +4,8 @@
   "children": [
     {
       "element": "Link",
-      "children": "Read for free",
-      "attributes": {
+      "props": {
+        "children": "Read for free",
         "href": "/preface/"
       }
     },
@@ -15,9 +15,9 @@
     },
     {
       "element": "Button",
-      "==children": "'become a ' + topic + ' master'",
-      "attributes": {
-        "__href": "bookLink"
+      "props": {
+        "==children": "'become a ' + props.topic + ' master'",
+        "__href": "props.bookLink"
       }
     }
   ]

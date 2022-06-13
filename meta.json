@@ -2,7 +2,7 @@
   "port": 3000,
   "amountOfBuildThreads": 5,
   "meta": {
-    "domain": "https://survivejs.com",
+    "url": "https://survivejs.com/",
     "imagesEndpoint": "https://images.survivejs.com",
     "language": "en",
     "siteName": "SurviveJS"

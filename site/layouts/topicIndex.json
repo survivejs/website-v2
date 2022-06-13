@@ -1,14 +1,7 @@
 {
-  "head": [
-    {
-      "element": "MetaFields"
-    }
-  ],
-  "body": [
-    {
-      "element": "MainNavigation"
-    },
-    {
+  "element": "BaseLayout",
+  "props": {
+    "content": {
       "element": "div",
       "class": "md:mx-auto my-8 px-4 md:px-0 w-full lg:max-w-3xl",
       "children": [
@@ -20,54 +13,44 @@
         {
           "element": "ul",
           "class": "flex flex-col gap-2",
-          "__bind": "topics",
-          "__children": [
-            {
-              "element": "li",
-              "class": "rounded",
-              "children": [
-                {
-                  "element": "div",
-                  "class": "rounded flex flex-col gap-1",
-                  "children": [
-                    {
-                      "element": "Link",
-                      "children": [
-                        {
-                          "element": "h2",
-                          "class": "text-xl",
-                          "children": [
-                            {
-                              "element": "span",
-                              "class": "pr-1",
-                              "__children": "title"
-                            },
-                            {
-                              "element": "span",
-                              "class": "text-sm font-light",
-                              "==children": "'(' + posts.length + ')'"
-                            }
-                          ]
-                        }
-                      ],
-                      "attributes": {
-                        "==href": "'/topic/' + slug + '/'"
+          "foreach": ["context.topics", {
+            "element": "li",
+            "class": "rounded",
+            "children": [
+              {
+                "element": "div",
+                "class": "rounded flex flex-col gap-1",
+                "children": [
+                  {
+                    "element": "Link",
+                    "children": [
+                      {
+                        "element": "h2",
+                        "class": "text-xl",
+                        "children": [
+                          {
+                            "element": "span",
+                            "class": "pr-1",
+                            "__children": "props.title"
+                          },
+                          {
+                            "element": "span",
+                            "class": "text-sm font-light",
+                            "==children": "'(' + props.posts.length + ')'"
+                          }
+                        ]
                       }
+                    ],
+                    "attributes": {
+                      "==href": "'/topic/' + props.slug + '/'"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
+                  }
+                ]
+              }
+            ]
+          }]
         }
       ]
-    },
-    {
-      "element": "MainFooter"
-    },
-    {
-      "element": "Scripts",
-      "__bind": "scripts"
     }
-  ]
+  }
 }

@@ -8,13 +8,15 @@
       "children": [
         {
           "element": "a",
-          "children": [{
-            "element": "img",
-            "class": "w-8 h-fit",
-            "attributes": {
-              "src": "/assets/img/logo.svg"
+          "children": [
+            {
+              "element": "img",
+              "class": "w-8 h-fit",
+              "attributes": {
+                "src": "/assets/img/logo.svg"
+              }
             }
-          }],
+          ],
           "attributes": {
             "href": "/"
           }

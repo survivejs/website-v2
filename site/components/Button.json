@@ -1,4 +1,8 @@
 {
   "element": "a",
-  "class": "btn"
+  "class": "btn",
+  "__children": "props.children",
+  "attributes": {
+    "__href": "props.href"
+  }
 }

@@ -1,7 +1,11 @@
 {
-  "element": "a",
-  "class": "underline",
-  "__class": {
-    "font-bold": "attributes.href === context.pathname"
+  "==element": "props.element || 'a'",
+  "==class": "['underline'].concat(props.class || []).join(' ')",
+  "classList": {
+    "font-bold": "props.href === context.pathname"
+  },
+  "__children": "props.children",
+  "attributes": {
+    "__href": "props.href"
   }
 }

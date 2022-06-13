@@ -78,9 +78,10 @@
                 {
                   "element": "div",
                   "class": "font-thin",
-                  "inputText": "[Juho Vepsäläinen](https://github.com/bebraw) is behind the SurviveJS effort. He has been active in the open source scene since the early 2000s and participated in projects like Blender and webpack as a core team member.",
-                  "transformWith": ["markdown"],
-                  "__children": "content"
+                  "props": {
+                    "content": "[Juho Vepsäläinen](https://github.com/bebraw) is behind the SurviveJS effort. He has been active in the open source scene since the early 2000s and participated in projects like Blender and webpack as a core team member."
+                  },
+                  "==children": "utilities.markdown(props.content).content"
                 }
               ]
             }

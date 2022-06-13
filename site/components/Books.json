@@ -1,22 +1,22 @@
 [
   {
     "element": "Link",
-    "children": "Maintenance book",
-    "attributes": {
+    "props": {
+      "children": "Maintenance book",
       "href": "/maintenance/"
     }
   },
   {
     "element": "Link",
-    "children": "React book",
-    "attributes": {
+    "props": {
+      "children": "React book",
       "href": "/react/"
     }
   },
   {
     "element": "Link",
-    "children": "Webpack book",
-    "attributes": {
+    "props": {
+      "children": "Webpack book",
       "href": "/webpack/"
     }
   }

@@ -1,55 +1,50 @@
 {
   "element": "ul",
   "class": "flex flex-col gap-8",
-  "__children": [
-    {
-      "element": "li",
-      "class": "rounded bg-cover bg-center bg-blend-hue",
-      "children": [
-        {
-          "element": "div",
-          "class": "rounded flex flex-col gap-2 p-8 bg-gradient-to-b from-transparent to-gray-800",
-          "children": [
-            {
-              "element": "Link",
-              "children": [
-                {
-                  "element": "h2",
-                  "class": "text-3xl text-white",
-                  "__children": "data.title"
-                }
-              ],
-              "attributes": {
-                "==href": "'/blog/' + data.slug + '/'"
-              }
-            },
-            {
-              "element": "time",
-              "class": "font-thin text-base text-gray-300",
-              "==children": "new Date(data.date).toLocaleDateString('en-US')",
-              "attributes": {
-                "__datetime": "data.date"
-              }
-            },
-            {
-              "element": "p",
-              "class": "text-md text-gray-200",
-              "__children": "data.preview"
-            },
-            {
-              "element": "Topics",
-              "class": "text-white",
-              "__bind": "data.topics"
+  "foreach": ["props.posts", {
+    "element": "li",
+    "class": "rounded bg-cover bg-center bg-blend-hue",
+    "children": [
+      {
+        "element": "div",
+        "class": "rounded flex flex-col gap-2 p-8 bg-gradient-to-b from-transparent to-gray-800",
+        "children": [
+          {
+            "element": "Link",
+            "props": {
+              "class": "text-3xl text-white",
+              "__children": "props.data.title",
+              "==href": "'/blog/' + props.data.slug + '/'"
             }
-          ]
-        }
-      ],
-      "attributes": {
-        "x-state": "{ image: '' }",
-        "==x-intersect": "`{ options: { once: true }, state: { image: 'background-image:url(` + data.images.thumbnail + `)' } }`",
-        "x-attr": "",
-        "@style": "state.image"
+          },
+          {
+            "element": "time",
+            "class": "font-thin text-base text-gray-300",
+            "==children": "new Date(props.data.date).toLocaleDateString('en-US')",
+            "attributes": {
+              "__datetime": "props.data.date"
+            }
+          },
+          {
+            "element": "p",
+            "class": "text-md text-gray-200",
+            "__children": "props.data.preview"
+          },
+          {
+            "element": "Topics",
+            "class": "text-white",
+            "props": {
+              "topics": "props.data.topics"
+            }
+          }
+        ]
       }
+    ],
+    "attributes": {
+      "x-state": "{ image: '' }",
+      "==x-intersect": "`{ options: { once: true }, state: { image: 'background-image:url(` + props.data.images.thumbnail + `)' } }`",
+      "x-attr": "",
+      "@style": "state.image"
     }
-  ]
+  }]
 }

@@ -1,22 +1,22 @@
 [
   {
     "element": "Link",
-    "children": "Blog",
-    "attributes": {
+    "props": {
+      "children": "Blog",
       "href": "/blog/"
     }
   },
   {
     "element": "Link",
-    "children": "GitHub",
-    "attributes": {
+    "props": {
+      "children": "GitHub",
       "href": "https://github.com/survivejs"
     }
   },
   {
     "element": "Link",
-    "children": "@survivejs",
-    "attributes": {
+    "props": {
+      "children": "@survivejs",
       "href": "https://twitter.com/survivejs"
     }
   }
