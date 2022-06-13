@@ -22,7 +22,7 @@
                 "class": "rounded flex flex-col gap-1",
                 "children": [
                   {
-                    "element": "Link",
+                    "element": "a",
                     "children": [
                       {
                         "element": "h2",

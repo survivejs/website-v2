@@ -13,11 +13,11 @@
         {
           "element": "BlogPosts",
           "props": {
-            "posts": "context.match.posts"
+            "__posts": "context.match.posts"
           }
         },
         {
-          "element": "Link",
+          "element": "a",
           "class": "font-light",
           "children": "Back to topics",
           "attributes": {
